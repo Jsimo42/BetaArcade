@@ -29,22 +29,15 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Properties")
-		float moveSpeed = 5.f;
+		float moveSpeedMultiplier = 1.f;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Properties")
 		bool isSneaking = false;
 
 private:
 
-	UInputComponent* inputComponent = nullptr;
-
-	void SetupInputComponent();
-
-	void MoveForward();
-	void MoveBack();
-	void MoveRight();
-	void MoveLeft();
-
-	void TurnRight();
-	void TurnLeft();
+	void MoveForward(float Value);
+	void MoveRight(float Value);
+	void Sneak();
+	void StopSneaking();
 };

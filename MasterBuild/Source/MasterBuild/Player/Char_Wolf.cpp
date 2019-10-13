@@ -16,7 +16,6 @@ void AChar_Wolf::BeginPlay()
 {
 	Super::BeginPlay();
 
-	//SetupInputComponent();
 }
 
 // Called every frame
@@ -31,44 +30,72 @@ void AChar_Wolf::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
+	check(PlayerInputComponent);
+
+	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
+	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
+	PlayerInputComponent->BindAction("Sneak", IE_Pressed, this, &AChar_Wolf::Sneak);
+	PlayerInputComponent->BindAction("Sneak", IE_Released, this, &AChar_Wolf::StopSneaking);
+
+	PlayerInputComponent->BindAxis("MoveForward", this, &AChar_Wolf::MoveForward);
+	PlayerInputComponent->BindAxis("MoveRight", this, &AChar_Wolf::MoveRight);
 }
 
-void AChar_Wolf::SetupInputComponent()
+void AChar_Wolf::MoveForward(float Value)
 {
-	inputComponent = GetOwner()->FindComponentByClass<UInputComponent>();
-
-	if (inputComponent)
+	if (isSneaking == true)
 	{
-		inputComponent->BindAction("MoveForward", IE_Pressed, this, &AChar_Wolf::MoveForward);
+		moveSpeedMultiplier = 0.3f;
 	}
-	else
+
+	Value = Value * moveSpeedMultiplier;
+
+	if ((Controller != NULL) && (Value != 0.0f))
 	{
-		UE_LOG(LogTemp, Error, TEXT("%s missing input Componenet"), *GetOwner()->GetName())
+		// find out which way is forward
+		const FRotator Rotation = Controller->GetControlRotation();
+		const FRotator YawRotation(0, Rotation.Yaw, 0);
+
+		// get forward vector
+		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
+		AddMovementInput(Direction, Value);
 	}
 }
 
-void AChar_Wolf::MoveForward()
+void AChar_Wolf::MoveRight(float Value)
 {
-	//AddMovementInput({ 0,90,0 }, 1);
+	if (isSneaking == true)
+	{
+		moveSpeedMultiplier = 0.3f;
+	}
+
+	Value = Value * moveSpeedMultiplier;
+
+	if ((Controller != NULL) && (Value != 0.0f))
+	{
+		// find out which way is right
+		const FRotator Rotation = Controller->GetControlRotation();
+		const FRotator YawRotation(0, Rotation.Yaw, 0);
+
+		// get right vector 
+		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
+		// add movement in that direction
+		AddMovementInput(Direction, Value);
+	}
 }
 
-void AChar_Wolf::MoveBack()
+void AChar_Wolf::Sneak()
 {
+	isSneaking = true;
+
+	moveSpeedMultiplier = 0.3f;
 }
 
-void AChar_Wolf::MoveRight()
+void AChar_Wolf::StopSneaking()
 {
+	isSneaking = false;
+
+	moveSpeedMultiplier = 1.0f;
 }
 
-void AChar_Wolf::MoveLeft()
-{
-}
-
-void AChar_Wolf::TurnRight()
-{
-}
-
-void AChar_Wolf::TurnLeft()
-{
-}
 
