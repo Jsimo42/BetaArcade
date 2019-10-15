@@ -38,6 +38,9 @@ private:
 
 	void MoveForward(float Value);
 	void MoveRight(float Value);
+	void TurnRate(float Value);
+	
 	void Sneak();
 	void StopSneaking();
+
 };

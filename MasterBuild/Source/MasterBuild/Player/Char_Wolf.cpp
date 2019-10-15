@@ -39,11 +39,12 @@ void AChar_Wolf::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &AChar_Wolf::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AChar_Wolf::MoveRight);
+	PlayerInputComponent->BindAxis("TurnRate", this, &AChar_Wolf::TurnRate);
 }
 
 void AChar_Wolf::MoveForward(float Value)
 {
-	if (isSneaking == true)
+
 	{
 		moveSpeedMultiplier = 0.3f;
 	}
@@ -80,8 +81,13 @@ void AChar_Wolf::MoveRight(float Value)
 		// get right vector 
 		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
 		// add movement in that direction
-		AddMovementInput(Direction, Value);
+		AddMovementInput(Direction, Value); 
 	}
+}
+
+void AChar_Wolf::TurnRate(float Rate)
+{
+	AddControllerYawInput(Rate * 45 * GetWorld()->GetDeltaSeconds());
 }
 
 void AChar_Wolf::Sneak()
