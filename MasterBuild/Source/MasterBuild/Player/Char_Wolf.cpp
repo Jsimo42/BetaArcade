@@ -44,7 +44,7 @@ void AChar_Wolf::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent
 
 void AChar_Wolf::MoveForward(float Value)
 {
-
+	if (isSneaking == true)
 	{
 		moveSpeedMultiplier = 0.3f;
 	}
