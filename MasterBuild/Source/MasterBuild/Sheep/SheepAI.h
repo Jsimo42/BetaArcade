@@ -15,16 +15,14 @@ class MASTERBUILD_API ASheepAI : public AAIController
 	GENERATED_BODY()
 
 		UPROPERTY()
-		class UBlackboardComponent *BlackboardComp;
+		UBlackboardComponent *BlackboardComp;
 
 	UPROPERTY()
-		class UBehaviorTreeComponent *BehaviorComp;
+		UBehaviorTree *BehaviorTree;
 
 public:
 	ASheepAI();
-
-	virtual void Possess(APawn *InPawn) override;
 	
-	uint8 WolfKeyID;
+	
 	
 };
