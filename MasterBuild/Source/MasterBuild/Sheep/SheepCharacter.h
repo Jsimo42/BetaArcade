@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "BehaviorTree/BehaviorTree.h"
 #include "SheepCharacter.generated.h"
 
 UCLASS()
@@ -14,6 +15,9 @@ class MASTERBUILD_API ASheepCharacter : public ACharacter
 public:
 	// Sets default values for this character's properties
 	ASheepCharacter();
+
+	UPROPERTY(EditAnywhere, Category = Behavior)
+	UBehaviorTree *BotBehavior;
 
 protected:
 	// Called when the game starts or when spawned
