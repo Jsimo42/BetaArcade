@@ -25,6 +25,21 @@ void UBTService_CheckForPlayer::TickNode(UBehaviorTreeComponent& OwnerComp, uint
 	{
 		AChar_Wolf *Wolf = Cast<AChar_Wolf>(GetWorld()->GetFirstPlayerController()->GetPawn());
 
+		float distance = FVector::Dist(SheepPC->GetPawn()->GetActorLocation(), Wolf->GetActorLocation());
+
+		TArray<AActor*> players;
+		UGameplayStatics::GetAllActorsOfClass(GetWorld(), AChar_Wolf::StaticClass(), players);
+
+		for (int i = 0; i < players.Num(); i++)
+		{
+			float testDist = FVector::Dist(SheepPC->GetPawn()->GetActorLocation(), Cast<AChar_Wolf>(players[i])->GetActorLocation());
+			if (testDist < distance)
+			{
+				Wolf = Cast<AChar_Wolf>(players[i]);
+				distance = testDist;
+			}
+		}
+
 		if (Wolf)
 		{
 			OwnerComp.GetBlackboardComponent()->SetValue<UBlackboardKeyType_Object>(SheepPC->WolfKeyID, Wolf);
