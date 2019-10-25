@@ -15,7 +15,28 @@ AChar_Wolf::AChar_Wolf()
 void AChar_Wolf::BeginPlay()
 {
 	Super::BeginPlay();
+	SetupOverlapEvents();
 
+}
+//on collision with another object run this
+void AChar_Wolf::OnOverlapStart(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
+{
+	//TODO: Check if CurrentItem is empty if not skip.
+	if (OtherActor && (OtherActor != this) && OtherComp && OtherActor->GetClass()->IsChildOf(ATestItem::StaticClass()))
+	{
+		CurrentItem = Cast<ATestItem>(OtherActor);
+		// sets current item to the lest overlapped item. Could call something here to get item type and activate power up
+	}
+}
+
+void AChar_Wolf::OnOverlapEnd(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex)
+{
+	 
+	if (OtherActor && (OtherActor != this) && OtherComp)
+	{
+		//CurrentItem = NULL;
+		//removes the last overlapped item from the variable. TODO: Setup Timer for powerup cool down.
+	}
 }
 
 // Called every frame
@@ -40,6 +61,12 @@ void AChar_Wolf::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent
 	PlayerInputComponent->BindAxis("MoveForward", this, &AChar_Wolf::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AChar_Wolf::MoveRight);
 	PlayerInputComponent->BindAxis("TurnRate", this, &AChar_Wolf::TurnRate);
+}
+//adds dynamic functions for overlaps
+void AChar_Wolf::SetupOverlapEvents()
+{
+	GetCapsuleComponent()->OnComponentBeginOverlap.AddDynamic(this, &AChar_Wolf::OnOverlapStart);
+	GetCapsuleComponent()->OnComponentBeginOverlap.AddDynamic(this, &AChar_Wolf::OnOverlapStart);
 }
 
 void AChar_Wolf::MoveForward(float Value)

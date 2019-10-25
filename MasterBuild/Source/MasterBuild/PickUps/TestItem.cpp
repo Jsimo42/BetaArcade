@@ -12,6 +12,7 @@ ATestItem::ATestItem()
 	Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("ItemMesh"));
 	RootComponent = Mesh;
 
+	
 
 }
 
@@ -19,7 +20,13 @@ ATestItem::ATestItem()
 void ATestItem::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	Mesh->OnComponentBeginOverlap.AddDynamic(this, &ATestItem::OnOverlapStart);
+}
+
+void ATestItem::OnOverlapStart(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
+{
+	Mesh->SetVisibility(false);
+	this->SetActorLocation(FVector(0, 0, 0));
 }
 
 // Called every frame

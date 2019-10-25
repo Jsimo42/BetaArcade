@@ -3,9 +3,11 @@
 #pragma once
 
 #include "Components/InputComponent.h"
+#include "Components/CapsuleComponent.h"
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "PickUps/TestItem.h"
 #include "Char_Wolf.generated.h"
 
 UCLASS()
@@ -20,6 +22,10 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+	UFUNCTION(BlueprintCallable)
+		void OnOverlapStart(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+	UFUNCTION(BlueprintCallable)
+		void OnOverlapEnd(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
 
 public:	
 	// Called every frame
@@ -34,7 +40,13 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Properties")
 		bool isSneaking = false;
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Pickups")
+		ATestItem* CurrentItem = NULL;
+
 private:
+	UFUNCTION(BlueprintCallable)
+		void SetupOverlapEvents();
+
 
 	void MoveForward(float Value);
 	void MoveRight(float Value);
