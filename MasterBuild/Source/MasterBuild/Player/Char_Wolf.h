@@ -7,7 +7,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
-#include "PickUps/TestItem.h"
+#include "PickUps/PickUpBase.h"
 #include "Char_Wolf.generated.h"
 
 UCLASS()
@@ -41,7 +41,7 @@ public:
 		bool isSneaking = false;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Pickups")
-		ATestItem* CurrentItem = NULL;
+		APickUpBase* CurrentItem = NULL;
 
 private:
 	UFUNCTION(BlueprintCallable)

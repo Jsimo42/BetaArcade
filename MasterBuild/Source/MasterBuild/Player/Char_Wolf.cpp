@@ -22,9 +22,13 @@ void AChar_Wolf::BeginPlay()
 void AChar_Wolf::OnOverlapStart(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
 {
 	//TODO: Check if CurrentItem is empty if not skip.
-	if (OtherActor && (OtherActor != this) && OtherComp && OtherActor->GetClass()->IsChildOf(ATestItem::StaticClass()))
+	if (OtherActor && (OtherActor != this) && OtherComp && OtherActor->GetClass()->IsChildOf(APickUpBase::StaticClass()))
 	{
-		CurrentItem = Cast<ATestItem>(OtherActor);
+		CurrentItem = Cast<APickUpBase>(OtherActor);
+		if (CurrentItem->GetBuffType() == "GoldenCloak")
+		{
+			this->SetActorScale3D(FVector(3, 3, 3));
+		}
 		// sets current item to the lest overlapped item. Could call something here to get item type and activate power up
 	}
 }
