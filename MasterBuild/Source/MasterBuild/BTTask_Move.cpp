@@ -46,7 +46,7 @@ EBTNodeResult::Type UBTTask_Move::ExecuteTask(UBehaviorTreeComponent & OwnerComp
 
 			NavSystem->GetRandomReachablePointInRadius(SheepPC->GetPawn()->GetActorLocation(), 500.f, RandomLocation, NavSystem->MainNavData);
 
-			SheepPC->MoveToLocation(RandomLocation.Location, 5.f, true, true, true, true, 0, true);
+			SheepPC->MoveToLocation(RandomLocation.Location, 5.f, true, true, true, false, 0, true);
 			//GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Green, FString::Printf(TEXT("location tp go to : x = %f y = %f z = %f"), RandomLocation.Location.X, RandomLocation.Location.Y, RandomLocation.Location.Z));
 		}
 		return EBTNodeResult::Succeeded;
