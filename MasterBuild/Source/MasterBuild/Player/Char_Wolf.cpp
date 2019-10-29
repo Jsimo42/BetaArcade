@@ -17,6 +17,7 @@ void AChar_Wolf::BeginPlay()
 	Super::BeginPlay();
 	SetupOverlapEvents();
 
+
 }
 //on collision with another object run this
 void AChar_Wolf::OnOverlapStart(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
@@ -61,6 +62,7 @@ void AChar_Wolf::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 	PlayerInputComponent->BindAction("Sneak", IE_Pressed, this, &AChar_Wolf::Sneak);
 	PlayerInputComponent->BindAction("Sneak", IE_Released, this, &AChar_Wolf::StopSneaking);
+	PlayerInputComponent->BindAction("Attack", IE_Pressed, this, &AChar_Wolf::Attack);
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &AChar_Wolf::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AChar_Wolf::MoveRight);
@@ -133,6 +135,10 @@ void AChar_Wolf::StopSneaking()
 	isSneaking = false;
 
 	moveSpeedMultiplier = 1.0f;
+}
+
+void AChar_Wolf::Attack()
+{
 }
 
 

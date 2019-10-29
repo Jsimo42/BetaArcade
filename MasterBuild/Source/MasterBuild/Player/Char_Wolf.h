@@ -4,6 +4,7 @@
 
 #include "Components/InputComponent.h"
 #include "Components/CapsuleComponent.h"
+#include "Components/BoxComponent.h"
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
@@ -38,6 +39,9 @@ public:
 		float moveSpeedMultiplier = 1.f;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Properties")
+		int Points = 0;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Properties")
 		bool isSneaking = false;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Pickups")
@@ -54,5 +58,6 @@ private:
 	
 	void Sneak();
 	void StopSneaking();
+	void Attack();
 
 };
