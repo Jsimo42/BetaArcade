@@ -65,7 +65,6 @@ void AChar_Wolf::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent
 	PlayerInputComponent->BindAction("Attack", IE_Pressed, this, &AChar_Wolf::Attack);
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &AChar_Wolf::MoveForward);
-	PlayerInputComponent->BindAxis("MoveRight", this, &AChar_Wolf::MoveRight);
 	PlayerInputComponent->BindAxis("TurnRate", this, &AChar_Wolf::TurnRate);
 }
 //adds dynamic functions for overlaps
@@ -96,28 +95,6 @@ void AChar_Wolf::MoveForward(float Value)
 	}
 }
 
-void AChar_Wolf::MoveRight(float Value)
-{
-	if (isSneaking == true)
-	{
-		moveSpeedMultiplier = 0.3f;
-	}
-
-	Value = Value * moveSpeedMultiplier;
-
-	if ((Controller != NULL) && (Value != 0.0f))
-	{
-		// find out which way is right
-		const FRotator Rotation = Controller->GetControlRotation();
-		const FRotator YawRotation(0, Rotation.Yaw, 0);
-
-		// get right vector 
-		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
-		// add movement in that direction
-		AddMovementInput(Direction, Value); 
-	}
-}
-
 void AChar_Wolf::TurnRate(float Rate)
 {
 	AddControllerYawInput(Rate * 45 * GetWorld()->GetDeltaSeconds());
@@ -139,6 +116,16 @@ void AChar_Wolf::StopSneaking()
 
 void AChar_Wolf::Attack()
 {
+	if (!isSneaking)
+	{
+		isAttacking = true;
+
+		UE_LOG(LogTemp, Warning, TEXT("Attack"));
+
+		moveSpeedMultiplier = 0;
+
+		UAudioComponent* attackAudioComp = UGameplayStatics::SpawnSound2D(this, attackSound, 1.f);
+	}
 }
 
 

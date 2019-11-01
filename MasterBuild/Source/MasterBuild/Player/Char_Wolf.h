@@ -5,6 +5,8 @@
 #include "Components/InputComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "Components/BoxComponent.h"
+#include "Sound/SoundCue.h"
+#include "Kismet/GameplayStatics.h"
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
@@ -37,23 +39,33 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Properties")
 		float moveSpeedMultiplier = 1.f;
-
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Properties")
 		int Points = 0;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Properties")
 		bool isSneaking = false;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Properties")
+		bool isAttacking = false;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Pickups")
-		APickUpBase* CurrentItem = NULL;
+		APickUpBase* CurrentItem = nullptr;
+
+	//Sounds
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Sound Settings")
+		USoundCue* attackSound = nullptr;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Sound Settings")
+		USoundCue* walkSound = nullptr;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Sound Settings")
+		USoundCue* injuredSound = nullptr;
 
 private:
 	UFUNCTION(BlueprintCallable)
 		void SetupOverlapEvents();
 
+	UCharacterMovementComponent* MovementComponent = nullptr;
+
 
 	void MoveForward(float Value);
-	void MoveRight(float Value);
 	void TurnRate(float Value);
 	
 	void Sneak();
