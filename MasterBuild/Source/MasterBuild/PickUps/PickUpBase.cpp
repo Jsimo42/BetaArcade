@@ -3,6 +3,7 @@
 #include "Sheep/SheepCharacter.h"
 
 
+
 // Sets default values
 APickUpBase::APickUpBase()
 {
@@ -11,6 +12,9 @@ APickUpBase::APickUpBase()
 
 	Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("ItemMesh"));
 	RootComponent = Mesh;
+
+	
+
 }
 
 
@@ -25,13 +29,21 @@ void APickUpBase::BeginPlay()
 {
 	Super::BeginPlay();
 	Mesh->OnComponentBeginOverlap.AddDynamic(this, &APickUpBase::OnOverlapStart);
+
+	MinHeight = this->GetActorLocation().Z;
+	MaxHeight = MinHeight + FloatDistance;
+
+	Mesh->SetVisibility(false);
+
+	RandomPosition.GenerateNewSeed();
 }
 
 void APickUpBase::OnOverlapStart(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
 {
 	Mesh->SetVisibility(false);
 	this->SetActorLocation(FVector(0, 0, 0));
-	speed = 0;
+	isAlive = false;
+	TSincePickUP = 0;
 }
 
 // Called every frame
@@ -39,21 +51,38 @@ void APickUpBase::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	Float(DeltaTime);
+	Respawn(DeltaTime);
 
 }
 
 void APickUpBase::Float(float DeltaTime) //while item is alive moves up and down and (TODO: rotates)
 {
 	UPROPERTY(VisableAnywhere, Category = Movement)
+	if (isAlive == true)
+	{
 		FVector CurrentLocation;
-	CurrentLocation = this->GetActorLocation();
-	if (CurrentLocation.Z > MaxHeight)//TODO: set as an offset from minheight 
-	{
-		speed = -speed;
+		CurrentLocation = this->GetActorLocation();
+
+		if (CurrentLocation.Z > MaxHeight)
+		{
+			speed = -speed;
+		}
+		if (CurrentLocation.Z < MinHeight)
+		{
+			speed = -speed;
+		}
+		SetActorLocation(FVector(CurrentLocation.X, CurrentLocation.Y, (CurrentLocation.Z + (speed*DeltaTime))));
 	}
-	if (CurrentLocation.Z < MinHeight)//TODO: set as spawn height
+	
+}
+
+void APickUpBase::Respawn(float DeltaTime)
+{
+	TSincePickUP += 10 * DeltaTime;
+	if (isAlive == false && TSincePickUP >=200)
 	{
-		speed = -speed;
+		this->SetActorLocation(FVector((RandomPosition.FRandRange(-1790, -540)), (RandomPosition.FRandRange(-1370, 1370)), MinHeight));
+		Mesh->SetVisibility(true);
+		isAlive = true;
 	}
-	SetActorLocation(FVector(CurrentLocation.X, CurrentLocation.Y, (CurrentLocation.Z + (speed*DeltaTime))));
 }

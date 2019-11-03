@@ -3,6 +3,7 @@
 #pragma once
 
 #include "Components/StaticMeshComponent.h"
+#include "RandomStream.h"
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
@@ -29,14 +30,22 @@ protected:
 	virtual void BeginPlay() override;
 	//movement
 	UPROPERTY(EditAnywhere, Category = Movement)
-		int speed;
+		int speed = 100;
+	bool isAlive = false;
 
 	UPROPERTY(EditAnywhere, Category = Movement)
 		float MaxHeight;//TODO: set as an offset from minheight 
+		
+	UPROPERTY(EditAnywhere, Category = Movement)
+		float FloatDistance = 80;
+
+	UPROPERTY(EditAnywhere, Category = Collision)
+		float TSincePickUP = 0;
+	FRandomStream RandomPosition;
 
 	UPROPERTY(EditAnywhere, Category = Movement)
 		float MinHeight;//TODO: set as spawn height
-	FString BuffType = "GoldenCloak";
+	FString BuffType = "SlowDown";
 	UFUNCTION(BlueprintCallable)
 		void OnOverlapStart(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 public:
@@ -45,6 +54,7 @@ public:
 
 	void Float(float DeltaTime);
 
+	void Respawn(float DeltaTime);
 
 
 

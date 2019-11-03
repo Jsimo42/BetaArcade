@@ -49,7 +49,12 @@ public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Pickups")
 		APickUpBase* CurrentItem = nullptr;
-
+	UPROPERTY(VisibleAnywhere, Category = "Pickups")
+		float TSincePickUP = 0;
+	UPROPERTY(VisibleAnywhere, Category = "Pickups")
+		bool SpeedBoosted = false;
+	UPROPERTY(VisibleAnywhere, Category = "Pickups")
+		bool Slowed = false;
 	//Sounds
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Sound Settings")
 		USoundCue* attackSound = nullptr;

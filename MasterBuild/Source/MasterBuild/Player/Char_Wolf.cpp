@@ -26,9 +26,15 @@ void AChar_Wolf::OnOverlapStart(UPrimitiveComponent * OverlappedComp, AActor * O
 	if (OtherActor && (OtherActor != this) && OtherComp && OtherActor->GetClass()->IsChildOf(APickUpBase::StaticClass()))
 	{
 		CurrentItem = Cast<APickUpBase>(OtherActor);
-		if (CurrentItem->GetBuffType() == "GoldenCloak")
+		if (CurrentItem->GetBuffType() == "SpeedBoost")
 		{
-			this->SetActorScale3D(FVector(3, 3, 3));
+			//this->SetActorScale3D(FVector(3, 3, 3));
+			SpeedBoosted = true;
+		}
+		if (CurrentItem->GetBuffType() == "SlowDown")
+		{
+			//this->SetActorScale3D(FVector(3, 3, 3));
+			Slowed = true;
 		}
 		// sets current item to the lest overlapped item. Could call something here to get item type and activate power up
 	}
@@ -39,7 +45,8 @@ void AChar_Wolf::OnOverlapEnd(UPrimitiveComponent * OverlappedComp, AActor * Oth
 	 
 	if (OtherActor && (OtherActor != this) && OtherComp)
 	{
-		//CurrentItem = NULL;
+		CurrentItem = NULL;
+		TSincePickUP = 0;
 		//removes the last overlapped item from the variable. TODO: Setup Timer for powerup cool down.
 	}
 }
@@ -48,6 +55,17 @@ void AChar_Wolf::OnOverlapEnd(UPrimitiveComponent * OverlappedComp, AActor * Oth
 void AChar_Wolf::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	if (CurrentItem == NULL)
+	{
+		TSincePickUP += (10 * DeltaTime);
+	}
+	if (CurrentItem == NULL && TSincePickUP >= 100)
+	{
+		this->SetActorScale3D(FVector(1, 1, 1));
+		moveSpeedMultiplier = 1.0f;
+		SpeedBoosted = false;
+		Slowed = false;
+	}
 
 }
 
@@ -71,16 +89,19 @@ void AChar_Wolf::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent
 void AChar_Wolf::SetupOverlapEvents()
 {
 	GetCapsuleComponent()->OnComponentBeginOverlap.AddDynamic(this, &AChar_Wolf::OnOverlapStart);
-	GetCapsuleComponent()->OnComponentBeginOverlap.AddDynamic(this, &AChar_Wolf::OnOverlapStart);
+	GetCapsuleComponent()->OnComponentEndOverlap.AddDynamic(this, &AChar_Wolf::OnOverlapEnd);
 }
 
 void AChar_Wolf::MoveForward(float Value)
 {
-	if (isSneaking == true)
+	if (SpeedBoosted == true)
 	{
-		moveSpeedMultiplier = 0.3f;
+		moveSpeedMultiplier = 2.0f;
 	}
-
+	if (Slowed == true)
+	{
+		moveSpeedMultiplier = 0.5f;
+	}
 	Value = Value * moveSpeedMultiplier;
 
 	if ((Controller != NULL) && (Value != 0.0f))
@@ -104,14 +125,29 @@ void AChar_Wolf::Sneak()
 {
 	isSneaking = true;
 
-	moveSpeedMultiplier = 0.3f;
+	if (SpeedBoosted == false)
+	{
+		moveSpeedMultiplier = 0.3f;
+	}
+	if (SpeedBoosted == true)
+	{
+		moveSpeedMultiplier = 2.6f;
+	}
+	
 }
 
 void AChar_Wolf::StopSneaking()
 {
 	isSneaking = false;
 
-	moveSpeedMultiplier = 1.0f;
+	if (SpeedBoosted == false)
+	{
+		moveSpeedMultiplier = 1.0f;
+	}
+	if (SpeedBoosted == true)
+	{
+		moveSpeedMultiplier = 2.0f;
+	}
 }
 
 void AChar_Wolf::Attack()
