@@ -9,6 +9,7 @@ AChar_Wolf::AChar_Wolf()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	AttackCollider = CreateDefaultSubobject<UBoxComponent>(TEXT("AttackCollider"), false);
 }
 
 // Called when the game starts or when spawned
@@ -16,7 +17,6 @@ void AChar_Wolf::BeginPlay()
 {
 	Super::BeginPlay();
 	SetupOverlapEvents();
-
 
 }
 //on collision with another object run this
@@ -38,11 +38,21 @@ void AChar_Wolf::OnOverlapStart(UPrimitiveComponent * OverlappedComp, AActor * O
 		}
 		// sets current item to the lest overlapped item. Could call something here to get item type and activate power up
 	}
+	UE_LOG(LogTemp, Warning, TEXT("Test"));
+
+	if (isAttacking)
+	{
+		if (OtherActor && (OtherActor != this) && OtherComp && OtherActor->GetClass()->IsChildOf(ASheepCharacter::StaticClass()))
+		{
+			UE_LOG(LogTemp, Warning, TEXT("Attack Collision"));
+			Points++;
+			OtherActor->Destroy();
+		}
+	}
 }
 
 void AChar_Wolf::OnOverlapEnd(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex)
 {
-	 
 	if (OtherActor && (OtherActor != this) && OtherComp)
 	{
 		CurrentItem = NULL;
@@ -90,6 +100,7 @@ void AChar_Wolf::SetupOverlapEvents()
 {
 	GetCapsuleComponent()->OnComponentBeginOverlap.AddDynamic(this, &AChar_Wolf::OnOverlapStart);
 	GetCapsuleComponent()->OnComponentEndOverlap.AddDynamic(this, &AChar_Wolf::OnOverlapEnd);
+	AttackCollider->OnComponentBeginOverlap.AddDynamic(this, &AChar_Wolf::OnOverlapStart);
 }
 
 void AChar_Wolf::MoveForward(float Value)

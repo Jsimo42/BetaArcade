@@ -7,10 +7,11 @@
 #include "Components/BoxComponent.h"
 #include "Sound/SoundCue.h"
 #include "Kismet/GameplayStatics.h"
+#include "PickUps/PickUpBase.h"
+#include "Sheep/SheepCharacter.h"
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
-#include "PickUps/PickUpBase.h"
 #include "Char_Wolf.generated.h"
 
 UCLASS()
@@ -36,6 +37,9 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
+	UPROPERTY(Category = Character, VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
+		UBoxComponent* AttackCollider = nullptr;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Properties")
 		float moveSpeedMultiplier = 1.f;
