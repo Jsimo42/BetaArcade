@@ -31,6 +31,7 @@ protected:
 	//movement
 	UPROPERTY(EditAnywhere, Category = Movement)
 		int speed = 100;
+	
 	bool isAlive = false;
 
 	UPROPERTY(EditAnywhere, Category = Movement)
@@ -45,9 +46,13 @@ protected:
 
 	UPROPERTY(EditAnywhere, Category = Movement)
 		float MinHeight;//TODO: set as spawn height
-	FString BuffType = "SlowDown";
+
+	FString BuffType = "";
+
+
 	UFUNCTION(BlueprintCallable)
 		void OnOverlapStart(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+
 public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;

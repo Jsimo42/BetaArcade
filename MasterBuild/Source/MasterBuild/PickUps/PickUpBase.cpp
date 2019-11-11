@@ -11,6 +11,8 @@ APickUpBase::APickUpBase()
 	PrimaryActorTick.bCanEverTick = true;
 
 	Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("ItemMesh"));
+	Mesh->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Overlap);
+	Mesh->SetWorldScale3D(FVector(0.5, 0.5, 0.5));
 	RootComponent = Mesh;
 
 	
@@ -41,7 +43,7 @@ void APickUpBase::BeginPlay()
 void APickUpBase::OnOverlapStart(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
 {
 	Mesh->SetVisibility(false);
-	this->SetActorLocation(FVector(0, 0, 0));
+	this->SetActorLocation(FVector(-10000, -10000, 0));
 	isAlive = false;
 	TSincePickUP = 0;
 }
@@ -81,7 +83,7 @@ void APickUpBase::Respawn(float DeltaTime)
 	TSincePickUP += 10 * DeltaTime;
 	if (isAlive == false && TSincePickUP >=200)
 	{
-		this->SetActorLocation(FVector((RandomPosition.FRandRange(-1790, -540)), (RandomPosition.FRandRange(-1370, 1370)), MinHeight));
+		this->SetActorLocation(FVector((RandomPosition.FRandRange(-340, 360)), (RandomPosition.FRandRange(-700, 570)), MinHeight));
 		Mesh->SetVisibility(true);
 		isAlive = true;
 	}

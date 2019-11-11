@@ -28,15 +28,22 @@ void AChar_Wolf::OnOverlapStart(UPrimitiveComponent * OverlappedComp, AActor * O
 	if (OtherActor && (OtherActor != this) && OtherComp && OtherActor->GetClass()->IsChildOf(APickUpBase::StaticClass()))
 	{
 		CurrentItem = Cast<APickUpBase>(OtherActor);
+		if (CurrentItem->GetBuffType() == "")
+		{
+			return;
+		}
 		if (CurrentItem->GetBuffType() == "SpeedBoost")
 		{
-			//this->SetActorScale3D(FVector(3, 3, 3));
 			SpeedBoosted = true;
 		}
 		if (CurrentItem->GetBuffType() == "SlowDown")
 		{
-			//this->SetActorScale3D(FVector(3, 3, 3));
+
 			Slowed = true;
+		}
+		if (CurrentItem->GetBuffType() == "BigMode")
+		{
+			this->SetActorScale3D(FVector(3, 3, 3));
 		}
 		// sets current item to the lest overlapped item. Could call something here to get item type and activate power up
 	}
