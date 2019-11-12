@@ -32,6 +32,8 @@ protected:
 		void OnEnemyOverlapStart(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 	UFUNCTION(BlueprintCallable)
 		void OnOverlapEnd(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
+	UFUNCTION(BlueprintCallable)
+		void OnEnemyOverlapEnd(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
 
 public:	
 	// Called every frame
@@ -44,7 +46,7 @@ public:
 		UBoxComponent* AttackCollider = nullptr;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Properties")
-		float moveSpeedMultiplier = 1.f;
+		float moveSpeedMultiplier = 0.75f;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Properties")
 		int Points = 0;
 
@@ -60,7 +62,8 @@ public:
 	UPROPERTY(VisibleAnywhere, Category = "Pickups")
 		bool SpeedBoosted = false;
 	UPROPERTY(VisibleAnywhere, Category = "Pickups")
-		bool Slowed = false;
+		bool Slowed = false; 
+
 	//Sounds
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Sound Settings")
 		USoundCue* attackSound = nullptr;

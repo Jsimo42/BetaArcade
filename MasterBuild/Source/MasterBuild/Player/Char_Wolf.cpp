@@ -9,8 +9,8 @@ AChar_Wolf::AChar_Wolf()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	AttackCollider = CreateDefaultSubobject<UBoxComponent>(TEXT("AttackCollider"), false);
-	AttackCollider->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepWorldTransform);
+	AttackCollider = CreateDefaultSubobject<UBoxComponent>(FName("Attack Collider"));
+	AttackCollider->AttachToComponent(Mesh, FAttachmentTransformRules::KeepWorldTransform);
 }
 
 // Called when the game starts or when spawned
@@ -53,7 +53,7 @@ void AChar_Wolf::OnEnemyOverlapStart(UPrimitiveComponent * OverlappedComp, AActo
 {
 	if (isAttacking)
 	{
-		if (OtherActor && (OtherActor != this) && OtherComp && OtherActor->GetClass()->IsChildOf(ASheepCharacter::StaticClass()))
+		if (OtherActor->GetClass()->IsChildOf(ASheepCharacter::StaticClass()))
 		{
 			Points++;
 			OtherActor->Destroy();
@@ -71,6 +71,11 @@ void AChar_Wolf::OnOverlapEnd(UPrimitiveComponent * OverlappedComp, AActor * Oth
 	}
 }
 
+void AChar_Wolf::OnEnemyOverlapEnd(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
+{
+	//DoNothing
+}
+
 // Called every frame
 void AChar_Wolf::Tick(float DeltaTime)
 {
@@ -82,7 +87,6 @@ void AChar_Wolf::Tick(float DeltaTime)
 	if (CurrentItem == NULL && TSincePickUP >= 100)
 	{
 		this->SetActorScale3D(FVector(1, 1, 1));
-		moveSpeedMultiplier = 1.0f;
 		SpeedBoosted = false;
 		Slowed = false;
 	}
@@ -111,18 +115,20 @@ void AChar_Wolf::SetupOverlapEvents()
 	GetCapsuleComponent()->OnComponentBeginOverlap.AddDynamic(this, &AChar_Wolf::OnOverlapStart);
 	GetCapsuleComponent()->OnComponentEndOverlap.AddDynamic(this, &AChar_Wolf::OnOverlapEnd);
 	AttackCollider->OnComponentBeginOverlap.AddDynamic(this, &AChar_Wolf::OnEnemyOverlapStart);
+	AttackCollider->OnComponentEndOverlap.AddDynamic(this, &AChar_Wolf::OnEnemyOverlapEnd);
 }
 
 void AChar_Wolf::MoveForward(float Value)
 {
 	if (SpeedBoosted == true)
 	{
-		moveSpeedMultiplier = 2.0f;
+		moveSpeedMultiplier = 1.0f;
 	}
 	if (Slowed == true)
 	{
-		moveSpeedMultiplier = 0.5f;
+		moveSpeedMultiplier = 0.3f;
 	}
+
 	Value = Value * moveSpeedMultiplier;
 
 	if ((Controller != NULL) && (Value != 0.0f))
@@ -152,7 +158,7 @@ void AChar_Wolf::Sneak()
 	}
 	if (SpeedBoosted == true)
 	{
-		moveSpeedMultiplier = 2.6f;
+		moveSpeedMultiplier = 0.9f;
 	}
 	
 }
@@ -163,11 +169,11 @@ void AChar_Wolf::StopSneaking()
 
 	if (SpeedBoosted == false)
 	{
-		moveSpeedMultiplier = 1.0f;
+		moveSpeedMultiplier = 0.75f;
 	}
 	if (SpeedBoosted == true)
 	{
-		moveSpeedMultiplier = 2.0f;
+		moveSpeedMultiplier = 1.0f;
 	}
 }
 
