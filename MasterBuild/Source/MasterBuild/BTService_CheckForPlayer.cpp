@@ -23,9 +23,11 @@ void UBTService_CheckForPlayer::TickNode(UBehaviorTreeComponent& OwnerComp, uint
 
 	if (SheepPC)
 	{
-		AChar_Wolf *Wolf = Cast<AChar_Wolf>(GetWorld()->GetFirstPlayerController()->GetPawn());
+		//AChar_Wolf *Wolf = Cast<AChar_Wolf>(GetWorld()->GetFirstPlayerController()->GetPawn());
+		AChar_Wolf *Wolf = nullptr;
 
-		float distance = FVector::Dist(SheepPC->GetPawn()->GetActorLocation(), Wolf->GetActorLocation());
+		//float distance = FVector::Dist(SheepPC->GetPawn()->GetActorLocation(), Wolf->GetActorLocation());
+		float distance = 300.f;
 
 		TArray<AActor*> players;
 		UGameplayStatics::GetAllActorsOfClass(GetWorld(), AChar_Wolf::StaticClass(), players);
@@ -33,7 +35,8 @@ void UBTService_CheckForPlayer::TickNode(UBehaviorTreeComponent& OwnerComp, uint
 		for (int i = 0; i < players.Num(); i++)
 		{
 			float testDist = FVector::Dist(SheepPC->GetPawn()->GetActorLocation(), Cast<AChar_Wolf>(players[i])->GetActorLocation());
-			if (testDist < distance)
+			AChar_Wolf *player = Cast<AChar_Wolf>(players[i]);
+			if (testDist < distance && !player->isSneaking)
 			{
 				Wolf = Cast<AChar_Wolf>(players[i]);
 				distance = testDist;
@@ -43,6 +46,10 @@ void UBTService_CheckForPlayer::TickNode(UBehaviorTreeComponent& OwnerComp, uint
 		if (Wolf)
 		{
 			OwnerComp.GetBlackboardComponent()->SetValue<UBlackboardKeyType_Object>(SheepPC->WolfKeyID, Wolf);
+		}
+		else
+		{
+			OwnerComp.GetBlackboardComponent()->SetValue<UBlackboardKeyType_Object>(SheepPC->WolfKeyID, nullptr);
 		}
 	}
 }
