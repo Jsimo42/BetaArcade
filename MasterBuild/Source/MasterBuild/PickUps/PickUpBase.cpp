@@ -1,6 +1,9 @@
 //@AdamBirch 15/10/19
 #include "PickUpBase.h"
 #include "Sheep/SheepCharacter.h"
+#include "UObject/ConstructorHelpers.h"
+#include "Materials/Material.h"
+#include "AI/Navigation/NavigationSystem.h"
 
 
 
@@ -10,10 +13,17 @@ APickUpBase::APickUpBase()
 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	//Root = CreateDefaultSubobject<USceneComponent>(TEXT("Root"));
+	//RootComponent = Root;
+	static ConstructorHelpers::FObjectFinder<UMaterial> PickUpMaterial(TEXT("Material'/Game/Woolf/Models/Materials/Mat_Pickup.Mat_Pickup'"));
+	PickUpMaterial.Succeeded();
+	UMaterial* PermanentPickUpMaterial = PickUpMaterial.Object;
 	Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("ItemMesh"));
+	//Mesh->AttachToComponent(RootComponent, FAttachmentTransformRules::SnapToTargetNotIncludingScale);
 	Mesh->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Overlap);
 	Mesh->SetWorldScale3D(FVector(0.5, 0.5, 0.5));
-	RootComponent = Mesh;
+	Mesh->SetMaterial(0, PermanentPickUpMaterial);
+
 
 	
 
@@ -83,7 +93,14 @@ void APickUpBase::Respawn(float DeltaTime)
 	TSincePickUP += 10 * DeltaTime;
 	if (isAlive == false && TSincePickUP >=200)
 	{
-		this->SetActorLocation(FVector((RandomPosition.FRandRange(-340, 360)), (RandomPosition.FRandRange(-700, 570)), MinHeight));
+		UNavigationSystem *navsys = UNavigationSystem::GetCurrent(GetWorld());
+
+		FNavLocation Randomlocation;
+
+		navsys->GetRandomReachablePointInRadius(FVector(-90, -150, MinHeight), 750.f, Randomlocation, navsys->MainNavData);
+
+		this->SetActorLocation(Randomlocation.Location);
+		//this->SetActorLocation(FVector((RandomPosition.FRandRange(-340, 360)), (RandomPosition.FRandRange(-700, 570)), MinHeight));
 		Mesh->SetVisibility(true);
 		isAlive = true;
 	}

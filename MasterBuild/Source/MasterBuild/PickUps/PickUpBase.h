@@ -3,6 +3,7 @@
 #pragma once
 
 #include "Components/StaticMeshComponent.h"
+#include "Components/SceneComponent.h"
 #include "RandomStream.h"
 
 #include "CoreMinimal.h"
@@ -18,8 +19,11 @@ public:
 	// Sets default values for this actor's properties
 	APickUpBase();
 
-	UPROPERTY(EditAnywhere, Category = Body)
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = Body)
 		class UStaticMeshComponent* Mesh;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = Body)
+		class USceneComponent* Root;
 
 	//string comparisons really slow but will have to do for now
 	//TODO: Change to ENUM but try to do it without launching the collectable to -70000 on the z axis... 
