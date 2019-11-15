@@ -11,6 +11,7 @@ AChar_Wolf::AChar_Wolf()
 
 	AttackCollider = CreateDefaultSubobject<UBoxComponent>(TEXT("AttackCollider"), false);
 	AttackCollider->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepWorldTransform);
+	
 }
 
 // Called when the game starts or when spawned
@@ -53,10 +54,17 @@ void AChar_Wolf::OnEnemyOverlapStart(UPrimitiveComponent * OverlappedComp, AActo
 {
 	if (isAttacking)
 	{
-		if (OtherActor && (OtherActor != this) && OtherComp && OtherActor->GetClass()->IsChildOf(ASheepCharacter::StaticClass()))
+		if (OtherActor && (OtherActor != this) && OtherComp->GetClass()->IsChildOf(UCapsuleComponent::StaticClass()) && OtherActor->GetClass()->IsChildOf(ASheepCharacter::StaticClass()))
 		{
-			Points++;
-			OtherActor->Destroy();
+			
+			if (OtherActor->bCanBeDamaged)
+			{
+				Points++;
+				OtherActor->Destroy();
+			}
+			
+			
+			
 		}
 	}
 }
@@ -69,6 +77,11 @@ void AChar_Wolf::OnOverlapEnd(UPrimitiveComponent * OverlappedComp, AActor * Oth
 		TSincePickUP = 0;
 		//removes the last overlapped item from the variable. TODO: Setup Timer for powerup cool down.
 	}
+}
+
+void AChar_Wolf::OnEnemyOverlapEnd(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex)
+{
+
 }
 
 // Called every frame
@@ -101,6 +114,7 @@ void AChar_Wolf::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent
 	PlayerInputComponent->BindAction("Sneak", IE_Pressed, this, &AChar_Wolf::Sneak);
 	PlayerInputComponent->BindAction("Sneak", IE_Released, this, &AChar_Wolf::StopSneaking);
 	PlayerInputComponent->BindAction("Attack", IE_Pressed, this, &AChar_Wolf::Attack);
+	PlayerInputComponent->BindAction("Attack", IE_Released, this, &AChar_Wolf::StopAttack);
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &AChar_Wolf::MoveForward);
 	PlayerInputComponent->BindAxis("TurnRate", this, &AChar_Wolf::TurnRate);
@@ -111,6 +125,7 @@ void AChar_Wolf::SetupOverlapEvents()
 	GetCapsuleComponent()->OnComponentBeginOverlap.AddDynamic(this, &AChar_Wolf::OnOverlapStart);
 	GetCapsuleComponent()->OnComponentEndOverlap.AddDynamic(this, &AChar_Wolf::OnOverlapEnd);
 	AttackCollider->OnComponentBeginOverlap.AddDynamic(this, &AChar_Wolf::OnEnemyOverlapStart);
+	AttackCollider->OnComponentEndOverlap.AddDynamic(this, &AChar_Wolf::OnEnemyOverlapEnd);
 }
 
 void AChar_Wolf::MoveForward(float Value)
@@ -183,6 +198,10 @@ void AChar_Wolf::Attack()
 
 		UAudioComponent* attackAudioComp = UGameplayStatics::SpawnSound2D(this, attackSound, 1.f);
 	}
+}
+
+void AChar_Wolf::StopAttack()
+{
 }
 
 

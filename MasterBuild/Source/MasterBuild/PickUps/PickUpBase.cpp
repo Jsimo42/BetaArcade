@@ -97,7 +97,7 @@ void APickUpBase::Respawn(float DeltaTime)
 
 		FNavLocation Randomlocation;
 
-		navsys->GetRandomReachablePointInRadius(FVector(-90, -150, MinHeight), 750.f, Randomlocation, navsys->MainNavData);
+		navsys->GetRandomReachablePointInRadius(FVector(-30, -60, MinHeight), 1000.f, Randomlocation, navsys->MainNavData);
 
 		this->SetActorLocation(Randomlocation.Location);
 		//this->SetActorLocation(FVector((RandomPosition.FRandRange(-340, 360)), (RandomPosition.FRandRange(-700, 570)), MinHeight));
