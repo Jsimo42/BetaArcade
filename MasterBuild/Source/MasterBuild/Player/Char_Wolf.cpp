@@ -62,9 +62,6 @@ void AChar_Wolf::OnEnemyOverlapStart(UPrimitiveComponent * OverlappedComp, AActo
 				Points++;
 				OtherActor->Destroy();
 			}
-			
-			
-			
 		}
 	}
 }
@@ -95,7 +92,6 @@ void AChar_Wolf::Tick(float DeltaTime)
 	if (CurrentItem == NULL && TSincePickUP >= 100)
 	{
 		this->SetActorScale3D(FVector(1, 1, 1));
-		moveSpeedMultiplier = 1.0f;
 		SpeedBoosted = false;
 		Slowed = false;
 	}
@@ -132,11 +128,11 @@ void AChar_Wolf::MoveForward(float Value)
 {
 	if (SpeedBoosted == true)
 	{
-		moveSpeedMultiplier = 2.0f;
+		moveSpeedMultiplier = 1.0f;
 	}
 	if (Slowed == true)
 	{
-		moveSpeedMultiplier = 0.5f;
+		moveSpeedMultiplier = 0.3f;
 	}
 	Value = Value * moveSpeedMultiplier;
 
@@ -167,7 +163,7 @@ void AChar_Wolf::Sneak()
 	}
 	if (SpeedBoosted == true)
 	{
-		moveSpeedMultiplier = 2.6f;
+		moveSpeedMultiplier = 0.8f;
 	}
 	
 }
@@ -178,11 +174,11 @@ void AChar_Wolf::StopSneaking()
 
 	if (SpeedBoosted == false)
 	{
-		moveSpeedMultiplier = 1.0f;
+		moveSpeedMultiplier = 0.8f;
 	}
 	if (SpeedBoosted == true)
 	{
-		moveSpeedMultiplier = 2.0f;
+		moveSpeedMultiplier = 1.0f;
 	}
 }
 
