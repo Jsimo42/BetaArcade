@@ -1,9 +1,9 @@
 ------------------
 System Information
 ------------------
-      Time of this report: 11/1/2019, 09:47:42
-             Machine name: TU46958
-               Machine Id: {9F3FA46E-446D-492A-90C7-EBDF52B1E384}
+      Time of this report: 11/25/2019, 14:25:54
+             Machine name: TU46977
+               Machine Id: {984440BE-FE3D-45BA-88CF-278A9996B404}
          Operating System: Windows 10 Enterprise 64-bit (10.0, Build 17763) (17763.rs5_release.180914-1434)
                  Language: English (Regional Setting: English)
       System Manufacturer: Hewlett-Packard
@@ -12,7 +12,7 @@ System Information
                 Processor: Intel(R) Xeon(R) CPU E5-1603 v4 @ 2.80GHz (4 CPUs), ~2.8GHz
                    Memory: 32768MB RAM
       Available OS Memory: 32684MB RAM
-                Page File: 8989MB used, 28558MB available
+                Page File: 10865MB used, 26683MB available
               Windows Dir: C:\WINDOWS
           DirectX Version: DirectX 12
       DX Setup Parameters: Not found
@@ -61,7 +61,7 @@ Display Devices
          HDR Support: Not Supported
     Display Topology: Extend
  Display Color Space: DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
-     Color Primaries: Red(0.653320,0.332031), Green(0.303711,0.632813), Blue(0.150391,0.064453), White Point(0.313477,0.329102)
+     Color Primaries: Red(0.644531,0.335938), Green(0.328125,0.615234), Blue(0.146484,0.054688), White Point(0.313477,0.329102)
    Display Luminance: Min Luminance = 0.500000, Max Luminance = 270.000000, MaxFullFrameLuminance = 270.000000
         Monitor Name: Generic PnP Monitor
        Monitor Model: HP E242
@@ -167,7 +167,7 @@ Display Pixel Format: DISPLAYCONFIG_PIXELFORMAT_32BPP
          HDR Support: Not Supported
     Display Topology: Extend
  Display Color Space: DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
-     Color Primaries: Red(0.653320,0.332031), Green(0.303711,0.632813), Blue(0.150391,0.064453), White Point(0.313477,0.329102)
+     Color Primaries: Red(0.644531,0.335938), Green(0.328125,0.615234), Blue(0.146484,0.054688), White Point(0.313477,0.329102)
    Display Luminance: Min Luminance = 0.500000, Max Luminance = 270.000000, MaxFullFrameLuminance = 270.000000
         Monitor Name: Generic PnP Monitor
        Monitor Model: HP E242
@@ -349,7 +349,7 @@ USB Devices
 | | | Matching Device ID: USB\Class_03&SubClass_01
 | | | Service: HidUsb
 | | | Driver: hidusb.sys, 9/15/2018 07:28:19, 43520 bytes
-| | | Driver: hidclass.sys, 9/4/2019 16:23:47, 209920 bytes
+| | | Driver: hidclass.sys, 9/5/2019 17:03:55, 209920 bytes
 | | | Driver: hidparse.sys, 5/13/2019 09:35:51, 46080 bytes
 | | | 
 | | +-+ HID Keyboard Device
@@ -361,11 +361,11 @@ USB Devices
 | | 
 +-+ USB Input Device
 | | Vendor/Product ID: 0x03F0, 0x094A
-| | Location: Port_#0006.Hub_#0003
+| | Location: Port_#0012.Hub_#0003
 | | Matching Device ID: USB\Class_03&SubClass_01
 | | Service: HidUsb
 | | Driver: hidusb.sys, 9/15/2018 07:28:19, 43520 bytes
-| | Driver: hidclass.sys, 9/4/2019 16:23:47, 209920 bytes
+| | Driver: hidclass.sys, 9/5/2019 17:03:55, 209920 bytes
 | | Driver: hidparse.sys, 5/13/2019 09:35:51, 46080 bytes
 | | 
 | +-+ HID-compliant mouse
@@ -382,23 +382,18 @@ Gameport Devices
 ------------
 PS/2 Devices
 ------------
-+ Standard PS/2 Keyboard
-| Matching Device ID: *PNP0303
-| Service: i8042prt
-| Driver: i8042prt.sys, 9/15/2018 07:28:19, 110592 bytes
-| Driver: kbdclass.sys, 9/15/2018 07:28:19, 67896 bytes
 
 ------------------------
 Disk & DVD/CD-ROM Drives
 ------------------------
       Drive: C:
- Free Space: 223.4 GB
+ Free Space: 255.6 GB
 Total Space: 487.4 GB
 File System: NTFS
       Model: MTFDDAK512TBN-1AR1ZABHA
 
       Drive: D:
- Free Space: 951.0 GB
+ Free Space: 953.7 GB
 Total Space: 953.9 GB
 File System: NTFS
       Model: ST1000DM003-1SB102
@@ -472,7 +467,7 @@ Device ID: PCI\VEN_8086&DEV_8D02&SUBSYS_212B103C&REV_05\3&11583659&0&FA
 
      Name: Intel(R) C610 series/X99 chipset PCI Express Root Port #2 - 8D12
 Device ID: PCI\VEN_8086&DEV_8D12&SUBSYS_212B103C&REV_D5\3&11583659&0&E1
-   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.17763.0802 (English), 10/23/2019 07:42:55, 421176 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.17763.0802 (English), 10/23/2019 07:36:54, 421176 bytes
 
      Name: Base System Device
 Device ID: PCI\VEN_8086&DEV_6F88&SUBSYS_00000000&REV_01\3&103A9D54&0&F8
@@ -480,7 +475,7 @@ Device ID: PCI\VEN_8086&DEV_6F88&SUBSYS_00000000&REV_01\3&103A9D54&0&F8
 
      Name: PCI-to-PCI Bridge
 Device ID: PCI\VEN_1283&DEV_8893&SUBSYS_212B103C&REV_52\4&387DEA65&0&00E3
-   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.17763.0802 (English), 10/23/2019 07:42:55, 421176 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.17763.0802 (English), 10/23/2019 07:36:54, 421176 bytes
 
      Name: Base System Device
 Device ID: PCI\VEN_8086&DEV_6F6F&SUBSYS_00000000&REV_01\3&103A9D54&0&B7
@@ -496,7 +491,7 @@ Device ID: PCI\VEN_8086&DEV_6FBF&SUBSYS_00000000&REV_01\3&103A9D54&0&A7
 
      Name: Intel(R) C610 series/X99 chipset LPC Controller - 8D44
 Device ID: PCI\VEN_8086&DEV_8D44&SUBSYS_212B103C&REV_05\3&11583659&0&F8
-   Driver: C:\WINDOWS\system32\DRIVERS\msisadrv.sys, 10.00.17763.0771 (English), 10/23/2019 07:42:55, 18744 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\msisadrv.sys, 10.00.17763.0771 (English), 10/23/2019 07:36:54, 18744 bytes
 
      Name: Base System Device
 Device ID: PCI\VEN_8086&DEV_6FE3&SUBSYS_6FE38086&REV_01\3&103A9D54&0&63
@@ -560,7 +555,7 @@ Device ID: PCI\VEN_8086&DEV_6FAD&SUBSYS_6FAD8086&REV_01\3&103A9D54&0&9D
 
      Name: Intel(R) C610 series/X99 chipset PCI Express Root Port #5 - 8D18
 Device ID: PCI\VEN_8086&DEV_8D18&SUBSYS_212B103C&REV_D5\3&11583659&0&E4
-   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.17763.0802 (English), 10/23/2019 07:42:55, 421176 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.17763.0802 (English), 10/23/2019 07:36:54, 421176 bytes
 
      Name: Base System Device
 Device ID: PCI\VEN_8086&DEV_6FFC&SUBSYS_6FE08086&REV_01\3&103A9D54&0&7C
@@ -576,7 +571,7 @@ Device ID: PCI\VEN_8086&DEV_6F99&SUBSYS_6F998086&REV_01\3&103A9D54&0&F1
 
      Name: PCI-to-PCI Bridge
 Device ID: PCI\VEN_8086&DEV_6F04&SUBSYS_00008086&REV_01\3&11583659&0&10
-   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.17763.0802 (English), 10/23/2019 07:42:55, 421176 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.17763.0802 (English), 10/23/2019 07:36:54, 421176 bytes
 
      Name: Base System Device
 Device ID: PCI\VEN_8086&DEV_6FB9&SUBSYS_00000000&REV_01\3&103A9D54&0&BD
@@ -584,7 +579,7 @@ Device ID: PCI\VEN_8086&DEV_6FB9&SUBSYS_00000000&REV_01\3&103A9D54&0&BD
 
      Name: Intel(R) C610 series/X99 chipset PCI Express Root Port #1 - 8D10
 Device ID: PCI\VEN_8086&DEV_8D10&SUBSYS_212B103C&REV_D5\3&11583659&0&E0
-   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.17763.0802 (English), 10/23/2019 07:42:55, 421176 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.17763.0802 (English), 10/23/2019 07:36:54, 421176 bytes
 
      Name: Base System Device
 Device ID: PCI\VEN_8086&DEV_6FA8&SUBSYS_6FA88086&REV_01\3&103A9D54&0&98
@@ -643,7 +638,7 @@ Device ID: PCI\VEN_8086&DEV_6FAF&SUBSYS_00000000&REV_01\3&103A9D54&0&9F
 
      Name: Intel(R) C610 series/X99 chipset PCI Express Root Port #4 - 8D16
 Device ID: PCI\VEN_8086&DEV_8D16&SUBSYS_212B103C&REV_D5\3&11583659&0&E3
-   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.17763.0802 (English), 10/23/2019 07:42:55, 421176 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.17763.0802 (English), 10/23/2019 07:36:54, 421176 bytes
 
      Name: PCI standard host CPU bridge
 Device ID: PCI\VEN_8086&DEV_6F00&SUBSYS_212B103C&REV_01\3&11583659&0&00
@@ -651,7 +646,7 @@ Device ID: PCI\VEN_8086&DEV_6F00&SUBSYS_212B103C&REV_01\3&11583659&0&00
 
      Name: PCI-to-PCI Bridge
 Device ID: PCI\VEN_8086&DEV_6F02&SUBSYS_00008086&REV_01\3&11583659&0&08
-   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.17763.0802 (English), 10/23/2019 07:42:55, 421176 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.17763.0802 (English), 10/23/2019 07:36:54, 421176 bytes
 
      Name: Standard SATA AHCI Controller
 Device ID: PCI\VEN_8086&DEV_8D62&SUBSYS_212B103C&REV_05\3&11583659&0&8C
@@ -725,7 +720,7 @@ Device ID: PCI\VEN_8086&DEV_6FBE&SUBSYS_00000000&REV_01\3&103A9D54&0&A6
 
      Name: PCI-to-PCI Bridge
 Device ID: PCI\VEN_8086&DEV_6F08&SUBSYS_00008086&REV_01\3&11583659&0&18
-   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.17763.0802 (English), 10/23/2019 07:42:55, 421176 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.17763.0802 (English), 10/23/2019 07:36:54, 421176 bytes
 
      Name: Base System Device
 Device ID: PCI\VEN_8086&DEV_6FAC&SUBSYS_6FAC8086&REV_01\3&103A9D54&0&9C
@@ -1406,139 +1401,6 @@ Diagnostics
 
 Windows Error Reporting:
 +++ WER0 +++:
-Fault bucket 2277881427536224350, type 5
-Event Name: RADAR_PRE_LEAK_64
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: 3dsmax.exe
-P2: 21.0.0.845
-P3: 10.0.17763.2.0.0
-P4: 
-P5: 
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
-
-
-+++ WER1 +++:
-Fault bucket , type 0
-Event Name: AppHangB1
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: 3dsmax.exe
-P2: 21.0.0.845
-P3: 5a9622ed
-P4: c768
-P5: 134234368
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
-
-
-+++ WER2 +++:
-Fault bucket , type 0
-Event Name: AppHangTransient
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: 3dsmax.exe
-P2: 21.0.0.845
-P3: 5a9622ed
-P4: unknown
-P5: unknown
-P6: unknown
-P7: unknown
-P8: 
-P9: 
-P10: 
-
-
-+++ WER3 +++:
-Fault bucket , type 0
-Event Name: ShellViewReentered
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: Explorer.EXE
-P2: 10.0.17763.771
-P3: 128a8495
-P4: 
-P5: 
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
-
-
-+++ WER4 +++:
-Fault bucket , type 0
-Event Name: ShellViewReentered
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: Explorer.EXE
-P2: 10.0.17763.771
-P3: 128a8495
-P4: 
-P5: 
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
-
-
-+++ WER5 +++:
-Fault bucket , type 0
-Event Name: LiveKernelEvent
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: 144
-P2: 3003
-P3: ffffa688ca1a7680
-P4: 40010000
-P5: 0
-P6: 10_0_17763
-P7: 0_0
-P8: 256_1
-P9: 
-P10: 
-
-
-+++ WER6 +++:
-Fault bucket , type 0
-Event Name: LiveKernelEvent
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: 144
-P2: 3003
-P3: ffffa688ca1a7680
-P4: 40010000
-P5: 0
-P6: 10_0_17763
-P7: 0_0
-P8: 256_1
-P9: 
-P10: 
-
-
-+++ WER7 +++:
 Fault bucket 125730739576, type 5
 Event Name: PerfWatsonVS12Data
 Response: Not available
@@ -1557,19 +1419,152 @@ P9:
 P10: 
 
 
-+++ WER8 +++:
-Fault bucket 1652486957437170024, type 5
-Event Name: WindowsWcpOtherFailure3
++++ WER1 +++:
+Fault bucket 2249364946889885937, type 5
+Event Name: MoAppHang
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: 10.0.17763.793:1
-P2: wcp\rtllib\win32lib\delta_library.cpp
-P3: Windows::Rtl::DeltaDecompressBuffer
-P4: 287
-P5: c007000d
-P6: 0x3ecbfa3c
+P1: Microsoft.MicrosoftEdge_44.17763.771.0_neutral__8wekyb3d8bbwe
+P2: praid:MicrosoftEdge
+P3: 11.0.17763.1
+P4: 90f701bc
+P5: 767b
+P6: 133120
+P7: 
+P8: 
+P9: 
+P10: 
+
+
++++ WER2 +++:
+Fault bucket 2081376523796954677, type 5
+Event Name: MoAppCrash
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: Microsoft.YourPhone_1.19102.525.0_x64__8wekyb3d8bbwe
+P2: praid:App
+P3: 1.19102.525.0
+P4: 5dbcd5ca
+P5: combase.dll
+P6: 10.0.17763.737
+P7: c366780e
+P8: 802b000a
+P9: 000000000003629a
+P10: 
+
+
++++ WER3 +++:
+Fault bucket , type 0
+Event Name: POFContextAppCrash
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: Microsoft.YourPhone_1.19102.525.0_x64__8wekyb3d8bbwe
+P2: praid:App
+P3: 1.19102.525.0
+P4: 0x802b000a
+P5: 1dd19d45cbeb98622209ce09048d290f
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+
++++ WER4 +++:
+Fault bucket , type 0
+Event Name: POFContextAppCrash
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: Microsoft.YourPhone_1.19102.525.0_x64__8wekyb3d8bbwe
+P2: praid:App
+P3: 1.19102.525.0
+P4: 0x802b000a
+P5: 1dd19d45cbeb98622209ce09048d290f
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+
++++ WER5 +++:
+Fault bucket 125730739576, type 5
+Event Name: PerfWatsonVS12Data
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: PerfWatsonTcdb
+P2: 0
+P3: 0
+P4: 0
+P5: 0
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+
++++ WER6 +++:
+Fault bucket , type 0
+Event Name: POFContextAppCrash
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: Microsoft.Windows.Photos_2019.19071.17920.0_x64__8wekyb3d8bbwe
+P2: praid:App
+P3: 2019.19071.17920.0
+P4: 0x802b000a
+P5: 38ef662e47b3971c561da11a2dde2855
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+
++++ WER7 +++:
+Fault bucket , type 0
+Event Name: POFContextAppCrash
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: Microsoft.Windows.Photos_2019.19071.17920.0_x64__8wekyb3d8bbwe
+P2: praid:App
+P3: 2019.19071.17920.0
+P4: 0x802b000a
+P5: 38ef662e47b3971c561da11a2dde2855
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+
++++ WER8 +++:
+Fault bucket , type 0
+Event Name: POFContextAppCrash
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: Microsoft.YourPhone_1.19102.525.0_x64__8wekyb3d8bbwe
+P2: praid:App
+P3: 1.19102.525.0
+P4: 0x802b000a
+P5: 1dd19d45cbeb98622209ce09048d290f
+P6: 
 P7: 
 P8: 
 P9: 
@@ -1578,17 +1573,17 @@ P10:
 
 +++ WER9 +++:
 Fault bucket , type 0
-Event Name: WindowsWcpOtherFailure3
+Event Name: POFContextAppCrash
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: 10.0.17763.793:1
-P2: wcp\rtllib\win32lib\delta_library.cpp
-P3: Windows::Rtl::DeltaDecompressBuffer
-P4: 287
-P5: c007000d
-P6: 0x3ecbfa3c
+P1: Microsoft.YourPhone_1.19102.525.0_x64__8wekyb3d8bbwe
+P2: praid:App
+P3: 1.19102.525.0
+P4: 0x802b000a
+P5: 1dd19d45cbeb98622209ce09048d290f
+P6: 
 P7: 
 P8: 
 P9: 
