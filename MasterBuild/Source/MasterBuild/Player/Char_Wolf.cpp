@@ -10,7 +10,7 @@ AChar_Wolf::AChar_Wolf()
 	PrimaryActorTick.bCanEverTick = true;
 
 	AttackCollider = CreateDefaultSubobject<UBoxComponent>(TEXT("AttackCollider"), false);
-	AttackCollider->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepWorldTransform);
+	AttackCollider->SetupAttachment(RootComponent);
 	
 }
 
