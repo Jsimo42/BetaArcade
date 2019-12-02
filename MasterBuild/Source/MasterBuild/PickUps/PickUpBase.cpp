@@ -52,6 +52,11 @@ void APickUpBase::BeginPlay()
 
 void APickUpBase::OnOverlapStart(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
 {
+	if ((OtherActor->IsA(ASheepCharacter::StaticClass())))
+	{
+		return;
+	}
+
 	Mesh->SetVisibility(false);
 	this->SetActorLocation(FVector(-10000, -10000, 0));
 	isAlive = false;

@@ -10,7 +10,7 @@ AChar_Wolf::AChar_Wolf()
 	PrimaryActorTick.bCanEverTick = true;
 
 	AttackCollider = CreateDefaultSubobject<UBoxComponent>(TEXT("AttackCollider"), false);
-	AttackCollider->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepWorldTransform);
+	
 	
 }
 
@@ -19,7 +19,8 @@ void AChar_Wolf::BeginPlay()
 {
 	Super::BeginPlay();
 	SetupOverlapEvents();
-
+	
+	AttackCollider->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepRelativeTransform);
 }
 
 //on collision with another object run this
