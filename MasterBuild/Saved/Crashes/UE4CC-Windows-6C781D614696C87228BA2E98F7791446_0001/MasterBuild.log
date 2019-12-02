@@ -1,0 +1,1123 @@
+﻿Log file open, 11/14/19 20:43:28
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: MasterBuild
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1450020253) SRandInit(-1450020253).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.682930
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  1.383s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Binaries/Win64/UE4Editor-MasterBuild.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am LAPTOP-6PKU92GL (192.168.0.4:0)
+LogInit: Build: ++UE4+Release-4.19-CL-4033788
+LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.086s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.11.14-20.43.48:234][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.14-20.43.48:234][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.11.14-20.43.48:357][  0]LogInit: Computer: LAPTOP-6PKU92GL
+[2019.11.14-20.43.48:357][  0]LogInit: User: hello
+[2019.11.14-20.43.48:357][  0]LogInit: CPU Page size=4096, Cores=2
+[2019.11.14-20.43.48:357][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.11.14-20.43.48:358][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.11.14-20.43.48:358][  0]LogMemory: Platform Memory Stats for Windows
+[2019.11.14-20.43.48:358][  0]LogMemory: Process Physical Memory: 277.74 MB used, 277.74 MB peak
+[2019.11.14-20.43.48:358][  0]LogMemory: Process Virtual Memory: 266.11 MB used, 266.11 MB peak
+[2019.11.14-20.43.48:358][  0]LogMemory: Physical Memory: 4537.21 MB used,  3523.01 MB free, 8060.22 MB total
+[2019.11.14-20.43.48:358][  0]LogMemory: Virtual Memory: 4767.55 MB used,  3523.01 MB free, 134217728.00 MB total
+[2019.11.14-20.43.49:563][  0]LogInit: Using OS detected language (en-GB).
+[2019.11.14-20.43.49:564][  0]LogInit: Using OS detected locale (en-GB).
+[2019.11.14-20.43.49:811][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2019.11.14-20.43.51:629][  0]LogStreaming: Display: Took  2.065s to EndInitTextLocalization.
+[2019.11.14-20.43.51:630][  0]LogInit: Setting process to per monitor DPI aware
+[2019.11.14-20.43.52:386][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.11.14-20.43.52:386][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.11.14-20.44.01:442][  0]LogD3D11RHI: D3D11 adapters:
+[2019.11.14-20.44.01:976][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2019.11.14-20.44.01:976][  0]LogD3D11RHI:       128/0/4030 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2019.11.14-20.44.02:010][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.11.14-20.44.02:010][  0]LogD3D11RHI:       0/0/4030 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.11.14-20.44.02:010][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.11.14-20.44.02:087][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.11.14-20.44.02:088][  0]LogD3D11RHI:     GPU DeviceId: 0x5916 (for the marketing name, search the web for "GPU Device Id")
+[2019.11.14-20.44.02:088][  0]LogWindows: EnumDisplayDevices:
+[2019.11.14-20.44.02:089][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2019.11.14-20.44.02:091][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2019.11.14-20.44.02:092][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2019.11.14-20.44.02:093][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.11.14-20.44.02:093][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 620
+[2019.11.14-20.44.02:093][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.11.14-20.44.02:093][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.11.14-20.44.02:093][  0]LogRHI: Texture pool is 1500 MB (70% of 2143 MB)
+[2019.11.14-20.44.02:247][  0]LogD3D11RHI: Async texture creation enabled
+[2019.11.14-20.44.02:288][  0]LogD3D11RHI: GPU Timing Frequency: 12.000048 (Debug: 2 0)
+[2019.11.14-20.44.02:294][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Intermediate/Shaders/WorkingDirectory/158164/).
+[2019.11.14-20.44.02:296][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/hello/AppData/Local/Temp/UnrealShaderWorkingDir/F6C268134F9CB9A4303CB7829E5F927C/'.
+[2019.11.14-20.44.04:725][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.11.14-20.44.04:877][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.11.14-20.44.05:004][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.11.14-20.44.05:098][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.11.14-20.44.05:216][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.11.14-20.44.05:308][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.11.14-20.44.05:410][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.11.14-20.44.05:505][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.11.14-20.44.05:575][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.11.14-20.44.05:663][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2019.11.14-20.44.05:751][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2019.11.14-20.44.05:860][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2019.11.14-20.44.05:965][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2019.11.14-20.44.06:111][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2019.11.14-20.44.06:208][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2019.11.14-20.44.06:385][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2019.11.14-20.44.06:385][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.11.14-20.44.06:502][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.14-20.44.06:549][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.11.14-20.44.06:775][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.11.14-20.44.06:859][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.11.14-20.44.06:968][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.11.14-20.44.07:059][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.11.14-20.44.07:183][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.11.14-20.44.07:340][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.11.14-20.44.07:340][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.11.14-20.44.09:715][  0]LogXGEController: Cleaning working directory: C:/Users/hello/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.11.14-20.44.09:717][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.11.14-20.44.09:720][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.11.14-20.44.09:720][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.11.14-20.44.17:658][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.11.14-20.44.19:297][  0]LogDerivedDataCache: Loaded boot cache 1.63s 77MB C:/Users/hello/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.11.14-20.44.19:298][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/hello/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2019.11.14-20.44.19:298][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.11.14-20.44.19:298][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.11.14-20.44.19:299][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.14-20.44.19:299][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.11.14-20.44.19:417][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.11.14-20.44.19:445][  0]LogDerivedDataCache: Using Local data cache path C:/Users/hello/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.11.14-20.44.19:445][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.11.14-20.44.19:445][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.11.14-20.44.19:499][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.11.14-20.44.19:501][  0]LogSlate: Using Freetype 2.6.0
+[2019.11.14-20.44.19:554][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.11.14-20.44.19:554][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.11.14-20.44.21:589][  0]LogAssetRegistry: FAssetRegistry took 0.0453 seconds to start up
+[2019.11.14-20.44.23:783][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.14-20.44.26:258][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.11.14-20.44.26:340][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.11.14-20.44.26:341][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.11.14-20.44.26:341][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.11.14-20.44.26:341][  0]LogMeshReduction: No automatic mesh merging module available
+[2019.11.14-20.44.26:341][  0]LogMeshMerging: No automatic mesh merging module available
+[2019.11.14-20.44.26:681][  0]LogNetVersion: MasterBuild , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2426174287)
+[2019.11.14-20.44.32:870][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.794717 seconds
+[2019.11.14-20.44.32:889][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2019.11.14-20.44.32:889][  0]LogUObjectAllocator: 7314304 out of 0 bytes used by permanent object pool.
+[2019.11.14-20.44.32:889][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.11.14-20.44.57:577][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.11.14-20.44.57:834][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.11.14-20.44.59:975][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015e72a11380, Size=64, Default__ThirdPerson_AnimBP_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
+[2019.11.14-20.45.00:054][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015e72a11380, Size=64
+[2019.11.14-20.45.00:055][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015e72b62e40, Size=64, Default__ThirdPerson_AnimBP_C Function /Engine/Transient.REINST_ThirdPerson_AnimBP_C_0:ExecuteUbergraph_ThirdPerson_AnimBP
+[2019.11.14-20.45.00:136][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015e7277abb0, Size=72, Default__ThirdPerson_AnimBP_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
+[2019.11.14-20.45.01:388][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [82.893402ms] /Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin
+[2019.11.14-20.45.04:488][  0]SourceControl: Source control is disabled
+[2019.11.14-20.45.04:489][  0]SourceControl: Source control is disabled
+[2019.11.14-20.45.04:779][  0]SourceControl: Source control is disabled
+[2019.11.14-20.45.05:032][  0]SourceControl: Source control is disabled
+[2019.11.14-20.45.09:810][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.11.14-20.45.11:223][  0]LogOcInput: OculusInput pre-init called
+[2019.11.14-20.45.12:037][  0]LogEngine: Initializing Engine...
+[2019.11.14-20.45.12:045][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.14-20.45.12:049][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.11.14-20.45.12:049][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.11.14-20.45.14:957][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.11.14-20.45.15:143][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.14-20.45.15:275][  0]LogInit: FAudioDevice initialized.
+[2019.11.14-20.45.15:786][  0]LogDerivedDataCache: Saved boot cache 0.51s 77MB C:/Users/hello/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.11.14-20.45.15:825][  0]LogInit: Texture streaming: Enabled
+[2019.11.14-20.45.16:136][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.11.14-20.45.16:391][  0]LogInit: Transaction tracking system initialized
+[2019.11.14-20.45.17:065][  0]BlueprintLog: New page: Editor Load
+[2019.11.14-20.45.18:822][  0]LocalizationService: Localization service is disabled
+[2019.11.14-20.45.20:657][  0]LogConsoleResponse: Display: 
+[2019.11.14-20.45.21:885][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.11.14-20.45.21:887][  0]LogCook: Display: Mobile HDR setting 1
+[2019.11.14-20.45.21:888][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.11.14-20.45.21:889][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.11.14-20.45.21:889][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.11.14-20.45.23:063][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Content/' took 0.14s
+[2019.11.14-20.45.25:894][  0]SourceControl: Source control is disabled
+[2019.11.14-20.45.25:898][  0]Cmd: MAP LOAD FILE="../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Content/Woolf/Maps/Heaven.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.14-20.45.25:922][  0]LightingResults: New page: Lighting Build
+[2019.11.14-20.45.25:968][  0]MapCheck: New page: Map Check
+[2019.11.14-20.45.25:969][  0]LightingResults: New page: Lighting Build
+[2019.11.14-20.45.26:049][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015e72b62e40, Size=64
+[2019.11.14-20.45.26:199][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ABigModePickUp.ABigModePickUp_C
+[2019.11.14-20.45.26:200][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ABigModePickUp.ABigModePickUp_C
+[2019.11.14-20.45.26:200][  0]LogLinker: Warning: Unable to load Default__ABigModePickUp_C with outer Package /Game/ABigModePickUp because its class does not exist
+[2019.11.14-20.45.26:201][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ABigModePickUp.ABigModePickUp_C
+[2019.11.14-20.45.26:201][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ABigModePickUp.ABigModePickUp_C
+[2019.11.14-20.45.26:322][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ASlowDownPickUp.ASlowDownPickUp_C
+[2019.11.14-20.45.26:322][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ASlowDownPickUp.ASlowDownPickUp_C
+[2019.11.14-20.45.26:323][  0]LogLinker: Warning: Unable to load Default__ASlowDownPickUp_C with outer Package /Game/ASlowDownPickUp because its class does not exist
+[2019.11.14-20.45.26:324][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ASlowDownPickUp.ASlowDownPickUp_C
+[2019.11.14-20.45.26:324][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ASlowDownPickUp.ASlowDownPickUp_C
+[2019.11.14-20.45.26:382][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ASpeedUpPickUp.ASpeedUpPickUp_C
+[2019.11.14-20.45.26:382][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ASpeedUpPickUp.ASpeedUpPickUp_C
+[2019.11.14-20.45.26:382][  0]LogLinker: Warning: Unable to load Default__ASpeedUpPickUp_C with outer Package /Game/ASpeedUpPickUp because its class does not exist
+[2019.11.14-20.45.26:383][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ASpeedUpPickUp.ASpeedUpPickUp_C
+[2019.11.14-20.45.26:384][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ASpeedUpPickUp.ASpeedUpPickUp_C
+[2019.11.14-20.45.27:145][  0]LogLinker: Warning: Can't find file '/Game/Woolf/Maps/Heaven_BuiltData'
+[2019.11.14-20.45.27:147][  0]LogLinker: Warning: Can't find file for asset '/Game/Woolf/Maps/Heaven_BuiltData' while loading ../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Content/Woolf/Maps/Heaven.umap.
+[2019.11.14-20.45.27:148][  0]LoadErrors: Error: /Game/Woolf/Maps/Heaven : Can't find file for asset. /Game/Woolf/Maps/Heaven_BuiltData
+[2019.11.14-20.45.27:231][  0]LogLinker: Warning: Can't find file '/Game/Woolf/Maps/Heaven_BuiltData'
+[2019.11.14-20.45.27:232][  0]LogLinker: Warning: Can't find file for asset '/Game/Woolf/Maps/Heaven_BuiltData' while loading ../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Content/Woolf/Maps/Heaven.umap.
+[2019.11.14-20.45.27:232][  0]LoadErrors: Error: /Game/Woolf/Maps/Heaven : Can't find file for asset. /Game/Woolf/Maps/Heaven_BuiltData
+[2019.11.14-20.45.27:247][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015e021a5f60, Size=32, Default__Heaven_C Function /Game/Woolf/Maps/Heaven.Heaven_C:ExecuteUbergraph_Heaven
+[2019.11.14-20.45.27:248][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ABigModePickUp.ABigModePickUp_C
+[2019.11.14-20.45.27:248][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ASlowDownPickUp.ASlowDownPickUp_C
+[2019.11.14-20.45.27:249][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ASpeedUpPickUp.ASpeedUpPickUp_C
+[2019.11.14-20.45.27:251][  0]LogLinker: Warning: Can't find file '/Game/Woolf/Maps/Heaven_BuiltData'
+[2019.11.14-20.45.27:252][  0]LogLinker: Warning: Can't find file for asset '/Game/Woolf/Maps/Heaven_BuiltData' while loading NULL.
+[2019.11.14-20.45.27:253][  0]LogLinker: Warning: Can't find file '/Game/Woolf/Maps/Heaven_BuiltData'
+[2019.11.14-20.45.27:254][  0]LogLinker: Warning: Can't find file for asset '/Game/Woolf/Maps/Heaven_BuiltData' while loading NULL.
+[2019.11.14-20.45.27:263][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015e021a5f60, Size=32
+[2019.11.14-20.45.27:263][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015e021a5f60, Size=32, Default__Heaven_C Function /Engine/Transient.REINST_Heaven_C_8:ExecuteUbergraph_Heaven
+[2019.11.14-20.45.27:272][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015e021a5b80, Size=32, Default__Heaven_C Function /Game/Woolf/Maps/Heaven.Heaven_C:ExecuteUbergraph_Heaven
+[2019.11.14-20.45.27:274][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ABigModePickUp.ABigModePickUp_C
+[2019.11.14-20.45.27:299][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ASlowDownPickUp.ASlowDownPickUp_C
+[2019.11.14-20.45.27:299][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ASpeedUpPickUp.ASpeedUpPickUp_C
+[2019.11.14-20.45.27:423][  0]LogLinker: Warning: Can't find file '/Game/Woolf/Maps/Heaven_BuiltData'
+[2019.11.14-20.45.27:423][  0]LoadErrors: Failed to load /Game/Woolf/Maps/Heaven_BuiltData.Heaven_BuiltData Referenced by PersistentLevel
+[2019.11.14-20.45.27:426][  0]LogLinker: Warning: Can't find file for asset '/Game/Woolf/Maps/Heaven_BuiltData' while loading NULL.
+[2019.11.14-20.45.27:427][  0]LoadErrors: Failed to load /Game/Woolf/Maps/Heaven_BuiltData.Heaven_BuiltData Referenced by PersistentLevel
+[2019.11.14-20.45.27:458][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ABigModePickUp.ABigModePickUp_C
+[2019.11.14-20.45.27:458][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ABigModePickUp.ABigModePickUp_C
+[2019.11.14-20.45.27:460][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ASlowDownPickUp.ASlowDownPickUp_C
+[2019.11.14-20.45.27:461][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ASlowDownPickUp.ASlowDownPickUp_C
+[2019.11.14-20.45.27:462][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ASpeedUpPickUp.ASpeedUpPickUp_C
+[2019.11.14-20.45.27:463][  0]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ASpeedUpPickUp.ASpeedUpPickUp_C
+[2019.11.14-20.45.27:483][  0]LogMaterial: Missing cached shader map for material Ground, compiling. 
+[2019.11.14-20.45.27:863][  0]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.11.14-20.45.27:863][  0]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.11.14-20.45.27:863][  0]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.11.14-20.45.27:863][  0]LogMaterial: Missing cached shader map for material Background, compiling. 
+[2019.11.14-20.45.27:966][  0]LogMaterial: Missing cached shader map for material Fence, compiling. 
+[2019.11.14-20.45.28:073][  0]LogMaterial: Missing cached shader map for material Bush, compiling. 
+[2019.11.14-20.45.28:902][  0]LogAIModule: Creating AISystem for world Heaven
+[2019.11.14-20.45.29:297][  0]LogEditorServer: Finished looking for orphan Actors (0.002 secs)
+[2019.11.14-20.45.30:574][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015e021a5f60, Size=32
+[2019.11.14-20.45.30:583][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.14-20.45.31:316][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 733.084ms to complete.
+[2019.11.14-20.45.31:316][  0]LogFileHelpers: Loading map 'Heaven' took 5.420
+[2019.11.14-20.45.32:307][  0]LogCollectionManager: Loaded 0 collections in 0.066893 seconds
+[2019.11.14-20.45.32:378][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Saved/Collections/' took 0.05s
+[2019.11.14-20.45.32:379][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Content/Developers/hello/Collections/' took 0.03s
+[2019.11.14-20.45.32:379][  0]LogFileCache: Scanning file cache for directory 'C:/Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Content/Collections/' took 0.03s
+[2019.11.14-20.45.32:379][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.11.14-20.45.32:439][  0]LogContentBrowser: Native class hierarchy populated in 0.0594 seconds. Added 2460 classes and 563 folders.
+[2019.11.14-20.45.32:504][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0307 seconds. Added 0 classes and 0 folders.
+[2019.11.14-20.45.33:619][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0093 seconds. Added 0 classes and 0 folders.
+[2019.11.14-20.45.33:688][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0093 seconds. Added 1 classes and 2 folders.
+[2019.11.14-20.45.33:852][  0]LogSlate: Took 0.019655 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.11.14-20.45.33:874][  0]LogSlate: Took 0.014682 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.11.14-20.45.33:911][  0]LogSlate: Took 0.017180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.11.14-20.45.34:308][  0]LogRenderer: Reallocating scene render targets to support 856x372 Format 9 NumSamples 1 (Frame:1).
+[2019.11.14-20.45.34:683][  0]LogSlate: Took 0.012504 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.14-20.45.34:903][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0078 seconds. Added 0 classes and 0 folders.
+[2019.11.14-20.45.34:903][  0]LogLoad: (Engine Initialization) Total time: 138.13 seconds
+[2019.11.14-20.45.34:903][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.11.14-20.45.34:929][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot_GEN_VARIABLE': BlueprintGeneratedClass /Game/ABigModePickUp.ABigModePickUp_C
+[2019.11.14-20.45.34:929][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Root': ABigModePickUp_C /Game/ABigModePickUp.Default__ABigModePickUp_C
+[2019.11.14-20.45.34:929][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SimpleConstructionScript_0': BlueprintGeneratedClass /Game/ABigModePickUp.ABigModePickUp_C
+[2019.11.14-20.45.34:929][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SCS_Node_0': SimpleConstructionScript /Game/ABigModePickUp.ABigModePickUp_C:SimpleConstructionScript_0
+[2019.11.14-20.45.34:929][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'ItemMesh': ABigModePickUp_C /Game/ABigModePickUp.Default__ABigModePickUp_C
+[2019.11.14-20.45.34:930][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot_GEN_VARIABLE': BlueprintGeneratedClass /Game/ASlowDownPickUp.ASlowDownPickUp_C
+[2019.11.14-20.45.34:930][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SimpleConstructionScript_0': BlueprintGeneratedClass /Game/ASlowDownPickUp.ASlowDownPickUp_C
+[2019.11.14-20.45.34:930][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SCS_Node_0': SimpleConstructionScript /Game/ASlowDownPickUp.ASlowDownPickUp_C:SimpleConstructionScript_0
+[2019.11.14-20.45.34:930][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'ItemMesh': ASlowDownPickUp_C /Game/ASlowDownPickUp.Default__ASlowDownPickUp_C
+[2019.11.14-20.45.34:930][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot_GEN_VARIABLE': BlueprintGeneratedClass /Game/ASpeedUpPickUp.ASpeedUpPickUp_C
+[2019.11.14-20.45.34:930][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SimpleConstructionScript_0': BlueprintGeneratedClass /Game/ASpeedUpPickUp.ASpeedUpPickUp_C
+[2019.11.14-20.45.34:931][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SCS_Node_0': SimpleConstructionScript /Game/ASpeedUpPickUp.ASpeedUpPickUp_C:SimpleConstructionScript_0
+[2019.11.14-20.45.34:931][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'ItemMesh': ASpeedUpPickUp_C /Game/ASpeedUpPickUp.Default__ASpeedUpPickUp_C
+[2019.11.14-20.45.34:931][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'ItemMesh': ABigModePickUp_C /Game/Woolf/Maps/Heaven.Heaven:PersistentLevel.ABigModePickUp_2
+[2019.11.14-20.45.34:932][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'ItemMesh': ASlowDownPickUp_C /Game/Woolf/Maps/Heaven.Heaven:PersistentLevel.ASlowDownPickUp_2
+[2019.11.14-20.45.34:932][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'ItemMesh': ASpeedUpPickUp_C /Game/Woolf/Maps/Heaven.Heaven:PersistentLevel.ASpeedUpPickUp_17
+[2019.11.14-20.45.34:992][  0]LogContentStreaming: Texture pool size now 400 MB
+[2019.11.14-20.45.34:999][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.14-20.45.35:800][  2]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.11.14-20.45.35:925][  4]LogAssetRegistry: Asset discovery search completed in 74.3598 seconds
+[2019.11.14-20.45.35:932][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.11.14-20.45.35:932][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000144 seconds (updated 0 objects)
+[2019.11.14-20.45.43:657][275]LogSlate: Window 'Message Log' being destroyed
+[2019.11.14-20.45.43:667][275]LogSlate: Window 'Message Log' being destroyed
+[2019.11.14-20.45.46:667][387]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.14-20.45.55:250][728]LogSlate: Took 0.000390 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.14-20.45.55:269][728]Running C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/MasterBuild.uproject" -game -rocket -progress
+[2019.11.14-20.45.56:112][728]LogShaderCompilers: Display: Shaders left to compile 94
+[2019.11.14-20.45.56:112][728]Discovering modules, targets and source code for project...
+[2019.11.14-20.46.04:156][728]LogShaderCompilers: Display: Shaders left to compile 84
+[2019.11.14-20.46.04:156][728]LogShaderCompilers: Display: Shaders left to compile 74
+[2019.11.14-20.46.04:156][728]LogShaderCompilers: Display: Shaders left to compile 64
+[2019.11.14-20.46.11:832][728]LogShaderCompilers: Display: Shaders left to compile 54
+[2019.11.14-20.46.11:832][728]LogShaderCompilers: Display: Shaders left to compile 44
+[2019.11.14-20.46.18:392][728]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.11.14-20.46.18:392][728]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.11.14-20.46.18:596][728]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.11.14-20.46.25:562][986]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.11.14-20.47.16:212][760]Cmd: MAP LOAD FILE="../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Content/Woolf/Maps/Heaven.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.14-20.47.16:212][760]LightingResults: New page: Lighting Build
+[2019.11.14-20.47.16:213][760]LoadErrors: New page: Loading map: Heaven.umap
+[2019.11.14-20.47.16:223][760]MapCheck: New page: Map Check
+[2019.11.14-20.47.16:223][760]LightingResults: New page: Lighting Build
+[2019.11.14-20.47.16:255][760]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015e021a5b80, Size=32
+[2019.11.14-20.47.16:273][760]LogLinker: Warning: Can't find file '/Game/Woolf/Maps/Heaven_BuiltData'
+[2019.11.14-20.47.16:275][760]LogLinker: Warning: Can't find file for asset '/Game/Woolf/Maps/Heaven_BuiltData' while loading ../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Content/Woolf/Maps/Heaven.umap.
+[2019.11.14-20.47.16:276][760]LoadErrors: Error: /Game/Woolf/Maps/Heaven : Can't find file for asset. /Game/Woolf/Maps/Heaven_BuiltData
+[2019.11.14-20.47.16:284][760]LogLinker: Warning: Can't find file '/Game/Woolf/Maps/Heaven_BuiltData'
+[2019.11.14-20.47.16:284][760]LogLinker: Warning: Can't find file for asset '/Game/Woolf/Maps/Heaven_BuiltData' while loading ../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Content/Woolf/Maps/Heaven.umap.
+[2019.11.14-20.47.16:289][760]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015e0283ff80, Size=32, Default__Heaven_C Function /Game/Woolf/Maps/Heaven.Heaven_C:ExecuteUbergraph_Heaven
+[2019.11.14-20.47.16:289][760]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ABigModePickUp.ABigModePickUp_C
+[2019.11.14-20.47.16:289][760]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ASlowDownPickUp.ASlowDownPickUp_C
+[2019.11.14-20.47.16:289][760]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ASpeedUpPickUp.ASpeedUpPickUp_C
+[2019.11.14-20.47.16:290][760]LogLinker: Warning: Can't find file '/Game/Woolf/Maps/Heaven_BuiltData'
+[2019.11.14-20.47.16:290][760]LogLinker: Warning: Can't find file for asset '/Game/Woolf/Maps/Heaven_BuiltData' while loading NULL.
+[2019.11.14-20.47.16:290][760]LogLinker: Warning: Can't find file '/Game/Woolf/Maps/Heaven_BuiltData'
+[2019.11.14-20.47.16:291][760]LogLinker: Warning: Can't find file for asset '/Game/Woolf/Maps/Heaven_BuiltData' while loading NULL.
+[2019.11.14-20.47.16:292][760]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015e0283ff80, Size=32
+[2019.11.14-20.47.16:293][760]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015e021a6540, Size=32, Default__Heaven_C Function /Engine/Transient.REINST_Heaven_C_10:ExecuteUbergraph_Heaven
+[2019.11.14-20.47.16:294][760]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015e021a6fc0, Size=32, Default__Heaven_C Function /Game/Woolf/Maps/Heaven.Heaven_C:ExecuteUbergraph_Heaven
+[2019.11.14-20.47.16:298][760]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ABigModePickUp.ABigModePickUp_C
+[2019.11.14-20.47.16:304][760]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ASlowDownPickUp.ASlowDownPickUp_C
+[2019.11.14-20.47.16:304][760]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/ASpeedUpPickUp.ASpeedUpPickUp_C
+[2019.11.14-20.47.16:338][760]LogLinker: Warning: Can't find file '/Game/Woolf/Maps/Heaven_BuiltData'
+[2019.11.14-20.47.16:338][760]LoadErrors: Failed to load /Game/Woolf/Maps/Heaven_BuiltData.Heaven_BuiltData Referenced by PersistentLevel
+[2019.11.14-20.47.16:338][760]LogLinker: Warning: Can't find file for asset '/Game/Woolf/Maps/Heaven_BuiltData' while loading NULL.
+[2019.11.14-20.47.16:371][760]LogAIModule: Creating AISystem for world Heaven
+[2019.11.14-20.47.16:434][760]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.14-20.47.16:487][760]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015e021a6540, Size=32
+[2019.11.14-20.47.16:630][760]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.14-20.47.16:968][760]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 338.335ms to complete.
+[2019.11.14-20.47.16:971][760]LogFileHelpers: Loading map 'Heaven' took 0.763
+[2019.11.14-20.47.16:973][760]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'ItemMesh': ABigModePickUp_C /Game/Woolf/Maps/Heaven.Heaven:PersistentLevel.ABigModePickUp_2
+[2019.11.14-20.47.16:973][760]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'ItemMesh': ASlowDownPickUp_C /Game/Woolf/Maps/Heaven.Heaven:PersistentLevel.ASlowDownPickUp_2
+[2019.11.14-20.47.16:973][760]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'ItemMesh': ASpeedUpPickUp_C /Game/Woolf/Maps/Heaven.Heaven:PersistentLevel.ASpeedUpPickUp_17
+[2019.11.14-20.47.19:402][813]LogSlate: Window 'Message Log' being destroyed
+[2019.11.14-20.47.19:426][813]LogSlate: Window 'Message Log' being destroyed
+[2019.11.14-20.47.22:342][909]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015e119db880, Size=144, Default__InterationofSheepHeaven_C Function /Game/Woolf/Maps/InterationofSheepHeaven.InterationofSheepHeaven_C:ExecuteUbergraph_InterationofSheepHeaven
+[2019.11.14-20.47.22:349][909]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015e119db880, Size=144
+[2019.11.14-20.47.22:350][909]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015e125efb00, Size=144, Default__InterationofSheepHeaven_C Function /Engine/Transient.REINST_InterationofSheepHeaven_C_12:ExecuteUbergraph_InterationofSheepHeaven
+[2019.11.14-20.47.22:355][909]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015e027caac0, Size=144, Default__InterationofSheepHeaven_C Function /Game/Woolf/Maps/InterationofSheepHeaven.InterationofSheepHeaven_C:ExecuteUbergraph_InterationofSheepHeaven
+[2019.11.14-20.47.22:459][909]LogAIModule: Creating AISystem for world InterationofSheepHeaven
+[2019.11.14-20.47.22:509][909]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015e125efb00, Size=144
+[2019.11.14-20.47.22:513][909]Cmd: MAP LOAD FILE="../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Content/Woolf/Maps/InterationofSheepHeaven.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.14-20.47.22:513][909]LightingResults: New page: Lighting Build
+[2019.11.14-20.47.22:519][909]LoadErrors: New page: Loading map: InterationofSheepHeaven.umap
+[2019.11.14-20.47.22:525][909]MapCheck: New page: Map Check
+[2019.11.14-20.47.22:525][909]LightingResults: New page: Lighting Build
+[2019.11.14-20.47.22:556][909]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015e021a6fc0, Size=32
+[2019.11.14-20.47.22:585][909]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.14-20.47.23:604][909]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.14-20.47.24:713][909]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1,109.388ms to complete.
+[2019.11.14-20.47.24:728][909]LogFileHelpers: Loading map 'InterationofSheepHeaven' took 2.218
+[2019.11.14-20.47.37:935][288]LogStaticMesh: Building static mesh house...
+[2019.11.14-20.47.38:026][288]LogStaticMesh: Built static mesh [0.09s] /Game/Woolf/Maps/Scott_maps/house.house
+[2019.11.14-20.47.38:039][288]LogStaticMesh: Building static mesh gate_fence_L...
+[2019.11.14-20.47.38:236][288]LogStaticMesh: Built static mesh [0.20s] /Game/Woolf/Maps/Scott_maps/gate_fence_L.gate_fence_L
+[2019.11.14-20.47.38:250][288]LogStaticMesh: Building static mesh barn...
+[2019.11.14-20.47.38:340][288]LogStaticMesh: Built static mesh [0.09s] /Game/Woolf/Maps/Scott_maps/barn.barn
+[2019.11.14-20.47.38:363][288]LogStaticMesh: Building static mesh barn_door...
+[2019.11.14-20.47.38:391][288]LogStaticMesh: Built static mesh [0.03s] /Game/Woolf/Maps/Scott_maps/barn_door.barn_door
+[2019.11.14-20.47.38:397][288]LogStaticMesh: Building static mesh fence_1...
+[2019.11.14-20.47.38:493][288]LogStaticMesh: Built static mesh [0.10s] /Game/Woolf/Maps/Scott_maps/fence_1.fence_1
+[2019.11.14-20.47.38:506][288]LogStaticMesh: Building static mesh floor...
+[2019.11.14-20.47.38:516][288]LogStaticMesh: Built static mesh [0.01s] /Game/Woolf/Maps/Scott_maps/floor.floor
+[2019.11.14-20.47.38:524][288]LogAIModule: Creating AISystem for world farm
+[2019.11.14-20.47.38:611][288]Cmd: MAP LOAD FILE="../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Content/Woolf/Maps/Scott_maps/farm.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.14-20.47.38:612][288]LightingResults: New page: Lighting Build
+[2019.11.14-20.47.38:614][288]LoadErrors: New page: Loading map: farm.umap
+[2019.11.14-20.47.38:620][288]MapCheck: New page: Map Check
+[2019.11.14-20.47.38:620][288]LightingResults: New page: Lighting Build
+[2019.11.14-20.47.38:672][288]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015e027caac0, Size=144
+[2019.11.14-20.47.38:707][288]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.14-20.47.38:922][288]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.14-20.47.39:525][288]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 601.809ms to complete.
+[2019.11.14-20.47.39:529][288]LogFileHelpers: Loading map 'farm' took 0.921
+[2019.11.14-20.47.46:308][476]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015e09376800, Size=688, Default__GameInfoInstance_BP_C Function /Game/Woolf/Blueprints/GameInfoInstance_BP.GameInfoInstance_BP_C:ExecuteUbergraph_GameInfoInstance_BP
+[2019.11.14-20.47.46:324][476]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015e021a45a0, Size=32, Default__W_MainMenu_C Function /Game/Woolf/UI/W_MainMenu.W_MainMenu_C:ExecuteUbergraph_W_MainMenu
+[2019.11.14-20.47.46:380][476]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015e020f6240, Size=64, Default__W_HostMenu_C Function /Game/Woolf/UI/W_HostMenu.W_HostMenu_C:ExecuteUbergraph_W_HostMenu
+[2019.11.14-20.47.46:450][476]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015e12216c00, Size=160, Default__W_JoinMenu_C Function /Game/Woolf/UI/W_JoinMenu.W_JoinMenu_C:ExecuteUbergraph_W_JoinMenu
+[2019.11.14-20.47.46:581][476]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015e09376800, Size=688
+[2019.11.14-20.47.46:581][476]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015e0f391000, Size=688, Default__GameInfoInstance_BP_C Function /Engine/Transient.REINST_GameInfoInstance_BP_C_14:ExecuteUbergraph_GameInfoInstance_BP
+[2019.11.14-20.47.46:584][476]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015e020f6240, Size=64
+[2019.11.14-20.47.46:584][476]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015e029b04c0, Size=64, Default__W_HostMenu_C Function /Engine/Transient.REINST_W_HostMenu_C_0:ExecuteUbergraph_W_HostMenu
+[2019.11.14-20.47.46:585][476]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015e12216c00, Size=160
+[2019.11.14-20.47.46:586][476]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015e021e04a0, Size=160, Default__W_JoinMenu_C Function /Engine/Transient.REINST_W_JoinMenu_C_1:ExecuteUbergraph_W_JoinMenu
+[2019.11.14-20.47.46:586][476]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015e021a45a0, Size=32
+[2019.11.14-20.47.46:586][476]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015e0283dc60, Size=32, Default__W_MainMenu_C Function /Engine/Transient.REINST_W_MainMenu_C_2:ExecuteUbergraph_W_MainMenu
+[2019.11.14-20.47.46:672][476]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015e126e4700, Size=688, Default__GameInfoInstance_BP_C Function /Game/Woolf/Blueprints/GameInfoInstance_BP.GameInfoInstance_BP_C:ExecuteUbergraph_GameInfoInstance_BP
+[2019.11.14-20.47.46:683][476]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015e020f6180, Size=64, Default__W_HostMenu_C Function /Game/Woolf/UI/W_HostMenu.W_HostMenu_C:ExecuteUbergraph_W_HostMenu
+[2019.11.14-20.47.46:699][476]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015e0299a980, Size=160, Default__W_JoinMenu_C Function /Game/Woolf/UI/W_JoinMenu.W_JoinMenu_C:ExecuteUbergraph_W_JoinMenu
+[2019.11.14-20.47.46:712][476]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015e0289ede0, Size=32, Default__W_MainMenu_C Function /Game/Woolf/UI/W_MainMenu.W_MainMenu_C:ExecuteUbergraph_W_MainMenu
+[2019.11.14-20.47.47:094][476]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015e029d0400, Size=528, Default__mainmenuLevel_C Function /Game/Woolf/Maps/Scott_maps/mainmenuLevel/map/mainmenuLevel.mainmenuLevel_C:ExecuteUbergraph_mainmenuLevel
+[2019.11.14-20.47.47:113][476]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015e029d0400, Size=528
+[2019.11.14-20.47.47:113][476]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015e028b4180, Size=528, Default__mainmenuLevel_C Function /Engine/Transient.REINST_mainmenuLevel_C_21:ExecuteUbergraph_mainmenuLevel
+[2019.11.14-20.47.47:129][476]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015e028b4400, Size=528, Default__mainmenuLevel_C Function /Game/Woolf/Maps/Scott_maps/mainmenuLevel/map/mainmenuLevel.mainmenuLevel_C:ExecuteUbergraph_mainmenuLevel
+[2019.11.14-20.47.47:423][476]LogTexture: Display: Building textures: Texture2D_64 (BGRA8, 256X256)
+[2019.11.14-20.47.47:423][476]LogStaticMesh: Building static mesh hay...
+[2019.11.14-20.47.47:903][476]LogStaticMesh: Built static mesh [0.48s] /Game/Woolf/Maps/Scott_maps/mainmenuLevel/hay.hay
+[2019.11.14-20.47.47:982][476]LogStaticMesh: Building static mesh tractor...
+[2019.11.14-20.47.48:420][476]LogStaticMesh: Built static mesh [0.44s] /Game/Woolf/Maps/Scott_maps/mainmenuLevel/tractor.tractor
+[2019.11.14-20.47.48:655][476]LogMaterial: Missing cached shader map for material M_Ground_Grass, compiling. 
+[2019.11.14-20.47.48:900][476]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.11.14-20.47.48:900][476]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.11.14-20.47.48:900][476]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.11.14-20.47.49:052][476]LogStaticMesh: Building static mesh signpost...
+[2019.11.14-20.47.49:330][476]LogStaticMesh: Built static mesh [0.28s] /Game/Woolf/Maps/Scott_maps/mainmenuLevel/signpost.signpost
+[2019.11.14-20.47.49:566][476]LogAIModule: Creating AISystem for world mainmenuLevel
+[2019.11.14-20.47.49:730][476]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015e021e04a0, Size=160
+[2019.11.14-20.47.49:730][476]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015e0283dc60, Size=32
+[2019.11.14-20.47.49:731][476]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015e029b04c0, Size=64
+[2019.11.14-20.47.49:731][476]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015e0f391000, Size=688
+[2019.11.14-20.47.49:732][476]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015e028b4180, Size=528
+[2019.11.14-20.47.49:744][476]LightingResults: New page: Lighting Build
+[2019.11.14-20.47.49:748][476]LoadErrors: New page: Loading map: mainmenuLevel.umap
+[2019.11.14-20.47.49:752][476]MapCheck: New page: Map Check
+[2019.11.14-20.47.49:752][476]LightingResults: New page: Lighting Build
+[2019.11.14-20.47.50:282][476]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.14-20.47.50:706][476]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.14-20.47.51:448][476]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 740.834ms to complete.
+[2019.11.14-20.47.51:451][476]LogFileHelpers: Loading map 'mainmenuLevel' took 1.711
+[2019.11.14-20.48.03:848][976]LogLinker: Warning: Can't find file '/Game/Woolf/Maps/2/NewSheepHeaven_BuiltData'
+[2019.11.14-20.48.03:849][976]LogLinker: Warning: Can't find file for asset '/Game/Woolf/Maps/2/NewSheepHeaven_BuiltData' while loading ../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Content/Woolf/Maps/2/NewSheepHeaven.umap.
+[2019.11.14-20.48.03:849][976]LoadErrors: Error: /Game/Woolf/Maps/2/NewSheepHeaven : Can't find file for asset. /Game/Woolf/Maps/2/NewSheepHeaven_BuiltData
+[2019.11.14-20.48.03:927][976]LogLinker: Warning: Can't find file '/Game/Assets/Angus/FBX/01_-_Default'
+[2019.11.14-20.48.03:927][976]LogLinker: Warning: Can't find file for asset '/Game/Assets/Angus/FBX/01_-_Default' while loading ../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Content/Woolf/Maps/2/Assets/Angus/FBX/SM_Barn_01.uasset.
+[2019.11.14-20.48.03:927][976]LoadErrors: Error: /Game/Woolf/Maps/2/Assets/Angus/FBX/SM_Barn_01 : Can't find file for asset. /Game/Assets/Angus/FBX/01_-_Default
+[2019.11.14-20.48.03:928][976]LogLinker: Warning: Can't find file '/Game/Assets/Angus/FBX/01_-_Default'
+[2019.11.14-20.48.03:928][976]LogLinker: Warning: Can't find file for asset '/Game/Assets/Angus/FBX/01_-_Default' while loading ../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Content/Woolf/Maps/2/Assets/Angus/FBX/SM_Barn_01.uasset.
+[2019.11.14-20.48.03:967][976]LogLinker: Warning: Can't find file '/Game/Assets/Angus/FBX/01_-_Default2'
+[2019.11.14-20.48.03:968][976]LogLinker: Warning: Can't find file for asset '/Game/Assets/Angus/FBX/01_-_Default2' while loading ../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Content/Woolf/Maps/2/Assets/Angus/FBX/SM_OutHouse_01.uasset.
+[2019.11.14-20.48.03:968][976]LoadErrors: Error: /Game/Woolf/Maps/2/Assets/Angus/FBX/SM_OutHouse_01 : Can't find file for asset. /Game/Assets/Angus/FBX/01_-_Default2
+[2019.11.14-20.48.03:969][976]LogLinker: Warning: Can't find file '/Game/Assets/Angus/FBX/01_-_Default2'
+[2019.11.14-20.48.03:969][976]LogLinker: Warning: Can't find file for asset '/Game/Assets/Angus/FBX/01_-_Default2' while loading ../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Content/Woolf/Maps/2/Assets/Angus/FBX/SM_OutHouse_01.uasset.
+[2019.11.14-20.48.03:987][976]LogLinker: Warning: Can't find file '/Game/Assets/Angus/FBX/01_-_Default3'
+[2019.11.14-20.48.03:987][976]LogLinker: Warning: Can't find file for asset '/Game/Assets/Angus/FBX/01_-_Default3' while loading ../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Content/Woolf/Maps/2/Assets/Angus/FBX/SM_Silo_01.uasset.
+[2019.11.14-20.48.03:987][976]LoadErrors: Error: /Game/Woolf/Maps/2/Assets/Angus/FBX/SM_Silo_01 : Can't find file for asset. /Game/Assets/Angus/FBX/01_-_Default3
+[2019.11.14-20.48.03:988][976]LogLinker: Warning: Can't find file '/Game/Assets/Angus/FBX/01_-_Default3'
+[2019.11.14-20.48.03:988][976]LogLinker: Warning: Can't find file for asset '/Game/Assets/Angus/FBX/01_-_Default3' while loading ../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Content/Woolf/Maps/2/Assets/Angus/FBX/SM_Silo_01.uasset.
+[2019.11.14-20.48.04:008][976]LogLinker: Warning: Can't find file '/Game/Assets/Angus/FBX/01_-_Default4'
+[2019.11.14-20.48.04:008][976]LogLinker: Warning: Can't find file for asset '/Game/Assets/Angus/FBX/01_-_Default4' while loading ../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Content/Woolf/Maps/2/Assets/Angus/FBX/SM_Stable_01.uasset.
+[2019.11.14-20.48.04:008][976]LoadErrors: Error: /Game/Woolf/Maps/2/Assets/Angus/FBX/SM_Stable_01 : Can't find file for asset. /Game/Assets/Angus/FBX/01_-_Default4
+[2019.11.14-20.48.04:009][976]LogLinker: Warning: Can't find file '/Game/Assets/Angus/FBX/01_-_Default4'
+[2019.11.14-20.48.04:009][976]LogLinker: Warning: Can't find file for asset '/Game/Assets/Angus/FBX/01_-_Default4' while loading ../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Content/Woolf/Maps/2/Assets/Angus/FBX/SM_Stable_01.uasset.
+[2019.11.14-20.48.04:029][976]LogLinker: Warning: Can't find file '/Game/Assets/Angus/FBX/01_-_Default5'
+[2019.11.14-20.48.04:030][976]LogLinker: Warning: Can't find file for asset '/Game/Assets/Angus/FBX/01_-_Default5' while loading ../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Content/Woolf/Maps/2/Assets/Angus/FBX/SM_Tree_01.uasset.
+[2019.11.14-20.48.04:030][976]LoadErrors: Error: /Game/Woolf/Maps/2/Assets/Angus/FBX/SM_Tree_01 : Can't find file for asset. /Game/Assets/Angus/FBX/01_-_Default5
+[2019.11.14-20.48.04:030][976]LogLinker: Warning: Can't find file '/Game/Assets/Angus/FBX/01_-_Default5'
+[2019.11.14-20.48.04:031][976]LogLinker: Warning: Can't find file for asset '/Game/Assets/Angus/FBX/01_-_Default5' while loading ../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Content/Woolf/Maps/2/Assets/Angus/FBX/SM_Tree_01.uasset.
+[2019.11.14-20.48.04:052][976]LogLinker: Warning: Can't find file '/Game/Assets/Angus/FBX/01_-_Default7'
+[2019.11.14-20.48.04:053][976]LogLinker: Warning: Can't find file for asset '/Game/Assets/Angus/FBX/01_-_Default7' while loading ../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Content/Woolf/Maps/2/Assets/Angus/FBX/SM_WaterTower_01.uasset.
+[2019.11.14-20.48.04:053][976]LoadErrors: Error: /Game/Woolf/Maps/2/Assets/Angus/FBX/SM_WaterTower_01 : Can't find file for asset. /Game/Assets/Angus/FBX/01_-_Default7
+[2019.11.14-20.48.04:054][976]LogLinker: Warning: Can't find file '/Game/Assets/Angus/FBX/01_-_Default7'
+[2019.11.14-20.48.04:054][976]LogLinker: Warning: Can't find file for asset '/Game/Assets/Angus/FBX/01_-_Default7' while loading ../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Content/Woolf/Maps/2/Assets/Angus/FBX/SM_WaterTower_01.uasset.
+[2019.11.14-20.48.04:081][976]LogLinker: Warning: Can't find file '/Game/Assets/Sam/FBX_SAM/lambert9'
+[2019.11.14-20.48.04:082][976]LogLinker: Warning: Can't find file for asset '/Game/Assets/Sam/FBX_SAM/lambert9' while loading ../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Content/Woolf/Maps/2/Assets/Sam/FBX_SAM/Grass.uasset.
+[2019.11.14-20.48.04:082][976]LoadErrors: Error: /Game/Woolf/Maps/2/Assets/Sam/FBX_SAM/Grass : Can't find file for asset. /Game/Assets/Sam/FBX_SAM/lambert9
+[2019.11.14-20.48.04:082][976]LogLinker: Warning: Can't find file '/Game/Assets/Sam/FBX_SAM/lambert9'
+[2019.11.14-20.48.04:083][976]LogLinker: Warning: Can't find file for asset '/Game/Assets/Sam/FBX_SAM/lambert9' while loading ../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Content/Woolf/Maps/2/Assets/Sam/FBX_SAM/Grass.uasset.
+[2019.11.14-20.48.04:101][976]LogLinker: Warning: Can't find file '/Game/Assets/Sam/FBX_SAM/lambert11'
+[2019.11.14-20.48.04:101][976]LogLinker: Warning: Can't find file for asset '/Game/Assets/Sam/FBX_SAM/lambert11' while loading ../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Content/Woolf/Maps/2/Assets/Sam/FBX_SAM/Hay_Bale.uasset.
+[2019.11.14-20.48.04:101][976]LoadErrors: Error: /Game/Woolf/Maps/2/Assets/Sam/FBX_SAM/Hay_Bale : Can't find file for asset. /Game/Assets/Sam/FBX_SAM/lambert11
+[2019.11.14-20.48.04:102][976]LogLinker: Warning: Can't find file '/Game/Assets/Sam/FBX_SAM/lambert11'
+[2019.11.14-20.48.04:102][976]LogLinker: Warning: Can't find file for asset '/Game/Assets/Sam/FBX_SAM/lambert11' while loading ../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Content/Woolf/Maps/2/Assets/Sam/FBX_SAM/Hay_Bale.uasset.
+[2019.11.14-20.48.04:119][976]LogLinker: Warning: Can't find file '/Game/Assets/Sam/FBX_SAM/lambert10'
+[2019.11.14-20.48.04:120][976]LogLinker: Warning: Can't find file for asset '/Game/Assets/Sam/FBX_SAM/lambert10' while loading ../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Content/Woolf/Maps/2/Assets/Sam/FBX_SAM/Hay_Bale_Round.uasset.
+[2019.11.14-20.48.04:120][976]LoadErrors: Error: /Game/Woolf/Maps/2/Assets/Sam/FBX_SAM/Hay_Bale_Round : Can't find file for asset. /Game/Assets/Sam/FBX_SAM/lambert10
+[2019.11.14-20.48.04:120][976]LogLinker: Warning: Can't find file '/Game/Assets/Sam/FBX_SAM/lambert10'
+[2019.11.14-20.48.04:121][976]LogLinker: Warning: Can't find file for asset '/Game/Assets/Sam/FBX_SAM/lambert10' while loading ../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Content/Woolf/Maps/2/Assets/Sam/FBX_SAM/Hay_Bale_Round.uasset.
+[2019.11.14-20.48.04:125][976]LogLinker: Warning: Can't find file '/Game/Woolf/Maps/2/NewSheepHeaven_BuiltData'
+[2019.11.14-20.48.04:125][976]LogLinker: Warning: Can't find file for asset '/Game/Woolf/Maps/2/NewSheepHeaven_BuiltData' while loading ../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Content/Woolf/Maps/2/NewSheepHeaven.umap.
+[2019.11.14-20.48.04:281][976]LogLinker: Warning: Can't find file '/Game/Assets/Angus/FBX/01_-_Default2'
+[2019.11.14-20.48.04:282][976]LoadErrors: Failed to load /Game/Assets/Angus/FBX/01_-_Default2.01_-_Default2 Referenced by SM_OutHouse_01
+[2019.11.14-20.48.04:282][976]LogLinker: Warning: Can't find file for asset '/Game/Assets/Angus/FBX/01_-_Default2' while loading NULL.
+[2019.11.14-20.48.04:283][976]LogLinker: Warning: Can't find file '/Game/Assets/Angus/FBX/01_-_Default2'
+[2019.11.14-20.48.04:283][976]LogLinker: Warning: Can't find file for asset '/Game/Assets/Angus/FBX/01_-_Default2' while loading NULL.
+[2019.11.14-20.48.04:285][976]LogLinker: Warning: Can't find file '/Game/Assets/Angus/FBX/01_-_Default4'
+[2019.11.14-20.48.04:286][976]LoadErrors: Failed to load /Game/Assets/Angus/FBX/01_-_Default4.01_-_Default4 Referenced by SM_Stable_01
+[2019.11.14-20.48.04:286][976]LogLinker: Warning: Can't find file for asset '/Game/Assets/Angus/FBX/01_-_Default4' while loading NULL.
+[2019.11.14-20.48.04:287][976]LogLinker: Warning: Can't find file '/Game/Assets/Angus/FBX/01_-_Default4'
+[2019.11.14-20.48.04:287][976]LogLinker: Warning: Can't find file for asset '/Game/Assets/Angus/FBX/01_-_Default4' while loading NULL.
+[2019.11.14-20.48.04:289][976]LogLinker: Warning: Can't find file '/Game/Assets/Angus/FBX/01_-_Default3'
+[2019.11.14-20.48.04:289][976]LoadErrors: Failed to load /Game/Assets/Angus/FBX/01_-_Default3.01_-_Default3 Referenced by SM_Silo_01
+[2019.11.14-20.48.04:290][976]LogLinker: Warning: Can't find file for asset '/Game/Assets/Angus/FBX/01_-_Default3' while loading NULL.
+[2019.11.14-20.48.04:290][976]LogLinker: Warning: Can't find file '/Game/Assets/Angus/FBX/01_-_Default3'
+[2019.11.14-20.48.04:291][976]LogLinker: Warning: Can't find file for asset '/Game/Assets/Angus/FBX/01_-_Default3' while loading NULL.
+[2019.11.14-20.48.04:332][976]LogLinker: Warning: Can't find file '/Game/Woolf/Maps/2/NewSheepHeaven_BuiltData'
+[2019.11.14-20.48.04:332][976]LoadErrors: Failed to load /Game/Woolf/Maps/2/NewSheepHeaven_BuiltData.NewSheepHeaven_BuiltData Referenced by PersistentLevel
+[2019.11.14-20.48.04:333][976]LogLinker: Warning: Can't find file for asset '/Game/Woolf/Maps/2/NewSheepHeaven_BuiltData' while loading NULL.
+[2019.11.14-20.48.04:353][976]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 64X64)
+[2019.11.14-20.48.04:353][976]LogLinker: Warning: Can't find file '/Game/Assets/Angus/FBX/01_-_Default5'
+[2019.11.14-20.48.04:354][976]LoadErrors: Failed to load /Game/Assets/Angus/FBX/01_-_Default5.01_-_Default5 Referenced by SM_Tree_01
+[2019.11.14-20.48.04:354][976]LogLinker: Warning: Can't find file for asset '/Game/Assets/Angus/FBX/01_-_Default5' while loading NULL.
+[2019.11.14-20.48.04:355][976]LogLinker: Warning: Can't find file '/Game/Assets/Angus/FBX/01_-_Default5'
+[2019.11.14-20.48.04:355][976]LogLinker: Warning: Can't find file for asset '/Game/Assets/Angus/FBX/01_-_Default5' while loading NULL.
+[2019.11.14-20.48.04:357][976]LogLinker: Warning: Can't find file '/Game/Assets/Sam/FBX_SAM/lambert9'
+[2019.11.14-20.48.04:358][976]LoadErrors: Failed to load /Game/Assets/Sam/FBX_SAM/lambert9.lambert9 Referenced by Grass
+[2019.11.14-20.48.04:358][976]LogLinker: Warning: Can't find file for asset '/Game/Assets/Sam/FBX_SAM/lambert9' while loading NULL.
+[2019.11.14-20.48.04:359][976]LogLinker: Warning: Can't find file '/Game/Assets/Sam/FBX_SAM/lambert9'
+[2019.11.14-20.48.04:360][976]LogLinker: Warning: Can't find file for asset '/Game/Assets/Sam/FBX_SAM/lambert9' while loading NULL.
+[2019.11.14-20.48.04:362][976]LogLinker: Warning: Can't find file '/Game/Assets/Angus/FBX/01_-_Default7'
+[2019.11.14-20.48.04:362][976]LoadErrors: Failed to load /Game/Assets/Angus/FBX/01_-_Default7.01_-_Default7 Referenced by SM_WaterTower_01
+[2019.11.14-20.48.04:363][976]LogLinker: Warning: Can't find file for asset '/Game/Assets/Angus/FBX/01_-_Default7' while loading NULL.
+[2019.11.14-20.48.04:364][976]LogLinker: Warning: Can't find file '/Game/Assets/Angus/FBX/01_-_Default7'
+[2019.11.14-20.48.04:364][976]LogLinker: Warning: Can't find file for asset '/Game/Assets/Angus/FBX/01_-_Default7' while loading NULL.
+[2019.11.14-20.48.04:368][976]LogLinker: Warning: Can't find file '/Game/Assets/Sam/FBX_SAM/lambert10'
+[2019.11.14-20.48.04:369][976]LoadErrors: Failed to load /Game/Assets/Sam/FBX_SAM/lambert10.lambert10 Referenced by Hay_Bale_Round
+[2019.11.14-20.48.04:369][976]LogLinker: Warning: Can't find file for asset '/Game/Assets/Sam/FBX_SAM/lambert10' while loading NULL.
+[2019.11.14-20.48.04:370][976]LogLinker: Warning: Can't find file '/Game/Assets/Sam/FBX_SAM/lambert10'
+[2019.11.14-20.48.04:371][976]LogLinker: Warning: Can't find file for asset '/Game/Assets/Sam/FBX_SAM/lambert10' while loading NULL.
+[2019.11.14-20.48.04:372][976]LogLinker: Warning: Can't find file '/Game/Assets/Sam/FBX_SAM/lambert11'
+[2019.11.14-20.48.04:372][976]LoadErrors: Failed to load /Game/Assets/Sam/FBX_SAM/lambert11.lambert11 Referenced by Hay_Bale
+[2019.11.14-20.48.04:373][976]LogLinker: Warning: Can't find file for asset '/Game/Assets/Sam/FBX_SAM/lambert11' while loading NULL.
+[2019.11.14-20.48.04:374][976]LogLinker: Warning: Can't find file '/Game/Assets/Sam/FBX_SAM/lambert11'
+[2019.11.14-20.48.04:374][976]LogLinker: Warning: Can't find file for asset '/Game/Assets/Sam/FBX_SAM/lambert11' while loading NULL.
+[2019.11.14-20.48.04:375][976]LogLinker: Warning: Can't find file '/Game/Assets/Angus/FBX/01_-_Default'
+[2019.11.14-20.48.04:376][976]LoadErrors: Failed to load /Game/Assets/Angus/FBX/01_-_Default.01_-_Default Referenced by SM_Barn_01
+[2019.11.14-20.48.04:376][976]LogLinker: Warning: Can't find file for asset '/Game/Assets/Angus/FBX/01_-_Default' while loading NULL.
+[2019.11.14-20.48.04:377][976]LogLinker: Warning: Can't find file '/Game/Assets/Angus/FBX/01_-_Default'
+[2019.11.14-20.48.04:377][976]LogLinker: Warning: Can't find file for asset '/Game/Assets/Angus/FBX/01_-_Default' while loading NULL.
+[2019.11.14-20.48.04:380][976]LogStaticMesh: Building static mesh SM_OutHouse_01...
+[2019.11.14-20.48.04:427][976]LogStaticMesh: Built static mesh [0.05s] /Game/Woolf/Maps/2/Assets/Angus/FBX/SM_OutHouse_01.SM_OutHouse_01
+[2019.11.14-20.48.04:436][976]LogStaticMesh: Building static mesh SM_Stable_01...
+[2019.11.14-20.48.04:485][976]LogStaticMesh: Built static mesh [0.05s] /Game/Woolf/Maps/2/Assets/Angus/FBX/SM_Stable_01.SM_Stable_01
+[2019.11.14-20.48.04:492][976]LogStaticMesh: Building static mesh SM_Silo_01...
+[2019.11.14-20.48.04:503][976]LogStaticMesh: Built static mesh [0.01s] /Game/Woolf/Maps/2/Assets/Angus/FBX/SM_Silo_01.SM_Silo_01
+[2019.11.14-20.48.04:534][976]LogStaticMesh: Building static mesh Grass...
+[2019.11.14-20.48.05:849][976]LogStaticMesh: Built static mesh [1.32s] /Game/Woolf/Maps/2/Assets/Sam/FBX_SAM/Grass.Grass
+[2019.11.14-20.48.05:980][976]LogStaticMesh: Building static mesh Hay_Bale...
+[2019.11.14-20.48.05:989][976]LogStaticMesh: Built static mesh [0.01s] /Game/Woolf/Maps/2/Assets/Sam/FBX_SAM/Hay_Bale.Hay_Bale
+[2019.11.14-20.48.05:992][976]LogStaticMesh: Building static mesh Hay_Bale_Round...
+[2019.11.14-20.48.06:022][976]LogStaticMesh: Built static mesh [0.03s] /Game/Woolf/Maps/2/Assets/Sam/FBX_SAM/Hay_Bale_Round.Hay_Bale_Round
+[2019.11.14-20.48.06:028][976]LogStaticMesh: Building static mesh SM_Barn_01...
+[2019.11.14-20.48.06:180][976]LogStaticMesh: Built static mesh [0.15s] /Game/Woolf/Maps/2/Assets/Angus/FBX/SM_Barn_01.SM_Barn_01
+[2019.11.14-20.48.06:202][976]LogStaticMesh: Building static mesh SM_Fence_01...
+[2019.11.14-20.48.06:239][976]LogStaticMesh: Built static mesh [0.04s] /Game/Woolf/Maps/2/Assets/Angus/FBX/SM_Fence_01.SM_Fence_01
+[2019.11.14-20.48.06:245][976]LogStaticMesh: Building static mesh SM_Tree_01...
+[2019.11.14-20.48.06:259][976]LogStaticMesh: Built static mesh [0.02s] /Game/Woolf/Maps/2/Assets/Angus/FBX/SM_Tree_01.SM_Tree_01
+[2019.11.14-20.48.06:262][976]LogStaticMesh: Building static mesh SM_WaterTower_01...
+[2019.11.14-20.48.06:317][976]LogStaticMesh: Built static mesh [0.05s] /Game/Woolf/Maps/2/Assets/Angus/FBX/SM_WaterTower_01.SM_WaterTower_01
+[2019.11.14-20.48.06:327][976]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2019.11.14-20.48.06:360][976]LogMaterial: Missing cached shader map for material lambert10, compiling. 
+[2019.11.14-20.48.06:401][976]LogMaterial: Missing cached shader map for material lambert5, compiling. 
+[2019.11.14-20.48.06:436][976]LogAIModule: Creating AISystem for world NewSheepHeaven
+[2019.11.14-20.48.06:512][976]Cmd: MAP LOAD FILE="../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Content/Woolf/Maps/2/NewSheepHeaven.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.14-20.48.06:512][976]LightingResults: New page: Lighting Build
+[2019.11.14-20.48.06:514][976]LoadErrors: New page: Loading map: NewSheepHeaven.umap
+[2019.11.14-20.48.06:516][976]MapCheck: New page: Map Check
+[2019.11.14-20.48.06:516][976]LightingResults: New page: Lighting Build
+[2019.11.14-20.48.06:559][976]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015e028b4400, Size=528
+[2019.11.14-20.48.06:737][976]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.14-20.48.12:652][976]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.14-20.48.13:052][976]LogShaderCompilers: Display: Shaders left to compile 123
+[2019.11.14-20.48.13:052][976]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 400.291ms to complete.
+[2019.11.14-20.48.13:058][976]LogFileHelpers: Loading map 'NewSheepHeaven' took 6.547
+[2019.11.14-20.48.24:303][365]LogShaderCompilers: Display: Shaders left to compile 113
+[2019.11.14-20.48.25:539][404]LogShaderCompilers: Display: Shaders left to compile 103
+[2019.11.14-20.48.36:512][754]LogShaderCompilers: Display: Shaders left to compile 93
+[2019.11.14-20.48.50:401][213]LogShaderCompilers: Display: Shaders left to compile 83
+[2019.11.14-20.48.52:148][271]LogShaderCompilers: Display: Shaders left to compile 73
+[2019.11.14-20.48.52:389][279]LogShaderCompilers: Display: Shaders left to compile 63
+[2019.11.14-20.49.11:991][930]LogShaderCompilers: Display: Shaders left to compile 53
+[2019.11.14-20.49.19:354][173]LogShaderCompilers: Display: Shaders left to compile 43
+[2019.11.14-20.49.19:578][180]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.11.14-20.49.33:633][655]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.11.14-20.49.34:463][683]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.11.14-20.49.50:322][223]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.11.14-20.50.32:577][529]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.14-20.50.51:163][145]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume5)
+[2019.11.14-20.50.53:443][174]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.14-20.50.54:898][218]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.14-20.50.54:910][218]Running C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/MasterBuild.uproject" -game -rocket -progress
+[2019.11.14-20.50.55:970][218]Discovering modules, targets and source code for project...
+[2019.11.14-20.51.34:808][400]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.14-20.51.38:692][460]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.14-20.51.38:937][467]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2019.11.14-20.51.38:963][467]Candidate modules for hot reload:
+[2019.11.14-20.51.38:963][467]  MasterBuild
+[2019.11.14-20.51.38:968][467]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe MasterBuild -ModuleWithSuffix=MasterBuild,1065 Win64 Development -editorrecompile -canskiplink "C:/Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/MasterBuild.uproject" ]
+[2019.11.14-20.51.39:076][467]Warning: Starting HotReload took  0.2s.
+[2019.11.14-20.51.44:640][638]MapCheck: New page: Map Check
+[2019.11.14-20.51.44:687][638]Cmd: MAP REBUILD ALLVISIBLE
+[2019.11.14-20.51.44:688][638]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.11.14-20.51.45:695][638]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2019.11.14-20.51.45:722][638]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.11.14-20.51.45:722][638]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2019.11.14-20.51.45:737][638]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
+[2019.11.14-20.51.45:752][638]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert10, compiling. 
+[2019.11.14-20.51.45:768][638]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert5, compiling. 
+[2019.11.14-20.51.45:779][638]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2019.11.14-20.51.45:794][638]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert1, compiling. 
+[2019.11.14-20.52.42:530][638]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.11.14-20.52.42:828][638]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.11.14-20.52.42:828][638]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.11.14-20.52.42:828][638]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.11.14-20.52.42:829][638]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.11.14-20.52.42:829][638]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.11.14-20.52.42:829][638]TextureStreamingBuild: Display: Compiling optional shaders took 56.850 seconds.
+[2019.11.14-20.52.44:096][638]LogLevel: Display: Export Material TexCoord Scales took 1.266 seconds.
+[2019.11.14-20.52.46:622][638]TextureStreamingBuild: Display: Build Texture Streaming took 2.509 seconds.
+[2019.11.14-20.52.49:103][638]LightingResults: New page: Lighting Build - 14 Nov 2019 20:52:49
+[2019.11.14-20.52.52:225][638]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.11.14-20.52.54:274][638]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.11.14-20.52.54:898][638]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.11.14-20.52.59:566][638]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.11.14-20.52.59:567][638]LogSwarmInterface: [TryOpenConnection] Local Process ID is 158164
+[2019.11.14-20.53.13:936][638]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2019.11.14-20.53.13:939][638]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.11.14-20.53.13:939][638]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.11.14-20.53.13:939][638]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.11.14-20.53.13:939][638]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.11.14-20.53.13:939][638]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.11.14-20.53.16:481][638]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.11.14-20.53.16:481][638]MapCheck: New page: NewSheepHeaven - 14 Nov 2019 20:53:16
+[2019.11.14-20.53.16:483][638]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2019.11.14-20.53.16:905][638]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 423.222ms to complete.
+[2019.11.14-20.53.16:933][638]LogEditorBuildUtils: Build time 1:32
+[2019.11.14-20.53.16:988][638]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
+[2019.11.14-20.53.17:001][638]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
+[2019.11.14-20.53.17:118][638]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.11.14-20.53.17:118][638]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.11.14-20.53.18:085][639]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_2, compiling. 
+[2019.11.14-20.53.18:095][639]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.11.14-20.53.18:096][639]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_2, compiling. 
+[2019.11.14-20.53.18:250][640]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert10, compiling. 
+[2019.11.14-20.53.18:266][640]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert10, compiling. 
+[2019.11.14-20.53.18:889][641]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert5, compiling. 
+[2019.11.14-20.53.18:913][641]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert5, compiling. 
+[2019.11.14-20.53.19:425][642]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_102, compiling. 
+[2019.11.14-20.53.19:439][642]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_102, compiling. 
+[2019.11.14-20.54.00:570][705]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert1, compiling. 
+[2019.11.14-20.54.00:602][705]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert1, compiling. 
+[2019.11.14-20.56.20:085][707]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.11.14-20.56.20:085][707]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.11.14-20.56.20:095][707]LogSlate: Window 'Message Log' being destroyed
+[2019.11.14-20.56.20:113][707]LogSlate: Window 'Message Log' being destroyed
+[2019.11.14-20.56.20:116][707]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.14-20.57.37:110][853]LightingResults: Warning: Grass Object has overlapping UVs.
+[2019.11.14-20.57.37:110][853]LightingResults: Grass Lightmap UV are overlapping by 71.1%. Please adjust content - Enable Error Coloring to visualize.
+[2019.11.14-20.57.40:338][950]LightingResults: Warning: Grass Object has overlapping UVs.
+[2019.11.14-20.57.40:338][950]LightingResults: Grass Lightmap UV are overlapping by 71.1%. Please adjust content - Enable Error Coloring to visualize.
+[2019.11.14-20.57.44:335][ 69]LightingResults: Warning: Grass Object has overlapping UVs.
+[2019.11.14-20.57.44:336][ 69]LightingResults: Grass Lightmap UV are overlapping by 71.1%. Please adjust content - Enable Error Coloring to visualize.
+[2019.11.14-20.57.51:446][284]LightingResults: Warning: Grass Object has overlapping UVs.
+[2019.11.14-20.57.51:447][284]LightingResults: Grass Lightmap UV are overlapping by 71.1%. Please adjust content - Enable Error Coloring to visualize.
+[2019.11.14-20.58.04:971][648]LogSavePackage: Save=734.79ms
+[2019.11.14-20.58.04:973][648]LogSavePackage: Moving '../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Saved/NewSheepHeaven_Auto1E0ABCA71447C254248C181998779E2F8.tmp' to '../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Saved/Autosaves/Game/Woolf/Maps/2/NewSheepHeaven_Auto1.umap'
+[2019.11.14-20.58.04:984][648]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Saved/Autosaves/Game/Woolf/Maps/2/NewSheepHeaven_Auto1.umap
+[2019.11.14-20.58.05:012][648]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Woolf/Maps/2/NewSheepHeaven' took 0.958
+[2019.11.14-20.58.05:013][648]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.958
+[2019.11.14-20.58.36:549][534]LightingResults: Warning: Grass Object has overlapping UVs.
+[2019.11.14-20.58.36:549][534]LightingResults: Grass Lightmap UV are overlapping by 71.1%. Please adjust content - Enable Error Coloring to visualize.
+[2019.11.14-20.58.41:671][682]LightingResults: Warning: Grass Object has overlapping UVs.
+[2019.11.14-20.58.41:671][682]LightingResults: Grass Lightmap UV are overlapping by 71.1%. Please adjust content - Enable Error Coloring to visualize.
+[2019.11.14-20.58.45:858][803]LightingResults: Warning: Grass Object has overlapping UVs.
+[2019.11.14-20.58.45:858][803]LightingResults: Grass Lightmap UV are overlapping by 71.1%. Please adjust content - Enable Error Coloring to visualize.
+[2019.11.14-20.59.05:448][924]LightingResults: Warning: Grass Object has overlapping UVs.
+[2019.11.14-20.59.05:448][924]LightingResults: Grass Lightmap UV are overlapping by 71.1%. Please adjust content - Enable Error Coloring to visualize.
+[2019.11.14-20.59.05:449][924]LightingResults: Warning: Grass Object has overlapping UVs.
+[2019.11.14-20.59.05:449][924]LightingResults: Grass Lightmap UV are overlapping by 71.1%. Please adjust content - Enable Error Coloring to visualize.
+[2019.11.14-20.59.05:449][924]LightingResults: Warning: Grass Object has overlapping UVs.
+[2019.11.14-20.59.05:449][924]LightingResults: Grass Lightmap UV are overlapping by 71.1%. Please adjust content - Enable Error Coloring to visualize.
+[2019.11.14-20.59.05:449][924]LightingResults: Warning: Grass Object has overlapping UVs.
+[2019.11.14-20.59.05:449][924]LightingResults: Grass Lightmap UV are overlapping by 71.1%. Please adjust content - Enable Error Coloring to visualize.
+[2019.11.14-20.59.05:449][924]LightingResults: Warning: Grass Object has overlapping UVs.
+[2019.11.14-20.59.05:449][924]LightingResults: Grass Lightmap UV are overlapping by 71.1%. Please adjust content - Enable Error Coloring to visualize.
+[2019.11.14-20.59.05:450][924]LightingResults: Warning: Grass Object has overlapping UVs.
+[2019.11.14-20.59.05:450][924]LightingResults: Grass Lightmap UV are overlapping by 71.1%. Please adjust content - Enable Error Coloring to visualize.
+[2019.11.14-20.59.05:450][924]LightingResults: Warning: Grass Object has overlapping UVs.
+[2019.11.14-20.59.05:450][924]LightingResults: Grass Lightmap UV are overlapping by 71.1%. Please adjust content - Enable Error Coloring to visualize.
+[2019.11.14-20.59.05:450][924]LightingResults: Warning: Grass Object has overlapping UVs.
+[2019.11.14-20.59.05:450][924]LightingResults: Grass Lightmap UV are overlapping by 71.1%. Please adjust content - Enable Error Coloring to visualize.
+[2019.11.14-20.59.07:145][976]Job is a success!
+[2019.11.14-20.59.07:215][977]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.14-20.59.07:394][977]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.139s
+[2019.11.14-20.59.07:394][977]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2019.11.14-20.59.07:394][977]LogVolumetricLightmapImport:      BrickData 520x5x5 = 0.5Mb
+[2019.11.14-20.59.07:394][977]LogVolumetricLightmapImport:      Bricks at Level
+[2019.11.14-20.59.07:394][977]LogVolumetricLightmapImport:          0: 1.0% covering 100.0% of volume
+[2019.11.14-20.59.07:394][977]LogVolumetricLightmapImport:          1: 8.7% covering 14.1% of volume
+[2019.11.14-20.59.07:394][977]LogVolumetricLightmapImport:          2: 90.4% covering 2.3% of volume
+[2019.11.14-20.59.13:751][977]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2019.11.14-20.59.13:751][977]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2019.11.14-20.59.13:751][977]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2019.11.14-20.59.13:751][977]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2019.11.14-20.59.13:952][977]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2019.11.14-20.59.14:200][977]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X512)
+[2019.11.14-20.59.14:472][977]Lightmass on LAPTOP-6PKU92GL: 2:34 min total, 6.06 sec importing, 2.99 sec setup, 41.0 sec photons, 1:42 min processing, 0 ms extra exporting [160/160 mappings]. Threads: 6:31 min total, 4:04 min processing.
+[2019.11.14-20.59.14:584][977]LogStaticLightingSystem: Illumination: 6:25 min (5.44 sec encoding lightmaps, 442 ms encoding shadowmaps)
+[2019.11.14-20.59.14:584][977]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (2.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2019.11.14-20.59.14:584][977]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2019.11.14-20.59.15:311][977]DumpUnbuiltLightIteractions
+[2019.11.14-20.59.15:311][977]Lights with unbuilt interactions: 0
+[2019.11.14-20.59.15:311][977]
+[2019.11.14-20.59.15:311][977]Primitives with unbuilt interactions: 0
+[2019.11.14-20.59.16:299][978]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.11.14-20.59.16:300][978]MapCheck: New page: NewSheepHeaven - 14 Nov 2019 20:59:16
+[2019.11.14-20.59.16:979][978]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 679.997ms to complete.
+[2019.11.14-20.59.20:761][ 77]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.14-20.59.20:943][ 85]LogSlate: Window 'Message Log' being destroyed
+[2019.11.14-20.59.20:954][ 85]LogSlate: Window 'Message Log' being destroyed
+[2019.11.14-20.59.24:403][188]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.14-21.03.48:621][214]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.14-21.05.27:663][545]CompilerResultsLog: New page: Compilation - 14 Nov 2019 21:05:27
+[2019.11.14-21.05.27:669][545]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.11.14-21.05.27:669][545]CompilerResultsLog: Creating makefile for hot reloading MasterBuild (new files with reflected types)
+[2019.11.14-21.05.27:669][545]CompilerResultsLog: Compiling game modules for hot reload
+[2019.11.14-21.05.27:669][545]CompilerResultsLog: Parsing headers for MasterBuildEditor
+[2019.11.14-21.05.27:670][545]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\hello\OneDrive\Documents\GitHub\BetaArcade\MasterBuild\MasterBuild.uproject" "C:\Users\hello\OneDrive\Documents\GitHub\BetaArcade\MasterBuild\Intermediate\Build\Win64\MasterBuildEditor\Development\MasterBuildEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.11.14-21.05.27:670][545]CompilerResultsLog: Reflection code generated for MasterBuildEditor in 56.5645813 seconds
+[2019.11.14-21.05.27:670][545]CompilerResultsLog: Performing 17 actions (2 in parallel)
+[2019.11.14-21.05.27:671][545]CompilerResultsLog: PickUpBase.gen.cpp
+[2019.11.14-21.05.27:671][545]CompilerResultsLog: ABigModePickUp.gen.cpp
+[2019.11.14-21.05.27:671][545]CompilerResultsLog: Char_Wolf.gen.cpp
+[2019.11.14-21.05.27:671][545]CompilerResultsLog: MasterBuild.init.gen.cpp
+[2019.11.14-21.05.27:671][545]CompilerResultsLog: BTTask_RunAway.gen.cpp
+[2019.11.14-21.05.27:671][545]CompilerResultsLog: ASpeedUpPickUp.gen.cpp
+[2019.11.14-21.05.27:672][545]CompilerResultsLog: ASlowDownPickUp.gen.cpp
+[2019.11.14-21.05.27:672][545]CompilerResultsLog: Char_Wolf.cpp
+[2019.11.14-21.05.27:672][545]CompilerResultsLog: PickUpBase.cpp
+[2019.11.14-21.05.27:672][545]CompilerResultsLog: ASlowDownPickUp.cpp
+[2019.11.14-21.05.27:672][545]CompilerResultsLog: ASpeedUpPickUp.cpp
+[2019.11.14-21.05.27:672][545]CompilerResultsLog: ABigModePickUp.cpp
+[2019.11.14-21.05.27:672][545]CompilerResultsLog: BTTask_RunAway.cpp
+[2019.11.14-21.05.27:672][545]CompilerResultsLog: BTTask_Move.cpp
+[2019.11.14-21.05.27:673][545]CompilerResultsLog: BTService_CheckForPlayer.cpp
+[2019.11.14-21.05.27:673][545]CompilerResultsLog: [16/17] Link UE4Editor-MasterBuild-1065.dll
+[2019.11.14-21.05.27:673][545]CompilerResultsLog: [17/17] Link UE4Editor-MasterBuild-1065.lib
+[2019.11.14-21.05.27:673][545]CompilerResultsLog:    Creating library C:\Users\hello\OneDrive\Documents\GitHub\BetaArcade\MasterBuild\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MasterBuild-1065.lib and object C:\Users\hello\OneDrive\Documents\GitHub\BetaArcade\MasterBuild\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MasterBuild-1065.exp
+[2019.11.14-21.05.27:674][545]CompilerResultsLog:    Creating library C:\Users\hello\OneDrive\Documents\GitHub\BetaArcade\MasterBuild\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MasterBuild-1065.suppressed.lib and object C:\Users\hello\OneDrive\Documents\GitHub\BetaArcade\MasterBuild\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MasterBuild-1065.suppressed.exp
+[2019.11.14-21.05.27:674][545]CompilerResultsLog: Total build time: 825.31 seconds (Local executor: 555.01 seconds)
+[2019.11.14-21.05.27:676][545]LogMainFrame: MainFrame: Module compiling took 828.739 seconds
+[2019.11.14-21.05.31:261][545]LogClass: Could not find existing class ABigModePickUp in package /Script/MasterBuild for HotReload, assuming new class
+[2019.11.14-21.05.31:262][545]LogClass: Could not find existing class PickUpBase in package /Script/MasterBuild for HotReload, assuming new class
+[2019.11.14-21.05.31:269][545]LogClass: Function OnOverlapStart is new.
+[2019.11.14-21.05.31:276][545]LogClass: Could not find existing class ASlowDownPickUp in package /Script/MasterBuild for HotReload, assuming new class
+[2019.11.14-21.05.31:277][545]LogClass: Could not find existing class ASpeedUpPickUp in package /Script/MasterBuild for HotReload, assuming new class
+[2019.11.14-21.05.31:293][545]LogClass: Could not find existing class BTTask_RunAway in package /Script/MasterBuild for HotReload, assuming new class
+[2019.11.14-21.05.31:293][545]LogClass: Could not find existing class Char_Wolf in package /Script/MasterBuild for HotReload, assuming new class
+[2019.11.14-21.05.31:293][545]LogClass: Function OnEnemyOverlapStart is new.
+[2019.11.14-21.05.31:294][545]LogClass: Function OnOverlapEnd is new.
+[2019.11.14-21.05.31:294][545]LogClass: Function OnOverlapStart is new.
+[2019.11.14-21.05.31:294][545]LogClass: Function SetupOverlapEvents is new.
+[2019.11.14-21.05.44:676][545]LogStats: FPlatformStackWalk::StackWalkAndDump - 13.018 s
+[2019.11.14-21.05.44:676][545]LogOutputDevice: Error: === Handled ensure: ===
+[2019.11.14-21.05.44:677][545]LogOutputDevice: Error: 
+[2019.11.14-21.05.44:677][545]LogOutputDevice: Error: Ensure condition failed: AttachmentRules.LocationRule == EAttachmentRule::KeepRelative && AttachmentRules.RotationRule == EAttachmentRule::KeepRelative && AttachmentRules.ScaleRule == EAttachmentRule::KeepRelative [File:D:\Build\++UE4+Release-4.19+Compile\Sync\Engine\Source\Runtime\Engine\Private\Components\SceneComponent.cpp] [Line: 1678]
+[2019.11.14-21.05.44:677][545]LogOutputDevice: Error: AttachToComponent when called from a constructor is only setting up attachment and will always be treated as KeepRelative. Consider calling SetupAttachment directly instead.
+[2019.11.14-21.05.44:677][545]LogOutputDevice: Error: Stack: 
+[2019.11.14-21.05.44:677][545]LogOutputDevice: Error: [Callstack] 0x00000000E449B706 UE4Editor-Core.dll!UnknownFunction []
+[2019.11.14-21.05.44:677][545]LogOutputDevice: Error: [Callstack] 0x00000000E41FAE3A UE4Editor-Core.dll!UnknownFunction []
+[2019.11.14-21.05.44:677][545]LogOutputDevice: Error: [Callstack] 0x00000000E420ECD6 UE4Editor-Core.dll!UnknownFunction []
+[2019.11.14-21.05.44:677][545]LogOutputDevice: Error: [Callstack] 0x00000000FC3DE0F8 UE4Editor-Engine.dll!UnknownFunction []
+[2019.11.14-21.05.44:677][545]LogOutputDevice: Error: [Callstack] 0x00000000D2A7B0C3 UE4Editor-MasterBuild-1065.dll!AChar_Wolf::AChar_Wolf() [c:\users\hello\onedrive\documents\github\betaarcade\masterbuild\source\masterbuild\player\char_wolf.cpp:13]
+[2019.11.14-21.05.44:677][545]LogOutputDevice: Error: [Callstack] 0x00000000FB7B54F8 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.11.14-21.05.44:677][545]LogOutputDevice: Error: [Callstack] 0x00000000FBA47D30 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.11.14-21.05.44:677][545]LogOutputDevice: Error: [Callstack] 0x00000000FBA294A2 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.11.14-21.05.44:677][545]LogOutputDevice: Error: [Callstack] 0x00000000FB7BA7F7 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.11.14-21.05.44:677][545]LogOutputDevice: Error: [Callstack] 0x00000000E40A4190 UE4Editor-Core.dll!UnknownFunction []
+[2019.11.14-21.05.44:677][545]LogOutputDevice: Error: [Callstack] 0x00000000E42B5E91 UE4Editor-Core.dll!UnknownFunction []
+[2019.11.14-21.05.44:677][545]LogOutputDevice: Error: [Callstack] 0x00000000E42B5207 UE4Editor-Core.dll!UnknownFunction []
+[2019.11.14-21.05.44:677][545]LogOutputDevice: Error: [Callstack] 0x00000000C4E5317C UE4Editor-HotReload.dll!UnknownFunction []
+[2019.11.14-21.05.44:677][545]LogOutputDevice: Error: [Callstack] 0x00000000C4E50677 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.11.14-21.05.44:677][545]LogOutputDevice: Error: [Callstack] 0x00000000C4E51040 UE4Editor-HotReload.dll!UnknownFunction []
+[2019.11.14-21.05.44:677][545]LogOutputDevice: Error: [Callstack] 0x00000000C4E63BEE UE4Editor-HotReload.dll!UnknownFunction []
+[2019.11.14-21.05.44:678][545]LogOutputDevice: Error: [Callstack] 0x00000000E40EB646 UE4Editor-Core.dll!UnknownFunction []
+[2019.11.14-21.05.44:678][545]LogOutputDevice: Error: [Callstack] 0x0000000004868503 UE4Editor.exe!UnknownFunction []
+[2019.11.14-21.05.44:678][545]LogOutputDevice: Error: [Callstack] 0x0000000004876BD0 UE4Editor.exe!UnknownFunction []
+[2019.11.14-21.05.44:678][545]LogOutputDevice: Error: [Callstack] 0x0000000004876C4A UE4Editor.exe!UnknownFunction []
+[2019.11.14-21.05.44:678][545]LogOutputDevice: Error: [Callstack] 0x0000000004884177 UE4Editor.exe!UnknownFunction []
+[2019.11.14-21.05.44:678][545]LogOutputDevice: Error: [Callstack] 0x0000000004885B87 UE4Editor.exe!UnknownFunction []
+[2019.11.14-21.05.44:678][545]LogOutputDevice: Error: [Callstack] 0x00000000517A7BD4 KERNEL32.DLL!UnknownFunction []
+[2019.11.14-21.05.44:678][545]LogOutputDevice: Error: [Callstack] 0x0000000052F2CED1 ntdll.dll!UnknownFunction []
+[2019.11.14-21.05.44:678][545]LogOutputDevice: Error: 
+[2019.11.14-21.05.44:687][545]LogStats:                SubmitErrorReport -  0.000 s
+[2019.11.14-21.05.52:250][545]LogStats:                    SendNewReport -  7.564 s
+[2019.11.14-21.05.52:250][545]LogStats:             FDebug::EnsureFailed - 20.594 s
+[2019.11.14-21.05.52:288][545]LogHotReload: Re-instancing Char_Wolf after hot-reload.
+[2019.11.14-21.05.52:741][545]LogHotReload: Re-instancing PickUpBase after hot-reload.
+[2019.11.14-21.05.52:947][545]LogContentBrowser: Native class hierarchy updated for 'MasterBuild' in 0.0187 seconds. Added 12 classes and 5 folders.
+[2019.11.14-21.05.52:952][545]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.11.14-21.05.53:170][545]LogContentBrowser: Native class hierarchy populated in 0.0615 seconds. Added 2465 classes and 565 folders.
+[2019.11.14-21.05.53:241][545]Display: HotReload took 854.3s.
+[2019.11.14-21.05.55:653][552]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.14-21.05.58:609][622]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.14-21.06.01:052][696]Candidate modules for hot reload:
+[2019.11.14-21.06.01:052][696]  MasterBuild
+[2019.11.14-21.06.01:053][696]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe MasterBuild -ModuleWithSuffix=MasterBuild,2642 Win64 Development -editorrecompile -canskiplink "C:/Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/MasterBuild.uproject" ]
+[2019.11.14-21.06.01:087][696]Warning: Starting HotReload took  0.3s.
+[2019.11.14-21.06.19:104][323]CompilerResultsLog: New page: Compilation - 14 Nov 2019 21:06:19
+[2019.11.14-21.06.19:104][323]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.11.14-21.06.19:104][323]CompilerResultsLog: Compiling game modules for hot reload
+[2019.11.14-21.06.19:104][323]CompilerResultsLog: Target is up to date
+[2019.11.14-21.06.19:104][323]CompilerResultsLog: Total build time: 16.87 seconds (NoActionsToExecute executor: 0.01 seconds)
+[2019.11.14-21.06.19:104][323]LogMainFrame: MainFrame: Module compiling took 18.061 seconds
+[2019.11.14-21.06.19:191][323]LogContentBrowser: Native class hierarchy populated in 0.0481 seconds. Added 2465 classes and 565 folders.
+[2019.11.14-21.06.19:201][323]Display: HotReload took 18.4s.
+[2019.11.14-21.08.24:370][978]LogSavePackage: Save=922.18ms
+[2019.11.14-21.08.24:370][978]LogSavePackage: Moving '../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Saved/NewSheepHeaven_Auto2F14F1E4A453D242C7715EC9CF9F5E6B8.tmp' to '../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Saved/Autosaves/Game/Woolf/Maps/2/NewSheepHeaven_Auto2.umap'
+[2019.11.14-21.08.24:385][978]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Saved/Autosaves/Game/Woolf/Maps/2/NewSheepHeaven_Auto2.umap
+[2019.11.14-21.08.24:413][978]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Woolf/Maps/2/NewSheepHeaven' took 1.163
+[2019.11.14-21.08.24:413][978]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.163
+[2019.11.14-21.08.24:428][978]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Woolf/Maps/2/NewSheepHeaven_BuiltData] ([1] browsable assets)...
+[2019.11.14-21.08.24:428][978]OBJ SavePackage: Finished generating thumbnails for package [/Game/Woolf/Maps/2/NewSheepHeaven_BuiltData]
+[2019.11.14-21.08.24:490][978]LogSavePackage: Save=51.22ms
+[2019.11.14-21.08.24:490][978]LogSavePackage: Moving '../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Saved/NewSheepHeaven_BuiltData_Auto2FCE9071C4E36C8E94B6EB184BA8ABAAD.tmp' to '../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Saved/Autosaves/Game/Woolf/Maps/2/NewSheepHeaven_BuiltData_Auto2.uasset'
+[2019.11.14-21.08.24:500][978]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Saved/Autosaves/Game/Woolf/Maps/2/NewSheepHeaven_BuiltData_Auto2.uasset
+[2019.11.14-21.08.24:500][978]LogFileHelpers: Auto-saving content packages took 0.080
+[2019.11.14-21.11.38:802][801]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.14-21.11.38:991][807]Candidate modules for hot reload:
+[2019.11.14-21.11.38:991][807]  MasterBuild
+[2019.11.14-21.11.38:991][807]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe MasterBuild -ModuleWithSuffix=MasterBuild,2319 Win64 Development -editorrecompile -canskiplink "C:/Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/MasterBuild.uproject" ]
+[2019.11.14-21.11.39:021][807]Warning: Starting HotReload took  0.1s.
+[2019.11.14-21.11.57:018][431]CompilerResultsLog: New page: Compilation - 14 Nov 2019 21:11:57
+[2019.11.14-21.11.57:018][431]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.11.14-21.11.57:018][431]CompilerResultsLog: Compiling game modules for hot reload
+[2019.11.14-21.11.57:018][431]CompilerResultsLog: Target is up to date
+[2019.11.14-21.11.57:018][431]CompilerResultsLog: Total build time: 16.11 seconds (NoActionsToExecute executor: 0.06 seconds)
+[2019.11.14-21.11.57:018][431]LogMainFrame: MainFrame: Module compiling took 18.034 seconds
+[2019.11.14-21.11.57:123][431]LogContentBrowser: Native class hierarchy populated in 0.0749 seconds. Added 2465 classes and 565 folders.
+[2019.11.14-21.11.57:134][431]Display: HotReload took 18.2s.
+[2019.11.14-21.12.39:313][664]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2019.11.14-21.12.39:532][664]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.14-21.12.40:974][724]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.11.14-21.12.41:479][738]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.11.14-21.12.42:364][750]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.14-21.13.00:779][280]LogSlate: Window 'Delete Assets' being destroyed
+[2019.11.14-21.13.16:736][469]LogSlate: Window 'Delete Assets' being destroyed
+[2019.11.14-21.13.22:220][527]LogSlate: Window 'Delete Assets' being destroyed
+[2019.11.14-21.14.03:101][585]LogSlate: Took 0.036745 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.11.14-21.14.12:358][691]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0361 seconds. Added 116 classes and 0 folders.
+[2019.11.14-21.14.14:435][691]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015e7e3680e0, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2019.11.14-21.14.14:438][691]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015e7e3680d8, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2019.11.14-21.14.16:242][691]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2019.11.14-21.14.16:273][691]LogActor: Warning: ASpeedUpPickUp_C /Engine/Transient.World_1:PersistentLevel.ASpeedUpPickUp_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.14-21.14.16:843][691]LogRenderer: Reallocating scene render targets to support 856x588 Format 9 NumSamples 1 (Frame:1).
+[2019.11.14-21.14.20:491][724]LogSlate: Took 0.041061 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.11.14-21.14.28:371][871]LogActor: Warning: ASpeedUpPickUp_C /Engine/Transient.World_2:PersistentLevel.ASpeedUpPickUp_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.14-21.14.32:179][912]BlueprintLog: New page: Compile ASpeedUpPickUp
+[2019.11.14-21.14.32:262][912]LogActor: Warning: ASpeedUpPickUp_C /Engine/Transient.World_1:PersistentLevel.ASpeedUpPickUp_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.14-21.14.32:269][912]LogActor: Warning: ASpeedUpPickUp_C /Engine/Transient.World_2:PersistentLevel.ASpeedUpPickUp_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.14-21.14.33:206][912]LogActor: Warning: ASpeedUpPickUp_C /Engine/Transient.World_2:PersistentLevel.ASpeedUpPickUp_C_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.14-21.14.46:257][223]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Source/MasterBuild/PickUps/ABigModePickUp.h'
+[2019.11.14-21.14.59:327][424]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2019.11.14-21.14.59:334][424]LogActor: Warning: ABigModePickUp_C /Engine/Transient.World_3:PersistentLevel.ABigModePickUp_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.14-21.15.08:525][635]LogActor: Warning: ABigModePickUp_C /Engine/Transient.World_4:PersistentLevel.ABigModePickUp_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.14-21.15.10:920][656]BlueprintLog: New page: Compile ABigModePickUp
+[2019.11.14-21.15.10:996][656]LogActor: Warning: ABigModePickUp_C /Engine/Transient.World_3:PersistentLevel.ABigModePickUp_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.14-21.15.10:997][656]LogActor: Warning: ABigModePickUp_C /Engine/Transient.World_4:PersistentLevel.ABigModePickUp_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.14-21.15.11:913][656]LogActor: Warning: ABigModePickUp_C /Engine/Transient.World_4:PersistentLevel.ABigModePickUp_C_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.14-21.15.20:553][812]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.11.14-21.15.21:487][829]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.14-21.15.31:745][119]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2019.11.14-21.15.31:753][119]LogActor: Warning: ASlowDownPickUp_C /Engine/Transient.World_5:PersistentLevel.ASlowDownPickUp_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.14-21.16.15:976][177]LogActor: Warning: ASlowDownPickUp_C /Engine/Transient.World_6:PersistentLevel.ASlowDownPickUp_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.14-21.16.18:649][205]BlueprintLog: New page: Compile ASlowDownPickUp
+[2019.11.14-21.16.18:733][205]LogActor: Warning: ASlowDownPickUp_C /Engine/Transient.World_5:PersistentLevel.ASlowDownPickUp_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.14-21.16.18:736][205]LogActor: Warning: ASlowDownPickUp_C /Engine/Transient.World_6:PersistentLevel.ASlowDownPickUp_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.14-21.16.19:868][205]LogActor: Warning: ASlowDownPickUp_C /Engine/Transient.World_6:PersistentLevel.ASlowDownPickUp_C_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.14-21.17.06:910][784]LogActor: Warning: ASpeedUpPickUp_C /Game/Woolf/Maps/2/NewSheepHeaven.NewSheepHeaven:PersistentLevel.ASpeedUpPickUp_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.14-21.17.08:377][819]LogActor: Warning: ASpeedUpPickUp_C /Game/Woolf/Maps/2/NewSheepHeaven.NewSheepHeaven:PersistentLevel.ASpeedUpPickUp_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.14-21.17.11:159][897]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.14-21.17.11:409][906]LogActor: Warning: ASlowDownPickUp_C /Game/Woolf/Maps/2/NewSheepHeaven.NewSheepHeaven:PersistentLevel.ASlowDownPickUp_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.14-21.17.13:011][953]LogActor: Warning: ASlowDownPickUp_C /Game/Woolf/Maps/2/NewSheepHeaven.NewSheepHeaven:PersistentLevel.ASlowDownPickUp_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.14-21.17.14:066][979]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.14-21.17.14:398][994]LogActor: Warning: ABigModePickUp_C /Game/Woolf/Maps/2/NewSheepHeaven.NewSheepHeaven:PersistentLevel.ABigModePickUp_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.14-21.17.16:018][ 38]LogActor: Warning: ABigModePickUp_C /Game/Woolf/Maps/2/NewSheepHeaven.NewSheepHeaven:PersistentLevel.ABigModePickUp_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.14-21.17.29:706][340]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.14-21.18.28:439][510]LogSavePackage: Save=1657.85ms
+[2019.11.14-21.18.28:439][510]LogSavePackage: Moving '../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Saved/NewSheepHeaven_Auto33CA613034B01BA61F500EEBA474A77AF.tmp' to '../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Saved/Autosaves/Game/Woolf/Maps/2/NewSheepHeaven_Auto3.umap'
+[2019.11.14-21.18.28:476][510]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Saved/Autosaves/Game/Woolf/Maps/2/NewSheepHeaven_Auto3.umap
+[2019.11.14-21.18.28:515][510]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Woolf/Maps/2/NewSheepHeaven' took 3.087
+[2019.11.14-21.18.28:515][510]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.087
+[2019.11.14-21.18.28:591][510]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ASpeedUpPickUp] ([1] browsable assets)...
+[2019.11.14-21.18.28:671][510]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ASpeedUpPickUp.ASpeedUpPickUp]
+[2019.11.14-21.18.28:671][510]OBJ SavePackage: Finished generating thumbnails for package [/Game/ASpeedUpPickUp]
+[2019.11.14-21.18.28:840][510]LogSavePackage: Save=131.62ms
+[2019.11.14-21.18.28:840][510]LogSavePackage: Moving '../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Saved/ASpeedUpPickUp_Auto3324F04D74529FD77EA2511BE78ED50DE.tmp' to '../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Saved/Autosaves/Game/ASpeedUpPickUp_Auto3.uasset'
+[2019.11.14-21.18.28:890][510]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Saved/Autosaves/Game/ASpeedUpPickUp_Auto3.uasset
+[2019.11.14-21.18.28:907][510]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ABigModePickUp] ([1] browsable assets)...
+[2019.11.14-21.18.28:975][510]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ABigModePickUp.ABigModePickUp]
+[2019.11.14-21.18.28:975][510]OBJ SavePackage: Finished generating thumbnails for package [/Game/ABigModePickUp]
+[2019.11.14-21.18.30:492][510]LogSavePackage: Save=1124.69ms
+[2019.11.14-21.18.30:492][510]LogSavePackage: Moving '../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Saved/ABigModePickUp_Auto36DD4DBF94A560C962796D991E4C79180.tmp' to '../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Saved/Autosaves/Game/ABigModePickUp_Auto3.uasset'
+[2019.11.14-21.18.30:522][510]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Saved/Autosaves/Game/ABigModePickUp_Auto3.uasset
+[2019.11.14-21.18.30:549][510]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ASlowDownPickUp] ([1] browsable assets)...
+[2019.11.14-21.18.30:619][510]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ASlowDownPickUp.ASlowDownPickUp]
+[2019.11.14-21.18.30:619][510]OBJ SavePackage: Finished generating thumbnails for package [/Game/ASlowDownPickUp]
+[2019.11.14-21.18.31:038][510]LogSavePackage: Save=348.47ms
+[2019.11.14-21.18.31:038][510]LogSavePackage: Moving '../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Saved/ASlowDownPickUp_Auto3F2104E674A9289EEA89DF78C379C1BCB.tmp' to '../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Saved/Autosaves/Game/ASlowDownPickUp_Auto3.uasset'
+[2019.11.14-21.18.31:271][510]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/hello/OneDrive/Documents/GitHub/BetaArcade/MasterBuild/Saved/Autosaves/Game/ASlowDownPickUp_Auto3.uasset
+[2019.11.14-21.18.31:272][510]LogFileHelpers: Auto-saving content packages took 2.745
+[2019.11.14-21.18.50:952][611]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.14-21.18.51:109][611]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.14-21.18.51:117][611]LogOnline: Display: OSS: FOnlineSubsystemNull::Shutdown()
+[2019.11.14-21.18.51:122][611]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Stop() ActiveTask:0000000000000000 Tasks[0/0]
+[2019.11.14-21.18.51:154][611]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() started
+[2019.11.14-21.18.51:155][611]LogOnline: Display: OSS: FOnlineAsyncTaskManager::Exit() finished
+[2019.11.14-21.18.51:155][611]PIE: New page: PIE session: NewSheepHeaven (14 Nov 2019 21:18:51)
+[2019.11.14-21.18.51:350][611]LogPlayLevel: Creating play world package: /Game/Woolf/Maps/2/UEDPIE_0_NewSheepHeaven
+[2019.11.14-21.18.51:559][611]LogPlayLevel: PIE: StaticDuplicateObject took: (0.208386s)
+[2019.11.14-21.18.51:565][611]LogAIModule: Creating AISystem for world NewSheepHeaven
+[2019.11.14-21.18.51:575][611]LogPlayLevel: PIE: World Init took: (0.015637s)
+[2019.11.14-21.18.51:577][611]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Woolf/Maps/2/NewSheepHeaven.NewSheepHeaven to /Game/Woolf/Maps/2/UEDPIE_0_NewSheepHeaven.NewSheepHeaven (0.227014s)
+[2019.11.14-21.18.51:758][611]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.14-21.18.51:837][611]LogInit: FAudioDevice initialized.
+[2019.11.14-21.18.52:034][611]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015edf76eb90, Size=8, Default__Wolfy_BP_C Function /Game/Woolf/Blueprints/Player/Wolfy_BP.Wolfy_BP_C:ExecuteUbergraph_Wolfy_BP
+[2019.11.14-21.18.52:048][611]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000015edf76eb90, Size=8
+[2019.11.14-21.18.52:048][611]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015edf76eb90, Size=8, Default__Wolfy_BP_C Function /Engine/Transient.REINST_Wolfy_BP_C_53:ExecuteUbergraph_Wolfy_BP
+[2019.11.14-21.18.52:055][611]LogUObjectGlobals: Created PersistentFrame Addr=0x0000015edf76ffd8, Size=8, Default__Wolfy_BP_C Function /Game/Woolf/Blueprints/Player/Wolfy_BP.Wolfy_BP_C:ExecuteUbergraph_Wolfy_BP
+[2019.11.14-21.18.52:120][611]LogLoad: Game class is 'WolfGameMode_BP_C'
+[2019.11.14-21.18.52:175][611]LogWorld: Bringing World /Game/Woolf/Maps/2/UEDPIE_0_NewSheepHeaven.NewSheepHeaven up for play (max tick rate 0) at 2019.11.14-21.18.52
+[2019.11.14-21.18.52:180][611]LogWorld: Bringing up level for play took: 0.028364
+[2019.11.14-21.18.52:289][611]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0133 seconds. Added 11 classes and 0 folders.
+[2019.11.14-21.18.52:301][611]PIE: Warning: AttachTo: '/Game/Woolf/Maps/2/UEDPIE_0_NewSheepHeaven.NewSheepHeaven:PersistentLevel.Wolfy_BP_C_0.CollisionCylinder' is not static  (in blueprint "Wolfy_BP"), cannot attach '/Game/Woolf/Maps/2/UEDPIE_0_NewSheepHeaven.NewSheepHeaven:PersistentLevel.Wolfy_BP_C_0.AttackCollider' which is static to it. Aborting.
+[2019.11.14-21.18.53:404][611]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.075 s
+[2019.11.14-21.18.53:404][611]LogOutputDevice: Error: === Handled ensure: ===
+[2019.11.14-21.18.53:404][611]LogOutputDevice: Error: 
+[2019.11.14-21.18.53:404][611]LogOutputDevice: Error: Ensure condition failed: InvocationList[ CurFunctionIndex ] != InDelegate [File:C:\Program Files\Epic Games\UE_4.19\Engine\Source\Runtime\Core\Public\UObject/ScriptDelegates.h] [Line: 509]
+[2019.11.14-21.18.53:404][611]LogOutputDevice: Error: 
+[2019.11.14-21.18.53:404][611]LogOutputDevice: Error: Stack: 
+[2019.11.14-21.18.53:405][611]LogOutputDevice: Error: [Callstack] 0x00000000E449B706 UE4Editor-Core.dll!UnknownFunction []
+[2019.11.14-21.18.53:405][611]LogOutputDevice: Error: [Callstack] 0x00000000E41FAE3A UE4Editor-Core.dll!UnknownFunction []
+[2019.11.14-21.18.53:405][611]LogOutputDevice: Error: [Callstack] 0x00000000E420ECD6 UE4Editor-Core.dll!UnknownFunction []
+[2019.11.14-21.18.53:405][611]LogOutputDevice: Error: [Callstack] 0x00000000D2A79BB2 UE4Editor-MasterBuild-1065.dll!TMulticastScriptDelegate<FWeakObjectPtr>::AddInternal() [c:\program files\epic games\ue_4.19\engine\source\runtime\core\public\uobject\scriptdelegates.h:509]
+[2019.11.14-21.18.53:405][611]LogOutputDevice: Error: [Callstack] 0x00000000D2A7AF63 UE4Editor-MasterBuild-1065.dll!TBaseDynamicMulticastDelegate<FWeakObjectPtr,void,UPrimitiveComponent *,AActor *,UPrimitiveComponent *,int,bool,FHitResult const &>::__Internal_AddDynamic<AChar_Wolf>() [c:\program files\epic games\ue_4.19\engine\source\runtime\core\public\delegates\delegatesignatureimpl.inl:1141]
+[2019.11.14-21.18.53:406][611]LogOutputDevice: Error: [Callstack] 0x00000000D2A7BD68 UE4Editor-MasterBuild-1065.dll!AChar_Wolf::SetupOverlapEvents() [c:\users\hello\onedrive\documents\github\betaarcade\masterbuild\source\masterbuild\player\char_wolf.cpp:112]
+[2019.11.14-21.18.53:406][611]LogOutputDevice: Error: [Callstack] 0x00000000FBEA72FB UE4Editor-Engine.dll!UnknownFunction []
+[2019.11.14-21.18.53:406][611]LogOutputDevice: Error: [Callstack] 0x00000000FD15AE33 UE4Editor-Engine.dll!UnknownFunction []
+[2019.11.14-21.18.53:406][611]LogOutputDevice: Error: [Callstack] 0x00000000FC61F731 UE4Editor-Engine.dll!UnknownFunction []
+[2019.11.14-21.18.53:406][611]LogOutputDevice: Error: [Callstack] 0x00000000FD14414E UE4Editor-Engine.dll!UnknownFunction []
+[2019.11.14-21.18.53:406][611]LogOutputDevice: Error: [Callstack] 0x00000000FC64443E UE4Editor-Engine.dll!UnknownFunction []
+[2019.11.14-21.18.53:406][611]LogOutputDevice: Error: [Callstack] 0x00000000E2D427E0 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.14-21.18.53:407][611]LogOutputDevice: Error: [Callstack] 0x00000000E2D61246 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.14-21.18.53:407][611]LogOutputDevice: Error: [Callstack] 0x00000000E2D7BBEF UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.14-21.18.53:407][611]LogOutputDevice: Error: [Callstack] 0x00000000E27EC961 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.14-21.18.53:407][611]LogOutputDevice: Error: [Callstack] 0x00000000E3089626 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.14-21.18.53:407][611]LogOutputDevice: Error: [Callstack] 0x0000000004865EAC UE4Editor.exe!UnknownFunction []
+[2019.11.14-21.18.53:407][611]LogOutputDevice: Error: [Callstack] 0x0000000004876BD0 UE4Editor.exe!UnknownFunction []
+[2019.11.14-21.18.53:407][611]LogOutputDevice: Error: [Callstack] 0x0000000004876C4A UE4Editor.exe!UnknownFunction []
+[2019.11.14-21.18.53:408][611]LogOutputDevice: Error: [Callstack] 0x0000000004884177 UE4Editor.exe!UnknownFunction []
+[2019.11.14-21.18.53:408][611]LogOutputDevice: Error: [Callstack] 0x0000000004885B87 UE4Editor.exe!UnknownFunction []
+[2019.11.14-21.18.53:408][611]LogOutputDevice: Error: [Callstack] 0x00000000517A7BD4 KERNEL32.DLL!UnknownFunction []
+[2019.11.14-21.18.53:408][611]LogOutputDevice: Error: [Callstack] 0x0000000052F2CED1 ntdll.dll!UnknownFunction []
+[2019.11.14-21.18.53:408][611]LogOutputDevice: Error: 
+[2019.11.14-21.18.53:419][611]LogStats:                SubmitErrorReport -  0.001 s

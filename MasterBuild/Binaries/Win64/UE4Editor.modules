@@ -3,9 +3,13 @@
 	"Modules": 
 	{
 <<<<<<< HEAD
+<<<<<<< HEAD
 		"MasterBuild": "UE4Editor-MasterBuild-5244.dll"
 =======
 		"MasterBuild": "UE4Editor-MasterBuild-4710.dll"
 >>>>>>> parent of 35383e7... V1.30
+=======
+		"MasterBuild": "UE4Editor-MasterBuild.dll"
+>>>>>>> parent of 2f85a1a... Fixed networking
 	}
 }

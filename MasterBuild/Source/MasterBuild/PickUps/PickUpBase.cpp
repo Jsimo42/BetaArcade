@@ -15,7 +15,7 @@ APickUpBase::APickUpBase()
 
 	//Root = CreateDefaultSubobject<USceneComponent>(TEXT("Root"));
 	//RootComponent = Root;
-	static ConstructorHelpers::FObjectFinder<UMaterial> PickUpMaterial(TEXT("Material'/Game/Woolf/Textures/Other/Materials/Mat_Pickup.Mat_Pickup'"));
+	static ConstructorHelpers::FObjectFinder<UMaterial> PickUpMaterial(TEXT("Material'/Game/Woolf/Models/Materials/Mat_Pickup.Mat_Pickup'"));
 	PickUpMaterial.Succeeded();
 	UMaterial* PermanentPickUpMaterial = PickUpMaterial.Object;
 	Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("ItemMesh"));
@@ -52,19 +52,10 @@ void APickUpBase::BeginPlay()
 
 void APickUpBase::OnOverlapStart(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
 {
-	if ((OtherActor->IsA(ASheepCharacter::StaticClass())))
-	{
-		return;
-	}
-	else
-	{
-		Mesh->SetVisibility(false);
-		this->SetActorLocation(FVector(-10000, -10000, 0));
-		isAlive = false;
-		TSincePickUP = 0;
-	}
-
-
+	Mesh->SetVisibility(false);
+	this->SetActorLocation(FVector(-10000, -10000, 0));
+	isAlive = false;
+	TSincePickUP = 0;
 }
 
 // Called every frame
