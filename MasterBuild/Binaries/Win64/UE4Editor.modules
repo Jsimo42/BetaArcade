@@ -2,6 +2,10 @@
 	"BuildId": "3944462",
 	"Modules": 
 	{
+<<<<<<< HEAD
 		"MasterBuild": "UE4Editor-MasterBuild-5244.dll"
+=======
+		"MasterBuild": "UE4Editor-MasterBuild-4710.dll"
+>>>>>>> parent of 35383e7... V1.30
 	}
 }
