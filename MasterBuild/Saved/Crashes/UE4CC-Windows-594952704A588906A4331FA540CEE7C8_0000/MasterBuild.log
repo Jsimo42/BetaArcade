@@ -1,0 +1,1647 @@
+﻿Log file open, 12/03/19 09:57:53
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: MasterBuild
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-788993421) SRandInit(-788993420).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.430069
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.275s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Binaries/Win64/UE4Editor-MasterBuild.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am TU45368 (152.105.218.217:0)
+LogInit: Build: ++UE4+Release-4.19-CL-4033788
+LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.012s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.12.03-09.57.57:034][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.03-09.57.57:034][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.12.03-09.57.57:059][  0]LogInit: Computer: TU45368
+[2019.12.03-09.57.57:059][  0]LogInit: User: t7038904
+[2019.12.03-09.57.57:059][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.12.03-09.57.57:059][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.12.03-09.57.57:059][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2019.12.03-09.57.57:059][  0]LogMemory: Platform Memory Stats for Windows
+[2019.12.03-09.57.57:059][  0]LogMemory: Process Physical Memory: 278.59 MB used, 278.59 MB peak
+[2019.12.03-09.57.57:059][  0]LogMemory: Process Virtual Memory: 275.93 MB used, 275.93 MB peak
+[2019.12.03-09.57.57:059][  0]LogMemory: Physical Memory: 6098.89 MB used,  26585.29 MB free, 32684.17 MB total
+[2019.12.03-09.57.57:059][  0]LogMemory: Virtual Memory: 4819.93 MB used,  26585.29 MB free, 134217728.00 MB total
+[2019.12.03-09.57.57:080][  0]LogInit: Using OS detected language (en-GB).
+[2019.12.03-09.57.57:080][  0]LogInit: Using OS detected locale (en-GB).
+[2019.12.03-09.57.57:085][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2019.12.03-09.57.57:486][  0]LogStreaming: Display: Took  0.405s to EndInitTextLocalization.
+[2019.12.03-09.57.57:486][  0]LogInit: Setting process to per monitor DPI aware
+[2019.12.03-09.57.57:570][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.12.03-09.57.57:570][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.12.03-09.57.57:888][  0]LogD3D11RHI: D3D11 adapters:
+[2019.12.03-09.57.57:971][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980 Ti' (Feature Level 11_0)
+[2019.12.03-09.57.57:971][  0]LogD3D11RHI:       6097/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.12.03-09.57.57:977][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.12.03-09.57.57:977][  0]LogD3D11RHI:       0/0/16342 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.12.03-09.57.57:977][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.12.03-09.57.57:984][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.12.03-09.57.57:984][  0]LogD3D11RHI:     GPU DeviceId: 0x17c8 (for the marketing name, search the web for "GPU Device Id")
+[2019.12.03-09.57.57:985][  0]LogWindows: EnumDisplayDevices:
+[2019.12.03-09.57.57:985][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980 Ti' (P:1 D:1)
+[2019.12.03-09.57.57:986][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:1)
+[2019.12.03-09.57.57:987][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
+[2019.12.03-09.57.57:988][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
+[2019.12.03-09.57.57:988][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.12.03-09.57.57:988][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980 Ti
+[2019.12.03-09.57.57:988][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.12.03-09.57.57:988][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.12.03-09.57.57:988][  0]LogRHI: Texture pool is 4268 MB (70% of 6097 MB)
+[2019.12.03-09.57.58:041][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2019.12.03-09.57.58:042][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2019.12.03-09.57.58:042][  0]LogD3D11RHI: Async texture creation enabled
+[2019.12.03-09.57.58:063][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.12.03-09.57.58:160][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Intermediate/Shaders/WorkingDirectory/5628/).
+[2019.12.03-09.57.58:161][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/t7038904/AppData/Local/Temp/UnrealShaderWorkingDir/212D4C8A4D258DF85A6D6F9DD38B5206/'.
+[2019.12.03-09.57.58:747][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.12.03-09.57.58:762][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.12.03-09.57.58:777][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.12.03-09.57.58:792][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.12.03-09.57.58:808][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.12.03-09.57.58:823][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.12.03-09.57.58:838][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.12.03-09.57.58:853][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.12.03-09.57.58:860][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.12.03-09.57.58:874][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2019.12.03-09.57.58:894][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2019.12.03-09.57.58:908][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2019.12.03-09.57.58:921][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2019.12.03-09.57.58:936][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2019.12.03-09.57.58:970][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2019.12.03-09.57.59:007][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2019.12.03-09.57.59:007][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.12.03-09.57.59:021][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.12.03-09.57.59:024][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.12.03-09.57.59:064][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.12.03-09.57.59:077][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.12.03-09.57.59:091][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.12.03-09.57.59:104][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.12.03-09.57.59:117][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.12.03-09.57.59:131][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.12.03-09.57.59:131][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.12.03-09.57.59:359][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.12.03-09.57.59:359][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.12.03-09.57.59:359][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.12.03-09.58.00:496][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.12.03-09.58.00:577][  0]LogDerivedDataCache: Loaded boot cache 0.08s 77MB C:/Users/t7038904/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.12.03-09.58.00:577][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/t7038904/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2019.12.03-09.58.00:577][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.12.03-09.58.00:577][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.12.03-09.58.00:577][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.12.03-09.58.00:577][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.12.03-09.58.00:593][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.12.03-09.58.00:606][  0]LogDerivedDataCache: Using Local data cache path C:/Users/t7038904/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.12.03-09.58.00:606][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.12.03-09.58.00:606][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.12.03-09.58.00:618][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.12.03-09.58.00:618][  0]LogSlate: Using Freetype 2.6.0
+[2019.12.03-09.58.00:619][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.12.03-09.58.00:619][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.12.03-09.58.00:803][  0]LogAssetRegistry: FAssetRegistry took 0.0267 seconds to start up
+[2019.12.03-09.58.01:267][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.03-09.58.01:481][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.12.03-09.58.01:485][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.12.03-09.58.01:485][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.12.03-09.58.01:485][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.12.03-09.58.01:485][  0]LogMeshReduction: No automatic mesh merging module available
+[2019.12.03-09.58.01:485][  0]LogMeshMerging: No automatic mesh merging module available
+[2019.12.03-09.58.01:538][  0]LogNetVersion: MasterBuild , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2426174287)
+[2019.12.03-09.58.02:266][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.218489 seconds
+[2019.12.03-09.58.02:274][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2019.12.03-09.58.02:274][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2019.12.03-09.58.02:274][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.12.03-09.58.04:469][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.12.03-09.58.04:529][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.12.03-09.58.05:092][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e5be3a5200, Size=64, Default__ThirdPerson_AnimBP_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
+[2019.12.03-09.58.05:103][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e5be3a5200, Size=64
+[2019.12.03-09.58.05:103][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e5be4f28c0, Size=64, Default__ThirdPerson_AnimBP_C Function /Engine/Transient.REINST_ThirdPerson_AnimBP_C_0:ExecuteUbergraph_ThirdPerson_AnimBP
+[2019.12.03-09.58.05:111][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e5bedbe700, Size=72, Default__ThirdPerson_AnimBP_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
+[2019.12.03-09.58.05:221][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [2.546500ms] /Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin
+[2019.12.03-09.58.05:468][  0]SourceControl: Source control is disabled
+[2019.12.03-09.58.05:468][  0]SourceControl: Source control is disabled
+[2019.12.03-09.58.05:501][  0]SourceControl: Source control is disabled
+[2019.12.03-09.58.05:535][  0]SourceControl: Source control is disabled
+[2019.12.03-09.58.06:364][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.12.03-09.58.06:719][  0]LogOcInput: OculusInput pre-init called
+[2019.12.03-09.58.06:882][  0]LogEngine: Initializing Engine...
+[2019.12.03-09.58.06:885][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.12.03-09.58.06:886][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.12.03-09.58.06:886][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.12.03-09.58.07:184][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.12.03-09.58.07:227][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.03-09.58.07:455][  0]LogInit: FAudioDevice initialized.
+[2019.12.03-09.58.07:563][  0]LogDerivedDataCache: Saved boot cache 0.11s 77MB C:/Users/t7038904/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2019.12.03-09.58.07:599][  0]LogInit: Texture streaming: Enabled
+[2019.12.03-09.58.07:635][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.12.03-09.58.07:672][  0]LogInit: Transaction tracking system initialized
+[2019.12.03-09.58.07:727][  0]BlueprintLog: New page: Editor Load
+[2019.12.03-09.58.07:986][  0]LocalizationService: Localization service is disabled
+[2019.12.03-09.58.08:282][  0]LogConsoleResponse: Display: 
+[2019.12.03-09.58.08:542][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.12.03-09.58.08:542][  0]LogCook: Display: Mobile HDR setting 1
+[2019.12.03-09.58.08:542][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.12.03-09.58.08:542][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.12.03-09.58.08:542][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.12.03-09.58.08:883][  0]LogFileCache: Scanning file cache for directory 'C:/Users/t7038904/source/BetaArcade/MasterBuild/Content/' took 0.03s
+[2019.12.03-09.58.09:352][  0]SourceControl: Source control is disabled
+[2019.12.03-09.58.09:528][  0]LogSlate: Took 0.000348 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.12.03-10.01.17:048][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2019.12.03-10.01.17:049][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.12.03-10.01.17:051][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.12.03-10.01.17:059][  0]Cmd: MAP LOAD FILE="../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/Maps/2/NewSheepHeaven.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.03-10.01.17:060][  0]LightingResults: New page: Lighting Build
+[2019.12.03-10.01.17:064][  0]MapCheck: New page: Map Check
+[2019.12.03-10.01.17:064][  0]LightingResults: New page: Lighting Build
+[2019.12.03-10.01.17:079][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e5be4f28c0, Size=64
+[2019.12.03-10.01.17:106][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e5c1d23e20, Size=12, Default__Sheep_BP_C Function /Game/Woolf/Blueprints/Sheep/Sheep_BP.Sheep_BP_C:ExecuteUbergraph_Sheep_BP
+[2019.12.03-10.01.17:109][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e5c1d23e20, Size=12
+[2019.12.03-10.01.17:109][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e5c1d23e20, Size=12, Default__Sheep_BP_C Function /Engine/Transient.REINST_Sheep_BP_C_4:ExecuteUbergraph_Sheep_BP
+[2019.12.03-10.01.17:111][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e5c1d23ed0, Size=12, Default__Sheep_BP_C Function /Game/Woolf/Blueprints/Sheep/Sheep_BP.Sheep_BP_C:ExecuteUbergraph_Sheep_BP
+[2019.12.03-10.01.17:217][  0]LogLinker: Warning: Can't find file '/Game/Woolf/Maps/2/NewSheepHeaven_BuiltData'
+[2019.12.03-10.01.17:217][  0]LogLinker: Warning: Can't find file for asset '/Game/Woolf/Maps/2/NewSheepHeaven_BuiltData' while loading ../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/Maps/2/NewSheepHeaven.umap.
+[2019.12.03-10.01.17:217][  0]LoadErrors: Error: /Game/Woolf/Maps/2/NewSheepHeaven : Can't find file for asset. /Game/Woolf/Maps/2/NewSheepHeaven_BuiltData
+[2019.12.03-10.01.17:274][  0]LogLinker: Warning: Can't find file '/Game/Woolf/Maps/2/NewSheepHeaven_BuiltData'
+[2019.12.03-10.01.17:274][  0]LogLinker: Warning: Can't find file for asset '/Game/Woolf/Maps/2/NewSheepHeaven_BuiltData' while loading ../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/Maps/2/NewSheepHeaven.umap.
+[2019.12.03-10.01.17:274][  0]LoadErrors: Error: /Game/Woolf/Maps/2/NewSheepHeaven : Can't find file for asset. /Game/Woolf/Maps/2/NewSheepHeaven_BuiltData
+[2019.12.03-10.01.17:301][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e5bf8fa980, Size=160, Default__NewSheepHeaven_C Function /Game/Woolf/Maps/2/NewSheepHeaven.NewSheepHeaven_C:ExecuteUbergraph_NewSheepHeaven
+[2019.12.03-10.01.17:302][  0]LogLinker: Warning: Can't find file '/Game/Woolf/Maps/2/NewSheepHeaven_BuiltData'
+[2019.12.03-10.01.17:302][  0]LogLinker: Warning: Can't find file for asset '/Game/Woolf/Maps/2/NewSheepHeaven_BuiltData' while loading NULL.
+[2019.12.03-10.01.17:302][  0]LogLinker: Warning: Can't find file '/Game/Woolf/Maps/2/NewSheepHeaven_BuiltData'
+[2019.12.03-10.01.17:302][  0]LogLinker: Warning: Can't find file for asset '/Game/Woolf/Maps/2/NewSheepHeaven_BuiltData' while loading NULL.
+[2019.12.03-10.01.17:306][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e5bf8fa980, Size=160
+[2019.12.03-10.01.17:306][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e5bf8f87c0, Size=160, Default__NewSheepHeaven_C Function /Engine/Transient.REINST_NewSheepHeaven_C_8:ExecuteUbergraph_NewSheepHeaven
+[2019.12.03-10.01.17:308][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e5b1baab60, Size=160, Default__NewSheepHeaven_C Function /Game/Woolf/Maps/2/NewSheepHeaven.NewSheepHeaven_C:ExecuteUbergraph_NewSheepHeaven
+[2019.12.03-10.01.17:389][  0]LogLinker: Warning: Can't find file '/Game/Woolf/Maps/2/NewSheepHeaven_BuiltData'
+[2019.12.03-10.01.17:389][  0]LoadErrors: Failed to load /Game/Woolf/Maps/2/NewSheepHeaven_BuiltData.NewSheepHeaven_BuiltData Referenced by PersistentLevel
+[2019.12.03-10.01.17:389][  0]LogLinker: Warning: Can't find file for asset '/Game/Woolf/Maps/2/NewSheepHeaven_BuiltData' while loading NULL.
+[2019.12.03-10.01.17:389][  0]LoadErrors: Failed to load /Game/Woolf/Maps/2/NewSheepHeaven_BuiltData.NewSheepHeaven_BuiltData Referenced by PersistentLevel
+[2019.12.03-10.01.17:805][  0]LogAIModule: Creating AISystem for world NewSheepHeaven
+[2019.12.03-10.01.17:859][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.03-10.01.17:872][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e5c1d23e20, Size=12
+[2019.12.03-10.01.17:872][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e5bf8f87c0, Size=160
+[2019.12.03-10.01.17:873][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.03-10.01.18:002][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 128.205ms to complete.
+[2019.12.03-10.01.18:002][  0]LogFileHelpers: Loading map 'NewSheepHeaven' took 0.943
+[2019.12.03-10.01.18:116][  0]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_1514_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_45c_0///####STATCAT_Advanced####
+[2019.12.03-10.01.18:116][  0]LogCollectionManager: Loaded 0 collections in 0.002282 seconds
+[2019.12.03-10.01.18:181][  0]LogFileCache: Scanning file cache for directory 'C:/Users/t7038904/source/BetaArcade/MasterBuild/Saved/Collections/' took 0.01s
+[2019.12.03-10.01.18:181][  0]LogFileCache: Scanning file cache for directory 'C:/Users/t7038904/source/BetaArcade/MasterBuild/Content/Developers/t7038904/Collections/' took 0.01s
+[2019.12.03-10.01.18:181][  0]LogFileCache: Scanning file cache for directory 'C:/Users/t7038904/source/BetaArcade/MasterBuild/Content/Collections/' took 0.01s
+[2019.12.03-10.01.18:181][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.12.03-10.01.18:208][  0]LogContentBrowser: Native class hierarchy populated in 0.0260 seconds. Added 2464 classes and 563 folders.
+[2019.12.03-10.01.18:218][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0019 seconds. Added 0 classes and 0 folders.
+[2019.12.03-10.01.18:300][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0039 seconds. Added 0 classes and 0 folders.
+[2019.12.03-10.01.18:318][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0019 seconds. Added 1 classes and 2 folders.
+[2019.12.03-10.01.18:339][  0]LogSlate: Took 0.000230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.12.03-10.01.18:346][  0]LogSlate: Took 0.000244 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.12.03-10.01.18:463][  0]LogRenderer: Reallocating scene render targets to support 1208x652 Format 10 NumSamples 1 (Frame:1).
+[2019.12.03-10.01.18:582][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.03-10.01.18:600][  0]LogSlate: Window 'Tutorials' being destroyed
+[2019.12.03-10.01.18:643][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0031 seconds. Added 0 classes and 0 folders.
+[2019.12.03-10.01.18:643][  0]LogLoad: (Engine Initialization) Total time: 207.58 seconds
+[2019.12.03-10.01.18:643][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.12.03-10.01.18:672][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.12.03-10.01.18:679][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.12.03-10.01.18:726][  0]LogSlate: Took 0.000295 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.12.03-10.01.18:754][  1]LogAssetRegistry: Asset discovery search completed in 197.9736 seconds
+[2019.12.03-10.01.18:756][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.12.03-10.01.18:756][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000048 seconds (updated 0 objects)
+[2019.12.03-10.01.21:335][286]LogSlate: Window 'Message Log' being destroyed
+[2019.12.03-10.01.21:339][286]LogSlate: Window 'Message Log' being destroyed
+[2019.12.03-10.01.22:030][367]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.03-10.01.29:022][154]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.12.03-10.01.29:045][154]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e5e55e1000, Size=688, Default__GameInfoInstance_BP_C Function /Game/Woolf/Blueprints/GameInfoInstance_BP.GameInfoInstance_BP_C:ExecuteUbergraph_GameInfoInstance_BP
+[2019.12.03-10.01.29:046][154]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e5e4116d80, Size=32, Default__W_MainMenu_C Function /Game/Woolf/UI/W_MainMenu.W_MainMenu_C:ExecuteUbergraph_W_MainMenu
+[2019.12.03-10.01.29:054][154]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e5e55f9cc0, Size=64, Default__W_HostMenu_C Function /Game/Woolf/UI/W_HostMenu.W_HostMenu_C:ExecuteUbergraph_W_HostMenu
+[2019.12.03-10.01.29:062][154]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e5e550d120, Size=160, Default__W_JoinMenu_C Function /Game/Woolf/UI/W_JoinMenu.W_JoinMenu_C:ExecuteUbergraph_W_JoinMenu
+[2019.12.03-10.01.29:079][154]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e5e55e1000, Size=688
+[2019.12.03-10.01.29:079][154]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e5e9466e00, Size=688, Default__GameInfoInstance_BP_C Function /Engine/Transient.REINST_GameInfoInstance_BP_C_10:ExecuteUbergraph_GameInfoInstance_BP
+[2019.12.03-10.01.29:079][154]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e5e55f9cc0, Size=64
+[2019.12.03-10.01.29:080][154]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e5e8a62400, Size=64, Default__W_HostMenu_C Function /Engine/Transient.REINST_W_HostMenu_C_0:ExecuteUbergraph_W_HostMenu
+[2019.12.03-10.01.29:080][154]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e5e550d120, Size=160
+[2019.12.03-10.01.29:080][154]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e5e54b6d40, Size=160, Default__W_JoinMenu_C Function /Engine/Transient.REINST_W_JoinMenu_C_1:ExecuteUbergraph_W_JoinMenu
+[2019.12.03-10.01.29:080][154]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e5e4116d80, Size=32
+[2019.12.03-10.01.29:080][154]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e5e4ee8880, Size=32, Default__W_MainMenu_C Function /Engine/Transient.REINST_W_MainMenu_C_2:ExecuteUbergraph_W_MainMenu
+[2019.12.03-10.01.29:093][154]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e5e55e1000, Size=688, Default__GameInfoInstance_BP_C Function /Game/Woolf/Blueprints/GameInfoInstance_BP.GameInfoInstance_BP_C:ExecuteUbergraph_GameInfoInstance_BP
+[2019.12.03-10.01.29:095][154]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e5ecfb1540, Size=64, Default__W_HostMenu_C Function /Game/Woolf/UI/W_HostMenu.W_HostMenu_C:ExecuteUbergraph_W_HostMenu
+[2019.12.03-10.01.29:096][154]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e5ec788a40, Size=160, Default__W_JoinMenu_C Function /Game/Woolf/UI/W_JoinMenu.W_JoinMenu_C:ExecuteUbergraph_W_JoinMenu
+[2019.12.03-10.01.29:097][154]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e5ec7a2520, Size=32, Default__W_MainMenu_C Function /Game/Woolf/UI/W_MainMenu.W_MainMenu_C:ExecuteUbergraph_W_MainMenu
+[2019.12.03-10.01.29:132][154]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e5ecad4e00, Size=528, Default__mainmenuLevel_C Function /Game/Woolf/Maps/Scott_maps/mainmenuLevel/map/mainmenuLevel.mainmenuLevel_C:ExecuteUbergraph_mainmenuLevel
+[2019.12.03-10.01.29:135][154]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e5ecad4e00, Size=528
+[2019.12.03-10.01.29:135][154]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e5ecad4e00, Size=528, Default__mainmenuLevel_C Function /Engine/Transient.REINST_mainmenuLevel_C_17:ExecuteUbergraph_mainmenuLevel
+[2019.12.03-10.01.29:137][154]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e5ecb1d800, Size=528, Default__mainmenuLevel_C Function /Game/Woolf/Maps/Scott_maps/mainmenuLevel/map/mainmenuLevel.mainmenuLevel_C:ExecuteUbergraph_mainmenuLevel
+[2019.12.03-10.01.29:340][154]LogAIModule: Creating AISystem for world mainmenuLevel
+[2019.12.03-10.01.29:392][154]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e5e54b6d40, Size=160
+[2019.12.03-10.01.29:393][154]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e5e8a62400, Size=64
+[2019.12.03-10.01.29:393][154]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e5e4ee8880, Size=32
+[2019.12.03-10.01.29:393][154]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e5e9466e00, Size=688
+[2019.12.03-10.01.29:393][154]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e5ecad4e00, Size=528
+[2019.12.03-10.01.29:396][154]Cmd: MAP LOAD FILE="../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/Maps/Scott_maps/mainmenuLevel/map/mainmenuLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.03-10.01.29:396][154]LightingResults: New page: Lighting Build
+[2019.12.03-10.01.29:398][154]LoadErrors: New page: Loading map: mainmenuLevel.umap
+[2019.12.03-10.01.29:402][154]MapCheck: New page: Map Check
+[2019.12.03-10.01.29:402][154]LightingResults: New page: Lighting Build
+[2019.12.03-10.01.29:418][154]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e5b1baab60, Size=160
+[2019.12.03-10.01.29:461][154]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.03-10.01.29:556][154]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.03-10.01.29:735][154]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 179.722ms to complete.
+[2019.12.03-10.01.29:737][154]LogFileHelpers: Loading map 'mainmenuLevel' took 0.343
+[2019.12.03-10.01.39:228][162]LogTemp: Repeating last play command: Standalone Game
+[2019.12.03-10.03.48:439][100]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2019.12.03-10.03.48:444][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:444][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:444][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:444][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:444][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:445][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:445][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:445][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:445][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:445][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:445][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:445][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:445][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:445][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:445][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:445][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:446][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:446][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:446][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:446][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:446][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:446][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:446][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:446][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:446][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:446][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:447][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:447][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:447][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:447][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:447][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:447][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:447][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:447][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:447][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:447][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:448][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:448][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:448][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:448][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:448][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:448][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:448][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:448][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:448][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:448][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:448][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:449][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:449][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:449][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:449][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:449][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:449][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:449][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:449][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:449][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:449][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:449][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:450][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:450][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:450][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:450][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:450][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:450][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:450][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:450][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:450][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:450][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:451][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:451][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:451][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:451][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:451][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:451][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:451][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:451][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:451][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:451][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:451][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:452][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:452][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:452][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:452][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:452][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:452][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:452][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:452][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:452][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:452][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:452][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:453][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:453][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:453][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:453][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:453][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:453][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:453][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:453][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:453][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:453][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:453][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:454][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:454][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:454][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:454][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:454][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:454][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:454][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:462][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:465][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:490][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:490][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:524][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:525][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:541][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:545][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:557][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:566][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:566][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:572][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.48:574][100]LogVSAccessor: Warning: Couldn't access module table
+[2019.12.03-10.03.52:186][422]Running C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/t7038904/source/BetaArcade/MasterBuild/MasterBuild.uproject" -game -rocket -progress
+[2019.12.03-10.03.52:845][422]Discovering modules, targets and source code for project...
+[2019.12.03-10.03.56:682][422]                             WARNING: Exception while generating include data for UE4Editor: Unable to instantiate module 'SubstanceCore': System.NullReferenceException: Object reference not set to an instance of an object.
+[2019.12.03-10.03.56:682][422]            at UnrealBuildTool.Rules.SubstanceCore..ctor(ReadOnlyTargetRules Target) in c:\Program Files\Epic Games\UE_4.19\Engine\Plugins\Marketplace\Substance\Source\SubstanceCore\SubstanceCore.Build.cs:line 116
+[2019.12.03-10.03.56:682][422]         (referenced via UE4Editor.Target.cs -> Substance.uplugin)
+[2019.12.03-10.03.56:682][422]Binding IntelliSense data... 0%@progress 'Binding IntelliSense data...' 50%
+[2019.12.03-10.06.50:866][830]Candidate modules for hot reload:
+[2019.12.03-10.06.50:866][830]  MasterBuild
+[2019.12.03-10.06.50:866][830]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe MasterBuild -ModuleWithSuffix=MasterBuild,1096 Win64 Development -editorrecompile -canskiplink "C:/Users/t7038904/source/BetaArcade/MasterBuild/MasterBuild.uproject" ]
+[2019.12.03-10.06.50:920][830]Warning: Starting HotReload took  0.1s.
+[2019.12.03-10.07.25:628][569]CompilerResultsLog: New page: Compilation - 3 Dec 2019 10:07:25
+[2019.12.03-10.07.25:628][569]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.12.03-10.07.25:628][569]CompilerResultsLog: Creating makefile for hot reloading MasterBuild (no existing makefile)
+[2019.12.03-10.07.25:628][569]CompilerResultsLog: Compiling game modules for hot reload
+[2019.12.03-10.07.25:628][569]CompilerResultsLog: Performing 28 actions (9 in parallel)
+[2019.12.03-10.07.25:628][569]CompilerResultsLog: ABigModePickUp.gen.cpp
+[2019.12.03-10.07.25:628][569]CompilerResultsLog: MasterBuildGameMode.gen.cpp
+[2019.12.03-10.07.25:628][569]CompilerResultsLog: MasterBuild.init.gen.cpp
+[2019.12.03-10.07.25:628][569]CompilerResultsLog: Char_Wolf.gen.cpp
+[2019.12.03-10.07.25:628][569]CompilerResultsLog: PickUpBase.gen.cpp
+[2019.12.03-10.07.25:628][569]CompilerResultsLog: MasterBuildCharacter.gen.cpp
+[2019.12.03-10.07.25:628][569]CompilerResultsLog: BTTask_Move.gen.cpp
+[2019.12.03-10.07.25:628][569]CompilerResultsLog: BTService_CheckForPlayer.gen.cpp
+[2019.12.03-10.07.25:628][569]CompilerResultsLog: BTTask_RunAway.gen.cpp
+[2019.12.03-10.07.25:628][569]CompilerResultsLog: ASlowDownPickUp.gen.cpp
+[2019.12.03-10.07.25:628][569]CompilerResultsLog: ASpeedUpPickUp.gen.cpp
+[2019.12.03-10.07.25:628][569]CompilerResultsLog: SheepAI.cpp
+[2019.12.03-10.07.25:628][569]CompilerResultsLog: SheepCharacter.cpp
+[2019.12.03-10.07.25:628][569]CompilerResultsLog: Char_Wolf.cpp
+[2019.12.03-10.07.25:628][569]CompilerResultsLog: PickUpBase.cpp
+[2019.12.03-10.07.25:628][569]CompilerResultsLog: ASpeedUpPickUp.cpp
+[2019.12.03-10.07.25:628][569]CompilerResultsLog: ABigModePickUp.cpp
+[2019.12.03-10.07.25:628][569]CompilerResultsLog: ASlowDownPickUp.cpp
+[2019.12.03-10.07.25:628][569]CompilerResultsLog: MasterBuildGameMode.cpp
+[2019.12.03-10.07.25:628][569]CompilerResultsLog: MasterBuildCharacter.cpp
+[2019.12.03-10.07.25:628][569]CompilerResultsLog: MasterBuild.cpp
+[2019.12.03-10.07.25:628][569]CompilerResultsLog: BTTask_RunAway.cpp
+[2019.12.03-10.07.25:629][569]CompilerResultsLog: BTTask_Move.cpp
+[2019.12.03-10.07.25:629][569]CompilerResultsLog: BTService_CheckForPlayer.cpp
+[2019.12.03-10.07.25:629][569]CompilerResultsLog: SheepAI.gen.cpp
+[2019.12.03-10.07.25:629][569]CompilerResultsLog: SheepCharacter.gen.cpp
+[2019.12.03-10.07.25:629][569]CompilerResultsLog: [27/28] Link UE4Editor-MasterBuild-1096.dll
+[2019.12.03-10.07.25:629][569]CompilerResultsLog: [28/28] Link UE4Editor-MasterBuild-1096.lib
+[2019.12.03-10.07.25:629][569]CompilerResultsLog:    Creating library C:\Users\t7038904\source\BetaArcade\MasterBuild\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MasterBuild-1096.lib and object C:\Users\t7038904\source\BetaArcade\MasterBuild\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MasterBuild-1096.exp
+[2019.12.03-10.07.25:629][569]CompilerResultsLog:    Creating library C:\Users\t7038904\source\BetaArcade\MasterBuild\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MasterBuild-1096.suppressed.lib and object C:\Users\t7038904\source\BetaArcade\MasterBuild\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MasterBuild-1096.suppressed.exp
+[2019.12.03-10.07.25:629][569]CompilerResultsLog: Total build time: 34.14 seconds (Local executor: 23.43 seconds)
+[2019.12.03-10.07.25:629][569]LogMainFrame: MainFrame: Module compiling took 34.770 seconds
+[2019.12.03-10.07.25:698][569]LogContentBrowser: Native class hierarchy updated for 'MasterBuild' in 0.0029 seconds. Added 12 classes and 5 folders.
+[2019.12.03-10.07.25:704][569]Display: HotReload successful (6 functions remapped  0 scriptstructs remapped)
+[2019.12.03-10.07.25:859][569]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 2465 classes and 565 folders.
+[2019.12.03-10.07.25:862][569]Display: HotReload took 35.1s.
+[2019.12.03-10.07.39:976][717]Candidate modules for hot reload:
+[2019.12.03-10.07.39:976][717]  MasterBuild
+[2019.12.03-10.07.39:977][717]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe MasterBuild -ModuleWithSuffix=MasterBuild,24 Win64 Development -editorrecompile -canskiplink "C:/Users/t7038904/source/BetaArcade/MasterBuild/MasterBuild.uproject" ]
+[2019.12.03-10.07.40:027][717]Warning: Starting HotReload took  0.1s.
+[2019.12.03-10.07.47:762][623]CompilerResultsLog: New page: Compilation - 3 Dec 2019 10:07:47
+[2019.12.03-10.07.47:762][623]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.12.03-10.07.47:762][623]CompilerResultsLog: Compiling game modules for hot reload
+[2019.12.03-10.07.47:762][623]CompilerResultsLog: Performing 3 actions (9 in parallel)
+[2019.12.03-10.07.47:762][623]CompilerResultsLog: PickUpBase.cpp
+[2019.12.03-10.07.47:762][623]CompilerResultsLog: [2/3] Link UE4Editor-MasterBuild-24.dll
+[2019.12.03-10.07.47:762][623]CompilerResultsLog: [3/3] Link UE4Editor-MasterBuild-24.lib
+[2019.12.03-10.07.47:762][623]CompilerResultsLog:    Creating library C:\Users\t7038904\source\BetaArcade\MasterBuild\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MasterBuild-24.suppressed.lib and object C:\Users\t7038904\source\BetaArcade\MasterBuild\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MasterBuild-24.suppressed.exp
+[2019.12.03-10.07.47:762][623]CompilerResultsLog:    Creating library C:\Users\t7038904\source\BetaArcade\MasterBuild\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MasterBuild-24.lib and object C:\Users\t7038904\source\BetaArcade\MasterBuild\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-MasterBuild-24.exp
+[2019.12.03-10.07.47:762][623]CompilerResultsLog: Total build time: 7.49 seconds (Local executor: 5.58 seconds)
+[2019.12.03-10.07.47:762][623]LogMainFrame: MainFrame: Module compiling took 7.793 seconds
+[2019.12.03-10.07.47:823][623]LogContentBrowser: Native class hierarchy updated for 'MasterBuild' in 0.0031 seconds. Added 12 classes and 5 folders.
+[2019.12.03-10.07.47:825][623]Display: HotReload successful (6 functions remapped  0 scriptstructs remapped)
+[2019.12.03-10.07.47:862][623]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 2465 classes and 565 folders.
+[2019.12.03-10.07.47:862][623]Display: HotReload took  7.9s.
+[2019.12.03-10.07.59:488][ 10]LogTemp: Repeating last play command: Standalone Game
+[2019.12.03-10.11.24:060][ 48]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e5a937f700, Size=328, Default__Wolfy_BP_C Function /Game/Woolf/Blueprints/Player/Wolfy_BP.Wolfy_BP_C:ExecuteUbergraph_Wolfy_BP
+[2019.12.03-10.11.24:072][ 48]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e5a937f700, Size=328
+[2019.12.03-10.11.24:072][ 48]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e5e5b6c280, Size=328, Default__Wolfy_BP_C Function /Engine/Transient.REINST_Wolfy_BP_C_19:ExecuteUbergraph_Wolfy_BP
+[2019.12.03-10.11.24:080][ 48]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e5cbf21a80, Size=328, Default__Wolfy_BP_C Function /Game/Woolf/Blueprints/Player/Wolfy_BP.Wolfy_BP_C:ExecuteUbergraph_Wolfy_BP
+[2019.12.03-10.11.24:454][ 48]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0024 seconds. Added 116 classes and 0 folders.
+[2019.12.03-10.11.24:795][ 48]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e5eb5f3b48, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2019.12.03-10.11.24:796][ 48]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e5eb5f3b40, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2019.12.03-10.11.25:343][ 48]LogSlate: Took 0.000384 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.12.03-10.11.30:910][501]LogSlate: Window 'W_InGame' being destroyed
+[2019.12.03-10.12.20:567][187]LogSlate: Took 0.000255 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.12.03-10.12.35:986][ 30]BlueprintLog: New page: Compile W_InGame
+[2019.12.03-10.12.36:013][ 30]LogBlueprint: Error: [Compiler W_InGame] This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2019.12.03-10.12.36:031][ 30]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e5e5b6c280, Size=328
+[2019.12.03-10.12.36:041][ 30]LogBlueprint: Warning: [Compiler W_InGame] [0884.98] Compile of W_InGame failed. 1 Fatal Issue(s) 0 Warning(s) [in 55 ms] (/Game/Woolf/UI/W_InGame.W_InGame)
+[2019.12.03-10.12.44:812][962]BlueprintLog: New page: Compile W_InGame
+[2019.12.03-10.12.49:027][447]LogTemp: Repeating last play command: Standalone Game
+[2019.12.03-10.12.51:824][447]LogSlate: Window 'Save Content' being destroyed
+[2019.12.03-10.12.51:851][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Woolf/UI/W_InGame" FILE="../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/UI/W_InGame.uasset" SILENT=true
+[2019.12.03-10.12.51:928][447]LogSavePackage: Save=36.62ms
+[2019.12.03-10.12.51:929][447]LogSavePackage: Moving '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Saved/W_InGame214F1BF3481F4B5D9C4A9FA15759EBBB.tmp' to '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/UI/W_InGame.uasset'
+[2019.12.03-10.12.51:937][447]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/UI/W_InGame.uasset
+[2019.12.03-10.15.18:921][665]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.03-10.15.55:966][650]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e610acdce0, Size=4, Default__SKEL_Wolfy_BP_C Function /Game/Woolf/Blueprints/Player/Wolfy_BP.SKEL_Wolfy_BP_C:ExecuteUbergraph_Wolfy_BP
+[2019.12.03-10.16.41:483][850]BlueprintLog: New page: Compile Wolfy_BP
+[2019.12.03-10.16.41:490][850]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e610acdce0, Size=4
+[2019.12.03-10.16.41:490][850]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e610acdce0, Size=4, Default__SKEL_Wolfy_BP_C Function /Engine/Transient.REINST_SKEL_Wolfy_BP_C_44:ExecuteUbergraph_Wolfy_BP
+[2019.12.03-10.16.41:504][850]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e5cbf21a80, Size=328
+[2019.12.03-10.16.41:504][850]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e60fa11f00, Size=328, Default__Wolfy_BP_C Function /Engine/Transient.REINST_Wolfy_BP_C_47:ExecuteUbergraph_Wolfy_BP
+[2019.12.03-10.16.41:509][850]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e605752380, Size=328, Default__Wolfy_BP_C Function /Game/Woolf/Blueprints/Player/Wolfy_BP.Wolfy_BP_C:ExecuteUbergraph_Wolfy_BP
+[2019.12.03-10.16.41:775][850]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e610acdce0, Size=4
+[2019.12.03-10.16.43:312][ 21]LogTemp: Repeating last play command: Standalone Game
+[2019.12.03-10.16.45:976][ 21]LogSlate: Window 'Save Content' being destroyed
+[2019.12.03-10.16.46:024][ 21]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Woolf/Blueprints/Player/Wolfy_BP" FILE="../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/Blueprints/Player/Wolfy_BP.uasset" SILENT=true
+[2019.12.03-10.16.46:145][ 21]LogSavePackage: Save=77.16ms
+[2019.12.03-10.16.46:145][ 21]LogSavePackage: Moving '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Saved/Wolfy_BPA0B0E636414F81897AA85D8710557F2F.tmp' to '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/Blueprints/Player/Wolfy_BP.uasset'
+[2019.12.03-10.16.46:156][ 21]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/Blueprints/Player/Wolfy_BP.uasset
+[2019.12.03-10.18.34:847][623]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e610acde08, Size=4, Default__SKEL_Wolfy_BP_C Function /Game/Woolf/Blueprints/Player/Wolfy_BP.SKEL_Wolfy_BP_C:ExecuteUbergraph_Wolfy_BP
+[2019.12.03-10.18.36:588][822]BlueprintLog: New page: Compile Wolfy_BP
+[2019.12.03-10.18.36:599][822]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e610acde08, Size=4
+[2019.12.03-10.18.36:599][822]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e610acde08, Size=4, Default__SKEL_Wolfy_BP_C Function /Engine/Transient.REINST_SKEL_Wolfy_BP_C_51:ExecuteUbergraph_Wolfy_BP
+[2019.12.03-10.18.36:611][822]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e605752380, Size=328
+[2019.12.03-10.18.36:611][822]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e5e55bbb80, Size=328, Wolfy_BP_C_19 Function /Engine/Transient.REINST_Wolfy_BP_C_54:ExecuteUbergraph_Wolfy_BP
+[2019.12.03-10.18.36:616][822]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e60b1aee00, Size=328, Default__Wolfy_BP_C Function /Game/Woolf/Blueprints/Player/Wolfy_BP.Wolfy_BP_C:ExecuteUbergraph_Wolfy_BP
+[2019.12.03-10.18.36:868][822]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e610acde08, Size=4
+[2019.12.03-10.18.38:342][981]LogTemp: Repeating last play command: Standalone Game
+[2019.12.03-10.18.38:385][981]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e5e55bbb80, Size=328
+[2019.12.03-10.18.40:680][981]LogSlate: Window 'Save Content' being destroyed
+[2019.12.03-10.18.40:721][981]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Woolf/Blueprints/Player/Wolfy_BP" FILE="../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/Blueprints/Player/Wolfy_BP.uasset" SILENT=true
+[2019.12.03-10.18.40:798][981]LogSavePackage: Save=44.99ms
+[2019.12.03-10.18.40:798][981]LogSavePackage: Moving '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Saved/Wolfy_BP9EAD6DC443064DF35B180090135B6857.tmp' to '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/Blueprints/Player/Wolfy_BP.uasset'
+[2019.12.03-10.18.40:806][981]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/Blueprints/Player/Wolfy_BP.uasset
+[2019.12.03-10.30.30:481][991]LogTemp: Repeating last play command: Standalone Game
+[2019.12.03-10.34.34:568][505]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e626fa0450, Size=4, Default__SKEL_Wolfy_BP_C Function /Game/Woolf/Blueprints/Player/Wolfy_BP.SKEL_Wolfy_BP_C:ExecuteUbergraph_Wolfy_BP
+[2019.12.03-10.34.44:350][660]BlueprintLog: New page: Compile Wolfy_BP
+[2019.12.03-10.34.44:358][660]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e626fa0450, Size=4
+[2019.12.03-10.34.44:358][660]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e61029f9f8, Size=4, Default__SKEL_Wolfy_BP_C Function /Engine/Transient.REINST_SKEL_Wolfy_BP_C_58:ExecuteUbergraph_Wolfy_BP
+[2019.12.03-10.34.44:374][660]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e60b1aee00, Size=328
+[2019.12.03-10.34.44:374][660]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e60fc26c80, Size=328, Wolfy_BP_C_33 Function /Engine/Transient.REINST_Wolfy_BP_C_61:ExecuteUbergraph_Wolfy_BP
+[2019.12.03-10.34.44:379][660]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e5ca779a80, Size=336, Default__Wolfy_BP_C Function /Game/Woolf/Blueprints/Player/Wolfy_BP.Wolfy_BP_C:ExecuteUbergraph_Wolfy_BP
+[2019.12.03-10.34.44:650][660]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e61029f9f8, Size=4
+[2019.12.03-10.34.44:710][660]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Woolf/Blueprints/Player/Wolfy_BP" FILE="../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/Blueprints/Player/Wolfy_BP.uasset" SILENT=true
+[2019.12.03-10.34.44:797][660]LogSavePackage: Save=44.87ms
+[2019.12.03-10.34.44:797][660]LogSavePackage: Moving '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Saved/Wolfy_BPC87BDF414EEF7BB19F3B2396A5B96B1D.tmp' to '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/Blueprints/Player/Wolfy_BP.uasset'
+[2019.12.03-10.34.44:804][660]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/Blueprints/Player/Wolfy_BP.uasset
+[2019.12.03-10.35.18:066][590]LogTemp: Repeating last play command: Standalone Game
+[2019.12.03-10.35.18:106][590]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e60fc26c80, Size=328
+[2019.12.03-10.37.42:559][933]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e627a5ce30, Size=4, Default__SKEL_Wolfy_BP_C Function /Game/Woolf/Blueprints/Player/Wolfy_BP.SKEL_Wolfy_BP_C:ExecuteUbergraph_Wolfy_BP
+[2019.12.03-10.37.44:549][153]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e627a5ce30, Size=4
+[2019.12.03-10.37.44:549][153]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e6237fccf0, Size=4, Default__SKEL_Wolfy_BP_C Function /Engine/Transient.REINST_SKEL_Wolfy_BP_C_65:ExecuteUbergraph_Wolfy_BP
+[2019.12.03-10.37.44:555][153]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e6237fcb30, Size=4, Default__SKEL_Wolfy_BP_C Function /Game/Woolf/Blueprints/Player/Wolfy_BP.SKEL_Wolfy_BP_C:ExecuteUbergraph_Wolfy_BP
+[2019.12.03-10.37.50:305][830]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e6237fcb30, Size=4
+[2019.12.03-10.37.50:305][830]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e626fa3b70, Size=4, Default__SKEL_Wolfy_BP_C Function /Engine/Transient.REINST_SKEL_Wolfy_BP_C_67:ExecuteUbergraph_Wolfy_BP
+[2019.12.03-10.37.50:308][830]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e626fa3d50, Size=4, Default__SKEL_Wolfy_BP_C Function /Game/Woolf/Blueprints/Player/Wolfy_BP.SKEL_Wolfy_BP_C:ExecuteUbergraph_Wolfy_BP
+[2019.12.03-10.37.50:315][830]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e626fa3d50, Size=4
+[2019.12.03-10.37.50:315][830]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e626fa3d50, Size=4, Default__SKEL_Wolfy_BP_C Function /Engine/Transient.REINST_SKEL_Wolfy_BP_C_69:ExecuteUbergraph_Wolfy_BP
+[2019.12.03-10.37.50:318][830]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e626fa3e60, Size=4, Default__SKEL_Wolfy_BP_C Function /Game/Woolf/Blueprints/Player/Wolfy_BP.SKEL_Wolfy_BP_C:ExecuteUbergraph_Wolfy_BP
+[2019.12.03-10.37.57:491][631]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e626fa3e60, Size=4
+[2019.12.03-10.37.57:491][631]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e627105040, Size=4, Default__SKEL_Wolfy_BP_C Function /Engine/Transient.REINST_SKEL_Wolfy_BP_C_71:ExecuteUbergraph_Wolfy_BP
+[2019.12.03-10.37.57:493][631]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e627105228, Size=4, Default__SKEL_Wolfy_BP_C Function /Game/Woolf/Blueprints/Player/Wolfy_BP.SKEL_Wolfy_BP_C:ExecuteUbergraph_Wolfy_BP
+[2019.12.03-10.37.59:538][867]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e627105228, Size=4
+[2019.12.03-10.37.59:538][867]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e626fa3070, Size=4, Default__SKEL_Wolfy_BP_C Function /Engine/Transient.REINST_SKEL_Wolfy_BP_C_73:ExecuteUbergraph_Wolfy_BP
+[2019.12.03-10.37.59:541][867]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e626fa3040, Size=4, Default__SKEL_Wolfy_BP_C Function /Game/Woolf/Blueprints/Player/Wolfy_BP.SKEL_Wolfy_BP_C:ExecuteUbergraph_Wolfy_BP
+[2019.12.03-10.38.15:279][619]BlueprintLog: New page: Compile Wolfy_BP
+[2019.12.03-10.38.15:287][619]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e626fa3040, Size=4
+[2019.12.03-10.38.15:287][619]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e627a5e8c0, Size=4, Default__SKEL_Wolfy_BP_C Function /Engine/Transient.REINST_SKEL_Wolfy_BP_C_75:ExecuteUbergraph_Wolfy_BP
+[2019.12.03-10.38.15:299][619]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e5ca779a80, Size=336
+[2019.12.03-10.38.15:299][619]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e6271ae800, Size=336, Wolfy_BP_C_67 Function /Engine/Transient.REINST_Wolfy_BP_C_78:ExecuteUbergraph_Wolfy_BP
+[2019.12.03-10.38.15:304][619]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e6271a5600, Size=336, Default__Wolfy_BP_C Function /Game/Woolf/Blueprints/Player/Wolfy_BP.Wolfy_BP_C:ExecuteUbergraph_Wolfy_BP
+[2019.12.03-10.38.15:556][619]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e627a5e8c0, Size=4
+[2019.12.03-10.38.15:556][619]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e626fa3070, Size=4
+[2019.12.03-10.38.15:613][619]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Woolf/Blueprints/Player/Wolfy_BP" FILE="../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/Blueprints/Player/Wolfy_BP.uasset" SILENT=true
+[2019.12.03-10.38.15:688][619]LogSavePackage: Save=46.09ms
+[2019.12.03-10.38.15:688][619]LogSavePackage: Moving '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Saved/Wolfy_BPEA6DA0534E875CE6B41E018707796E36.tmp' to '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/Blueprints/Player/Wolfy_BP.uasset'
+[2019.12.03-10.38.15:696][619]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/Blueprints/Player/Wolfy_BP.uasset
+[2019.12.03-10.38.35:716][978]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e60a7635b0, Size=4, Default__SKEL_Wolfy_BP_C Function /Game/Woolf/Blueprints/Player/Wolfy_BP.SKEL_Wolfy_BP_C:ExecuteUbergraph_Wolfy_BP
+[2019.12.03-10.39.32:850][645]BlueprintLog: New page: Compile Wolfy_BP
+[2019.12.03-10.39.32:858][645]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e60a7635b0, Size=4
+[2019.12.03-10.39.32:858][645]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e61087cc88, Size=4, Default__SKEL_Wolfy_BP_C Function /Engine/Transient.REINST_SKEL_Wolfy_BP_C_82:ExecuteUbergraph_Wolfy_BP
+[2019.12.03-10.39.32:870][645]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e6271a5600, Size=336
+[2019.12.03-10.39.32:870][645]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e623d1e800, Size=336, Wolfy_BP_C_89 Function /Engine/Transient.REINST_Wolfy_BP_C_85:ExecuteUbergraph_Wolfy_BP
+[2019.12.03-10.39.32:878][645]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e5a96e9d80, Size=336, Default__Wolfy_BP_C Function /Game/Woolf/Blueprints/Player/Wolfy_BP.Wolfy_BP_C:ExecuteUbergraph_Wolfy_BP
+[2019.12.03-10.39.33:136][645]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e6271ae800, Size=336
+[2019.12.03-10.39.33:136][645]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e61087cc88, Size=4
+[2019.12.03-10.39.33:194][645]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Woolf/Blueprints/Player/Wolfy_BP" FILE="../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/Blueprints/Player/Wolfy_BP.uasset" SILENT=true
+[2019.12.03-10.39.33:264][645]LogSavePackage: Save=40.32ms
+[2019.12.03-10.39.33:264][645]LogSavePackage: Moving '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Saved/Wolfy_BPDDB889EC4A76D90EC6E9D4B09FA9F3C1.tmp' to '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/Blueprints/Player/Wolfy_BP.uasset'
+[2019.12.03-10.39.33:270][645]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/Blueprints/Player/Wolfy_BP.uasset
+[2019.12.03-10.39.40:779][496]LogTemp: Repeating last play command: Standalone Game
+[2019.12.03-10.39.40:819][496]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e623d1e800, Size=336
+[2019.12.03-10.44.22:612][292]BlueprintLog: New page: Compile W_InGame
+[2019.12.03-10.44.22:693][292]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Woolf/UI/W_InGame" FILE="../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/UI/W_InGame.uasset" SILENT=true
+[2019.12.03-10.44.22:764][292]LogSavePackage: Save=31.28ms
+[2019.12.03-10.44.22:764][292]LogSavePackage: Moving '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Saved/W_InGame1C0CA7BC4CC03A575D75A9A8299535F5.tmp' to '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/UI/W_InGame.uasset'
+[2019.12.03-10.44.22:771][292]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/UI/W_InGame.uasset
+[2019.12.03-10.44.34:265][656]LogTemp: Repeating last play command: Standalone Game
+[2019.12.03-10.46.34:070][890]BlueprintLog: New page: Compile W_InGame
+[2019.12.03-10.46.34:150][890]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Woolf/UI/W_InGame" FILE="../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/UI/W_InGame.uasset" SILENT=true
+[2019.12.03-10.46.34:209][890]LogSavePackage: Save=28.37ms
+[2019.12.03-10.46.34:209][890]LogSavePackage: Moving '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Saved/W_InGameFD2E5FA64588ACD7C1137C9C0F01CD95.tmp' to '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/UI/W_InGame.uasset'
+[2019.12.03-10.46.34:215][890]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/UI/W_InGame.uasset
+[2019.12.03-10.47.21:034][ 45]BlueprintLog: New page: Compile W_InGame
+[2019.12.03-10.47.21:110][ 45]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Woolf/UI/W_InGame" FILE="../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/UI/W_InGame.uasset" SILENT=true
+[2019.12.03-10.47.21:173][ 45]LogSavePackage: Save=29.14ms
+[2019.12.03-10.47.21:173][ 45]LogSavePackage: Moving '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Saved/W_InGame4547F32C495E156E899787AD2E815F26.tmp' to '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/UI/W_InGame.uasset'
+[2019.12.03-10.47.21:180][ 45]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/UI/W_InGame.uasset
+[2019.12.03-10.48.07:506][479]BlueprintLog: New page: Compile W_InGame
+[2019.12.03-10.48.07:532][479]LogBlueprint: Error: [Compiler W_InGame] This blueprint (self) is not a PlayerState, therefore ' Target ' must have a connection.
+[2019.12.03-10.48.07:533][479]LogBlueprint: Error: [Compiler W_InGame] Variable node  Get PlayerId  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2019.12.03-10.48.07:569][479]LogBlueprint: Warning: [Compiler W_InGame] [3016.51] Compile of W_InGame failed. 2 Fatal Issue(s) 0 Warning(s) [in 62 ms] (/Game/Woolf/UI/W_InGame.W_InGame)
+[2019.12.03-10.48.13:061][131]BlueprintLog: New page: Compile W_InGame
+[2019.12.03-10.48.13:131][131]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Woolf/UI/W_InGame" FILE="../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/UI/W_InGame.uasset" SILENT=true
+[2019.12.03-10.48.13:198][131]LogSavePackage: Save=38.41ms
+[2019.12.03-10.48.13:198][131]LogSavePackage: Moving '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Saved/W_InGameB2C404CD48F632B99D480D963D0265E8.tmp' to '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/UI/W_InGame.uasset'
+[2019.12.03-10.48.13:205][131]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/UI/W_InGame.uasset
+[2019.12.03-10.48.18:022][704]LogTemp: Repeating last play command: Standalone Game
+[2019.12.03-10.49.05:753][751]LogSlate: Window 'Choose Location for importing the scene content' being destroyed
+[2019.12.03-10.49.05:792][751]LogFactory: FactoryCreateFile: World with FbxSceneImportFactory (0 0 G:/ForGame/WolfMesh.fbx)
+[2019.12.03-10.49.05:809][751]LogFbx: Loading FBX Scene from G:/ForGame/WolfMesh.fbx
+[2019.12.03-10.49.05:849][751]LogFbx: FBX Scene Loaded Succesfully
+[2019.12.03-10.49.05:854][751]LogFbx: =================================================
+[2019.12.03-10.49.05:854][751]LogFbx: Dumping Node START [default] 
+[2019.12.03-10.49.05:854][751]LogFbx: 	Total Deformer Count 664917336.
+[2019.12.03-10.49.05:854][751]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.12.03-10.49.05:854][751]LogFbx: =================================================
+[2019.12.03-10.49.05:854][751]LogFbx: 	Attribute (defaultmesh) Type (4).
+[2019.12.03-10.49.05:855][751]LogFbx: 		[Node Attribute Child 1] default (Type Mesh).
+[2019.12.03-10.49.05:855][751]LogFbx: Dumping Node END [default]
+[2019.12.03-10.49.05:855][751]LogFbx: =================================================
+[2019.12.03-10.49.05:855][751]LogFbx: Dumping Node START [Head3:Group3] 
+[2019.12.03-10.49.05:855][751]LogFbx: 	Total Deformer Count -323872848.
+[2019.12.03-10.49.05:855][751]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.12.03-10.49.05:855][751]LogFbx: =================================================
+[2019.12.03-10.49.05:855][751]LogFbx: 	Attribute (Head3:Group3mesh) Type (4).
+[2019.12.03-10.49.05:855][751]LogFbx: 		[Node Attribute Child 1] Head3:Group3 (Type Mesh).
+[2019.12.03-10.49.05:855][751]LogFbx: Dumping Node END [Head3:Group3]
+[2019.12.03-10.49.05:855][751]LogFbx: =================================================
+[2019.12.03-10.49.05:855][751]LogFbx: Dumping Node START [default] 
+[2019.12.03-10.49.05:855][751]LogFbx: 	Total Deformer Count 664915768.
+[2019.12.03-10.49.05:855][751]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.12.03-10.49.05:855][751]LogFbx: =================================================
+[2019.12.03-10.49.05:855][751]LogFbx: 	Attribute (defaultmesh) Type (4).
+[2019.12.03-10.49.05:855][751]LogFbx: 		[Node Attribute Child 1] default (Type Mesh).
+[2019.12.03-10.49.05:855][751]LogFbx: Dumping Node END [default]
+[2019.12.03-10.49.05:855][751]LogFbx: =================================================
+[2019.12.03-10.49.05:855][751]LogFbx: Dumping Node START [Head3:Group3] 
+[2019.12.03-10.49.05:856][751]LogFbx: 	Total Deformer Count -448099136.
+[2019.12.03-10.49.05:856][751]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.12.03-10.49.05:856][751]LogFbx: =================================================
+[2019.12.03-10.49.05:856][751]LogFbx: 	Attribute (Head3:Group3mesh) Type (4).
+[2019.12.03-10.49.05:856][751]LogFbx: 		[Node Attribute Child 1] Head3:Group3 (Type Mesh).
+[2019.12.03-10.49.05:856][751]LogFbx: Dumping Node END [Head3:Group3]
+[2019.12.03-10.49.20:288][751]LogSlate: Window 'FBX Scene Import Options' being destroyed
+[2019.12.03-10.49.20:301][751]FBXImport: Warning: Ignoring mesh default because it but no weights. 
+[2019.12.03-10.49.21:925][935]LogSlate: Window 'Message Log' being destroyed
+[2019.12.03-10.49.21:929][935]LogSlate: Window 'Message Log' being destroyed
+[2019.12.03-10.49.37:851][318]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 G:\ForGame\WolfMesh.fbx)
+[2019.12.03-10.49.37:867][318]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2019.12.03-10.49.37:867][318]LogFbx: ItemName: NodeAttribute, ItemCount : 65
+[2019.12.03-10.49.37:867][318]LogFbx: ItemName: Model, ItemCount : 67
+[2019.12.03-10.49.37:867][318]LogFbx: ItemName: Geometry, ItemCount : 2
+[2019.12.03-10.49.37:867][318]LogFbx: ItemName: Pose, ItemCount : 1
+[2019.12.03-10.49.37:867][318]LogFbx: ItemName: Deformer, ItemCount : 54
+[2019.12.03-10.49.37:867][318]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2019.12.03-10.49.37:867][318]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2019.12.03-10.49.37:867][318]LogFbx: ItemName: AnimationCurveNode, ItemCount : 54
+[2019.12.03-10.49.37:867][318]LogFbx: ItemName: AnimationCurve, ItemCount : 315
+[2019.12.03-10.49.37:874][318]LogFbx: Loading FBX Scene from G:\ForGame\WolfMesh.fbx
+[2019.12.03-10.49.37:927][318]LogFbx: FBX Scene Loaded Succesfully
+[2019.12.03-10.49.43:428][318]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.12.03-10.49.43:505][318]LogFbx: Loading FBX Scene from G:\ForGame\WolfMesh.fbx
+[2019.12.03-10.49.43:545][318]LogFbx: FBX Scene Loaded Succesfully
+[2019.12.03-10.49.43:550][318]LogFbx: =================================================
+[2019.12.03-10.49.43:550][318]LogFbx: Dumping Node START [default] 
+[2019.12.03-10.49.43:550][318]LogFbx: 	Total Deformer Count 661222448.
+[2019.12.03-10.49.43:550][318]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.12.03-10.49.43:550][318]LogFbx: =================================================
+[2019.12.03-10.49.43:550][318]LogFbx: 	Attribute (defaultmesh) Type (4).
+[2019.12.03-10.49.43:550][318]LogFbx: 		[Node Attribute Child 1] default (Type Mesh).
+[2019.12.03-10.49.43:550][318]LogFbx: Dumping Node END [default]
+[2019.12.03-10.49.43:550][318]LogFbx: =================================================
+[2019.12.03-10.49.43:550][318]LogFbx: Dumping Node START [Head3:Group3] 
+[2019.12.03-10.49.43:550][318]LogFbx: 	Total Deformer Count 278450544.
+[2019.12.03-10.49.43:550][318]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.12.03-10.49.43:550][318]LogFbx: =================================================
+[2019.12.03-10.49.43:550][318]LogFbx: 	Attribute (Head3:Group3mesh) Type (4).
+[2019.12.03-10.49.43:550][318]LogFbx: 		[Node Attribute Child 1] Head3:Group3 (Type Mesh).
+[2019.12.03-10.49.43:550][318]LogFbx: Dumping Node END [Head3:Group3]
+[2019.12.03-10.49.43:550][318]LogFbx: =================================================
+[2019.12.03-10.49.43:550][318]LogFbx: Dumping Node START [default] 
+[2019.12.03-10.49.43:550][318]LogFbx: 	Total Deformer Count 661216008.
+[2019.12.03-10.49.43:550][318]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.12.03-10.49.43:550][318]LogFbx: =================================================
+[2019.12.03-10.49.43:550][318]LogFbx: 	Attribute (defaultmesh) Type (4).
+[2019.12.03-10.49.43:550][318]LogFbx: 		[Node Attribute Child 1] default (Type Mesh).
+[2019.12.03-10.49.43:550][318]LogFbx: Dumping Node END [default]
+[2019.12.03-10.49.43:550][318]LogFbx: =================================================
+[2019.12.03-10.49.43:550][318]LogFbx: Dumping Node START [Head3:Group3] 
+[2019.12.03-10.49.43:550][318]LogFbx: 	Total Deformer Count 278457824.
+[2019.12.03-10.49.43:550][318]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.12.03-10.49.43:550][318]LogFbx: =================================================
+[2019.12.03-10.49.43:550][318]LogFbx: 	Attribute (Head3:Group3mesh) Type (4).
+[2019.12.03-10.49.43:550][318]LogFbx: 		[Node Attribute Child 1] Head3:Group3 (Type Mesh).
+[2019.12.03-10.49.43:550][318]LogFbx: Dumping Node END [Head3:Group3]
+[2019.12.03-10.49.43:551][318]LogFbx: Valid bind pose for Pose (BindPose) - Head3:Group3
+[2019.12.03-10.49.43:554][318]LogFbx: Triangulating skeletal mesh Head3:Group3
+[2019.12.03-10.49.44:125][318]LogFbx: Warning: Bones digested - 65  Depth of hierarchy - 12
+[2019.12.03-10.49.44:460][318]LogSkeletalMesh: Section 0: 9963 vertices, 52 active bones
+[2019.12.03-10.49.44:580][318]LogSkeletalMesh: Section 0: Material=0, 16919 triangles
+[2019.12.03-10.49.44:580][318]LogSkeletalMesh: Building Skeletal Mesh WolfMesh...
+[2019.12.03-10.49.44:599][318]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/Woolf/Models/Assets/Alex/WolfMesh.WolfMesh
+[2019.12.03-10.49.44:607][318]LogLinker: Can't find file '/Game/Woolf/Models/Assets/Alex/WolfMesh_Skeleton'
+[2019.12.03-10.49.44:608][318]LogLinker: Can't find file '/Game/Woolf/Models/Assets/Alex/WolfMesh_Skeleton'
+[2019.12.03-10.49.44:612][318]LogLinker: Can't find file '/Game/Woolf/Models/Assets/Alex/WolfMesh_PhysicsAsset'
+[2019.12.03-10.49.44:612][318]LogLinker: Can't find file '/Game/Woolf/Models/Assets/Alex/WolfMesh_PhysicsAsset'
+[2019.12.03-10.49.44:633][318]FBXImport: Warning: Ignoring mesh default because it but no weights. 
+[2019.12.03-10.49.44:633][318]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.12.03-10.49.44:646][318]LogSkeletalMesh: Building Skeletal Mesh WolfMesh...
+[2019.12.03-10.49.44:667][318]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/Woolf/Models/Assets/Alex/WolfMesh.WolfMesh
+[2019.12.03-10.49.46:219][493]LogSlate: Window 'Message Log' being destroyed
+[2019.12.03-10.49.46:224][493]LogSlate: Window 'Message Log' being destroyed
+[2019.12.03-10.49.58:423][264]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 G:\ForGame\Jump.fbx)
+[2019.12.03-10.49.58:434][264]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2019.12.03-10.49.58:435][264]LogFbx: ItemName: NodeAttribute, ItemCount : 65
+[2019.12.03-10.49.58:435][264]LogFbx: ItemName: Model, ItemCount : 67
+[2019.12.03-10.49.58:435][264]LogFbx: ItemName: Geometry, ItemCount : 2
+[2019.12.03-10.49.58:435][264]LogFbx: ItemName: Pose, ItemCount : 1
+[2019.12.03-10.49.58:435][264]LogFbx: ItemName: Deformer, ItemCount : 54
+[2019.12.03-10.49.58:435][264]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2019.12.03-10.49.58:435][264]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2019.12.03-10.49.58:435][264]LogFbx: ItemName: AnimationCurveNode, ItemCount : 54
+[2019.12.03-10.49.58:435][264]LogFbx: ItemName: AnimationCurve, ItemCount : 315
+[2019.12.03-10.49.58:439][264]LogFbx: Loading FBX Scene from G:\ForGame\Jump.fbx
+[2019.12.03-10.49.58:484][264]LogFbx: FBX Scene Loaded Succesfully
+[2019.12.03-10.50.11:001][264]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.12.03-10.50.11:078][264]LogFbx: Loading FBX Scene from G:\ForGame\Jump.fbx
+[2019.12.03-10.50.11:130][264]LogFbx: FBX Scene Loaded Succesfully
+[2019.12.03-10.50.11:137][264]LogFbx: =================================================
+[2019.12.03-10.50.11:137][264]LogFbx: Dumping Node START [default] 
+[2019.12.03-10.50.11:137][264]LogFbx: 	Total Deformer Count 37548040.
+[2019.12.03-10.50.11:137][264]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.12.03-10.50.11:137][264]LogFbx: =================================================
+[2019.12.03-10.50.11:137][264]LogFbx: 	Attribute (defaultmesh) Type (4).
+[2019.12.03-10.50.11:137][264]LogFbx: 		[Node Attribute Child 1] default (Type Mesh).
+[2019.12.03-10.50.11:137][264]LogFbx: Dumping Node END [default]
+[2019.12.03-10.50.11:137][264]LogFbx: =================================================
+[2019.12.03-10.50.11:137][264]LogFbx: Dumping Node START [Head3:Group3] 
+[2019.12.03-10.50.11:137][264]LogFbx: 	Total Deformer Count 278446944.
+[2019.12.03-10.50.11:137][264]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.12.03-10.50.11:137][264]LogFbx: =================================================
+[2019.12.03-10.50.11:137][264]LogFbx: 	Attribute (Head3:Group3mesh) Type (4).
+[2019.12.03-10.50.11:138][264]LogFbx: 		[Node Attribute Child 1] Head3:Group3 (Type Mesh).
+[2019.12.03-10.50.11:138][264]LogFbx: Dumping Node END [Head3:Group3]
+[2019.12.03-10.50.11:138][264]LogFbx: =================================================
+[2019.12.03-10.50.11:138][264]LogFbx: Dumping Node START [default] 
+[2019.12.03-10.50.11:138][264]LogFbx: 	Total Deformer Count 37547088.
+[2019.12.03-10.50.11:138][264]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.12.03-10.50.11:138][264]LogFbx: =================================================
+[2019.12.03-10.50.11:138][264]LogFbx: 	Attribute (defaultmesh) Type (4).
+[2019.12.03-10.50.11:138][264]LogFbx: 		[Node Attribute Child 1] default (Type Mesh).
+[2019.12.03-10.50.11:138][264]LogFbx: Dumping Node END [default]
+[2019.12.03-10.50.11:138][264]LogFbx: =================================================
+[2019.12.03-10.50.11:138][264]LogFbx: Dumping Node START [Head3:Group3] 
+[2019.12.03-10.50.11:138][264]LogFbx: 	Total Deformer Count 278449584.
+[2019.12.03-10.50.11:138][264]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.12.03-10.50.11:138][264]LogFbx: =================================================
+[2019.12.03-10.50.11:138][264]LogFbx: 	Attribute (Head3:Group3mesh) Type (4).
+[2019.12.03-10.50.11:138][264]LogFbx: 		[Node Attribute Child 1] Head3:Group3 (Type Mesh).
+[2019.12.03-10.50.11:138][264]LogFbx: Dumping Node END [Head3:Group3]
+[2019.12.03-10.50.11:141][264]LogFbx: SortedLinks :(0) Hips
+[2019.12.03-10.50.11:141][264]LogFbx: SortedLinks :(1) Spine
+[2019.12.03-10.50.11:141][264]LogFbx: SortedLinks :(2) Spine1
+[2019.12.03-10.50.11:141][264]LogFbx: SortedLinks :(3) Spine2
+[2019.12.03-10.50.11:141][264]LogFbx: SortedLinks :(4) Neck
+[2019.12.03-10.50.11:141][264]LogFbx: SortedLinks :(5) Head
+[2019.12.03-10.50.11:141][264]LogFbx: SortedLinks :(6) HeadTop_End
+[2019.12.03-10.50.11:141][264]LogFbx: SortedLinks :(7) LeftShoulder
+[2019.12.03-10.50.11:141][264]LogFbx: SortedLinks :(8) LeftArm
+[2019.12.03-10.50.11:141][264]LogFbx: SortedLinks :(9) LeftForeArm
+[2019.12.03-10.50.11:141][264]LogFbx: SortedLinks :(10) LeftHand
+[2019.12.03-10.50.11:141][264]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2019.12.03-10.50.11:141][264]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2019.12.03-10.50.11:141][264]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2019.12.03-10.50.11:141][264]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2019.12.03-10.50.11:141][264]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2019.12.03-10.50.11:142][264]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2019.12.03-10.50.11:142][264]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2019.12.03-10.50.11:142][264]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2019.12.03-10.50.11:142][264]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2019.12.03-10.50.11:142][264]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2019.12.03-10.50.11:142][264]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2019.12.03-10.50.11:142][264]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2019.12.03-10.50.11:142][264]LogFbx: SortedLinks :(23) LeftHandRing1
+[2019.12.03-10.50.11:142][264]LogFbx: SortedLinks :(24) LeftHandRing2
+[2019.12.03-10.50.11:142][264]LogFbx: SortedLinks :(25) LeftHandRing3
+[2019.12.03-10.50.11:142][264]LogFbx: SortedLinks :(26) LeftHandRing4
+[2019.12.03-10.50.11:142][264]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2019.12.03-10.50.11:142][264]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2019.12.03-10.50.11:142][264]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2019.12.03-10.50.11:142][264]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2019.12.03-10.50.11:142][264]LogFbx: SortedLinks :(31) RightShoulder
+[2019.12.03-10.50.11:142][264]LogFbx: SortedLinks :(32) RightArm
+[2019.12.03-10.50.11:142][264]LogFbx: SortedLinks :(33) RightForeArm
+[2019.12.03-10.50.11:142][264]LogFbx: SortedLinks :(34) RightHand
+[2019.12.03-10.50.11:142][264]LogFbx: SortedLinks :(35) RightHandThumb1
+[2019.12.03-10.50.11:142][264]LogFbx: SortedLinks :(36) RightHandThumb2
+[2019.12.03-10.50.11:142][264]LogFbx: SortedLinks :(37) RightHandThumb3
+[2019.12.03-10.50.11:142][264]LogFbx: SortedLinks :(38) RightHandThumb4
+[2019.12.03-10.50.11:142][264]LogFbx: SortedLinks :(39) RightHandIndex1
+[2019.12.03-10.50.11:142][264]LogFbx: SortedLinks :(40) RightHandIndex2
+[2019.12.03-10.50.11:142][264]LogFbx: SortedLinks :(41) RightHandIndex3
+[2019.12.03-10.50.11:142][264]LogFbx: SortedLinks :(42) RightHandIndex4
+[2019.12.03-10.50.11:142][264]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2019.12.03-10.50.11:142][264]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2019.12.03-10.50.11:143][264]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2019.12.03-10.50.11:143][264]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2019.12.03-10.50.11:143][264]LogFbx: SortedLinks :(47) RightHandRing1
+[2019.12.03-10.50.11:143][264]LogFbx: SortedLinks :(48) RightHandRing2
+[2019.12.03-10.50.11:143][264]LogFbx: SortedLinks :(49) RightHandRing3
+[2019.12.03-10.50.11:143][264]LogFbx: SortedLinks :(50) RightHandRing4
+[2019.12.03-10.50.11:143][264]LogFbx: SortedLinks :(51) RightHandPinky1
+[2019.12.03-10.50.11:143][264]LogFbx: SortedLinks :(52) RightHandPinky2
+[2019.12.03-10.50.11:143][264]LogFbx: SortedLinks :(53) RightHandPinky3
+[2019.12.03-10.50.11:143][264]LogFbx: SortedLinks :(54) RightHandPinky4
+[2019.12.03-10.50.11:143][264]LogFbx: SortedLinks :(55) LeftUpLeg
+[2019.12.03-10.50.11:143][264]LogFbx: SortedLinks :(56) LeftLeg
+[2019.12.03-10.50.11:143][264]LogFbx: SortedLinks :(57) LeftFoot
+[2019.12.03-10.50.11:143][264]LogFbx: SortedLinks :(58) LeftToeBase
+[2019.12.03-10.50.11:143][264]LogFbx: SortedLinks :(59) LeftToe_End
+[2019.12.03-10.50.11:143][264]LogFbx: SortedLinks :(60) RightUpLeg
+[2019.12.03-10.50.11:143][264]LogFbx: SortedLinks :(61) RightLeg
+[2019.12.03-10.50.11:143][264]LogFbx: SortedLinks :(62) RightFoot
+[2019.12.03-10.50.11:143][264]LogFbx: SortedLinks :(63) RightToeBase
+[2019.12.03-10.50.11:143][264]LogFbx: SortedLinks :(64) RightToe_End
+[2019.12.03-10.50.11:144][264]LogFbx: Parsing AnimStack mixamo.com
+[2019.12.03-10.50.11:148][264]LogLinker: Can't find file '/Game/Woolf/Models/Assets/Alex/Animation/Jump'
+[2019.12.03-10.50.11:148][264]LogLinker: Can't find file '/Game/Woolf/Models/Assets/Alex/Animation/Jump'
+[2019.12.03-10.50.11:318][264]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Woolf/Models/Assets/Alex/Animation/Jump.Jump
+[2019.12.03-10.50.11:318][264]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Jump) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.12.03-10.50.11:331][264]FBXImport: Warning: Ignoring mesh default because it but no weights. 
+[2019.12.03-10.50.11:373][264]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 G:\ForGame\Running.fbx)
+[2019.12.03-10.50.19:191][264]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.12.03-10.50.19:244][264]LogFbx: Loading FBX Scene from G:\ForGame\Running.fbx
+[2019.12.03-10.50.19:284][264]LogFbx: FBX Scene Loaded Succesfully
+[2019.12.03-10.50.19:287][264]LogFbx: =================================================
+[2019.12.03-10.50.19:287][264]LogFbx: Dumping Node START [default] 
+[2019.12.03-10.50.19:287][264]LogFbx: 	Total Deformer Count 661222952.
+[2019.12.03-10.50.19:287][264]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.12.03-10.50.19:287][264]LogFbx: =================================================
+[2019.12.03-10.50.19:287][264]LogFbx: 	Attribute (defaultmesh) Type (4).
+[2019.12.03-10.50.19:287][264]LogFbx: 		[Node Attribute Child 1] default (Type Mesh).
+[2019.12.03-10.50.19:287][264]LogFbx: Dumping Node END [default]
+[2019.12.03-10.50.19:287][264]LogFbx: =================================================
+[2019.12.03-10.50.19:287][264]LogFbx: Dumping Node START [Head3:Group3] 
+[2019.12.03-10.50.19:287][264]LogFbx: 	Total Deformer Count 174249664.
+[2019.12.03-10.50.19:287][264]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.12.03-10.50.19:287][264]LogFbx: =================================================
+[2019.12.03-10.50.19:287][264]LogFbx: 	Attribute (Head3:Group3mesh) Type (4).
+[2019.12.03-10.50.19:287][264]LogFbx: 		[Node Attribute Child 1] Head3:Group3 (Type Mesh).
+[2019.12.03-10.50.19:287][264]LogFbx: Dumping Node END [Head3:Group3]
+[2019.12.03-10.50.19:288][264]LogFbx: =================================================
+[2019.12.03-10.50.19:288][264]LogFbx: Dumping Node START [default] 
+[2019.12.03-10.50.19:288][264]LogFbx: 	Total Deformer Count 661210688.
+[2019.12.03-10.50.19:288][264]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.12.03-10.50.19:288][264]LogFbx: =================================================
+[2019.12.03-10.50.19:288][264]LogFbx: 	Attribute (defaultmesh) Type (4).
+[2019.12.03-10.50.19:288][264]LogFbx: 		[Node Attribute Child 1] default (Type Mesh).
+[2019.12.03-10.50.19:288][264]LogFbx: Dumping Node END [default]
+[2019.12.03-10.50.19:288][264]LogFbx: =================================================
+[2019.12.03-10.50.19:288][264]LogFbx: Dumping Node START [Head3:Group3] 
+[2019.12.03-10.50.19:288][264]LogFbx: 	Total Deformer Count 174247264.
+[2019.12.03-10.50.19:288][264]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.12.03-10.50.19:288][264]LogFbx: =================================================
+[2019.12.03-10.50.19:288][264]LogFbx: 	Attribute (Head3:Group3mesh) Type (4).
+[2019.12.03-10.50.19:288][264]LogFbx: 		[Node Attribute Child 1] Head3:Group3 (Type Mesh).
+[2019.12.03-10.50.19:288][264]LogFbx: Dumping Node END [Head3:Group3]
+[2019.12.03-10.50.19:289][264]LogFbx: SortedLinks :(0) Hips
+[2019.12.03-10.50.19:289][264]LogFbx: SortedLinks :(1) Spine
+[2019.12.03-10.50.19:289][264]LogFbx: SortedLinks :(2) Spine1
+[2019.12.03-10.50.19:289][264]LogFbx: SortedLinks :(3) Spine2
+[2019.12.03-10.50.19:289][264]LogFbx: SortedLinks :(4) Neck
+[2019.12.03-10.50.19:290][264]LogFbx: SortedLinks :(5) Head
+[2019.12.03-10.50.19:290][264]LogFbx: SortedLinks :(6) HeadTop_End
+[2019.12.03-10.50.19:290][264]LogFbx: SortedLinks :(7) LeftShoulder
+[2019.12.03-10.50.19:290][264]LogFbx: SortedLinks :(8) LeftArm
+[2019.12.03-10.50.19:290][264]LogFbx: SortedLinks :(9) LeftForeArm
+[2019.12.03-10.50.19:290][264]LogFbx: SortedLinks :(10) LeftHand
+[2019.12.03-10.50.19:290][264]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2019.12.03-10.50.19:290][264]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2019.12.03-10.50.19:290][264]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2019.12.03-10.50.19:290][264]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2019.12.03-10.50.19:290][264]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2019.12.03-10.50.19:290][264]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2019.12.03-10.50.19:290][264]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2019.12.03-10.50.19:290][264]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2019.12.03-10.50.19:290][264]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2019.12.03-10.50.19:290][264]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2019.12.03-10.50.19:290][264]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2019.12.03-10.50.19:290][264]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2019.12.03-10.50.19:290][264]LogFbx: SortedLinks :(23) LeftHandRing1
+[2019.12.03-10.50.19:290][264]LogFbx: SortedLinks :(24) LeftHandRing2
+[2019.12.03-10.50.19:290][264]LogFbx: SortedLinks :(25) LeftHandRing3
+[2019.12.03-10.50.19:290][264]LogFbx: SortedLinks :(26) LeftHandRing4
+[2019.12.03-10.50.19:290][264]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2019.12.03-10.50.19:290][264]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2019.12.03-10.50.19:290][264]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2019.12.03-10.50.19:290][264]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2019.12.03-10.50.19:290][264]LogFbx: SortedLinks :(31) RightShoulder
+[2019.12.03-10.50.19:290][264]LogFbx: SortedLinks :(32) RightArm
+[2019.12.03-10.50.19:290][264]LogFbx: SortedLinks :(33) RightForeArm
+[2019.12.03-10.50.19:290][264]LogFbx: SortedLinks :(34) RightHand
+[2019.12.03-10.50.19:290][264]LogFbx: SortedLinks :(35) RightHandThumb1
+[2019.12.03-10.50.19:290][264]LogFbx: SortedLinks :(36) RightHandThumb2
+[2019.12.03-10.50.19:290][264]LogFbx: SortedLinks :(37) RightHandThumb3
+[2019.12.03-10.50.19:290][264]LogFbx: SortedLinks :(38) RightHandThumb4
+[2019.12.03-10.50.19:290][264]LogFbx: SortedLinks :(39) RightHandIndex1
+[2019.12.03-10.50.19:291][264]LogFbx: SortedLinks :(40) RightHandIndex2
+[2019.12.03-10.50.19:291][264]LogFbx: SortedLinks :(41) RightHandIndex3
+[2019.12.03-10.50.19:291][264]LogFbx: SortedLinks :(42) RightHandIndex4
+[2019.12.03-10.50.19:291][264]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2019.12.03-10.50.19:291][264]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2019.12.03-10.50.19:291][264]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2019.12.03-10.50.19:291][264]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2019.12.03-10.50.19:291][264]LogFbx: SortedLinks :(47) RightHandRing1
+[2019.12.03-10.50.19:291][264]LogFbx: SortedLinks :(48) RightHandRing2
+[2019.12.03-10.50.19:291][264]LogFbx: SortedLinks :(49) RightHandRing3
+[2019.12.03-10.50.19:291][264]LogFbx: SortedLinks :(50) RightHandRing4
+[2019.12.03-10.50.19:291][264]LogFbx: SortedLinks :(51) RightHandPinky1
+[2019.12.03-10.50.19:291][264]LogFbx: SortedLinks :(52) RightHandPinky2
+[2019.12.03-10.50.19:291][264]LogFbx: SortedLinks :(53) RightHandPinky3
+[2019.12.03-10.50.19:291][264]LogFbx: SortedLinks :(54) RightHandPinky4
+[2019.12.03-10.50.19:291][264]LogFbx: SortedLinks :(55) LeftUpLeg
+[2019.12.03-10.50.19:291][264]LogFbx: SortedLinks :(56) LeftLeg
+[2019.12.03-10.50.19:291][264]LogFbx: SortedLinks :(57) LeftFoot
+[2019.12.03-10.50.19:291][264]LogFbx: SortedLinks :(58) LeftToeBase
+[2019.12.03-10.50.19:291][264]LogFbx: SortedLinks :(59) LeftToe_End
+[2019.12.03-10.50.19:291][264]LogFbx: SortedLinks :(60) RightUpLeg
+[2019.12.03-10.50.19:291][264]LogFbx: SortedLinks :(61) RightLeg
+[2019.12.03-10.50.19:291][264]LogFbx: SortedLinks :(62) RightFoot
+[2019.12.03-10.50.19:291][264]LogFbx: SortedLinks :(63) RightToeBase
+[2019.12.03-10.50.19:291][264]LogFbx: SortedLinks :(64) RightToe_End
+[2019.12.03-10.50.19:292][264]LogFbx: Parsing AnimStack mixamo.com
+[2019.12.03-10.50.19:294][264]LogLinker: Can't find file '/Game/Woolf/Models/Assets/Alex/Animation/Running'
+[2019.12.03-10.50.19:294][264]LogLinker: Can't find file '/Game/Woolf/Models/Assets/Alex/Animation/Running'
+[2019.12.03-10.50.19:417][264]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Woolf/Models/Assets/Alex/Animation/Running.Running
+[2019.12.03-10.50.19:417][264]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Running) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.12.03-10.50.19:430][264]FBXImport: Warning: Ignoring mesh default because it but no weights. 
+[2019.12.03-10.50.19:458][264]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 G:\ForGame\Standing Idle.fbx)
+[2019.12.03-10.50.19:471][264]LogFbx: Loading FBX Scene from G:\ForGame\Standing Idle.fbx
+[2019.12.03-10.50.19:512][264]LogFbx: FBX Scene Loaded Succesfully
+[2019.12.03-10.50.19:517][264]LogFbx: =================================================
+[2019.12.03-10.50.19:517][264]LogFbx: Dumping Node START [default] 
+[2019.12.03-10.50.19:517][264]LogFbx: 	Total Deformer Count 661223288.
+[2019.12.03-10.50.19:517][264]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.12.03-10.50.19:517][264]LogFbx: =================================================
+[2019.12.03-10.50.19:517][264]LogFbx: 	Attribute (defaultmesh) Type (4).
+[2019.12.03-10.50.19:517][264]LogFbx: 		[Node Attribute Child 1] default (Type Mesh).
+[2019.12.03-10.50.19:517][264]LogFbx: Dumping Node END [default]
+[2019.12.03-10.50.19:517][264]LogFbx: =================================================
+[2019.12.03-10.50.19:517][264]LogFbx: Dumping Node START [Head3:Group3] 
+[2019.12.03-10.50.19:517][264]LogFbx: 	Total Deformer Count 277301424.
+[2019.12.03-10.50.19:517][264]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.12.03-10.50.19:517][264]LogFbx: =================================================
+[2019.12.03-10.50.19:517][264]LogFbx: 	Attribute (Head3:Group3mesh) Type (4).
+[2019.12.03-10.50.19:517][264]LogFbx: 		[Node Attribute Child 1] Head3:Group3 (Type Mesh).
+[2019.12.03-10.50.19:517][264]LogFbx: Dumping Node END [Head3:Group3]
+[2019.12.03-10.50.19:518][264]LogFbx: =================================================
+[2019.12.03-10.50.19:518][264]LogFbx: Dumping Node START [default] 
+[2019.12.03-10.50.19:518][264]LogFbx: 	Total Deformer Count 661223736.
+[2019.12.03-10.50.19:518][264]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.12.03-10.50.19:518][264]LogFbx: =================================================
+[2019.12.03-10.50.19:518][264]LogFbx: 	Attribute (defaultmesh) Type (4).
+[2019.12.03-10.50.19:518][264]LogFbx: 		[Node Attribute Child 1] default (Type Mesh).
+[2019.12.03-10.50.19:518][264]LogFbx: Dumping Node END [default]
+[2019.12.03-10.50.19:518][264]LogFbx: =================================================
+[2019.12.03-10.50.19:518][264]LogFbx: Dumping Node START [Head3:Group3] 
+[2019.12.03-10.50.19:518][264]LogFbx: 	Total Deformer Count 263357120.
+[2019.12.03-10.50.19:518][264]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.12.03-10.50.19:518][264]LogFbx: =================================================
+[2019.12.03-10.50.19:518][264]LogFbx: 	Attribute (Head3:Group3mesh) Type (4).
+[2019.12.03-10.50.19:518][264]LogFbx: 		[Node Attribute Child 1] Head3:Group3 (Type Mesh).
+[2019.12.03-10.50.19:518][264]LogFbx: Dumping Node END [Head3:Group3]
+[2019.12.03-10.50.19:519][264]LogFbx: SortedLinks :(0) Hips
+[2019.12.03-10.50.19:519][264]LogFbx: SortedLinks :(1) Spine
+[2019.12.03-10.50.19:519][264]LogFbx: SortedLinks :(2) Spine1
+[2019.12.03-10.50.19:519][264]LogFbx: SortedLinks :(3) Spine2
+[2019.12.03-10.50.19:519][264]LogFbx: SortedLinks :(4) Neck
+[2019.12.03-10.50.19:519][264]LogFbx: SortedLinks :(5) Head
+[2019.12.03-10.50.19:519][264]LogFbx: SortedLinks :(6) HeadTop_End
+[2019.12.03-10.50.19:519][264]LogFbx: SortedLinks :(7) LeftShoulder
+[2019.12.03-10.50.19:519][264]LogFbx: SortedLinks :(8) LeftArm
+[2019.12.03-10.50.19:519][264]LogFbx: SortedLinks :(9) LeftForeArm
+[2019.12.03-10.50.19:519][264]LogFbx: SortedLinks :(10) LeftHand
+[2019.12.03-10.50.19:520][264]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2019.12.03-10.50.19:520][264]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2019.12.03-10.50.19:520][264]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2019.12.03-10.50.19:520][264]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2019.12.03-10.50.19:520][264]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2019.12.03-10.50.19:520][264]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2019.12.03-10.50.19:520][264]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2019.12.03-10.50.19:520][264]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2019.12.03-10.50.19:520][264]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2019.12.03-10.50.19:520][264]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2019.12.03-10.50.19:520][264]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2019.12.03-10.50.19:520][264]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2019.12.03-10.50.19:520][264]LogFbx: SortedLinks :(23) LeftHandRing1
+[2019.12.03-10.50.19:520][264]LogFbx: SortedLinks :(24) LeftHandRing2
+[2019.12.03-10.50.19:520][264]LogFbx: SortedLinks :(25) LeftHandRing3
+[2019.12.03-10.50.19:520][264]LogFbx: SortedLinks :(26) LeftHandRing4
+[2019.12.03-10.50.19:520][264]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2019.12.03-10.50.19:520][264]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2019.12.03-10.50.19:520][264]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2019.12.03-10.50.19:520][264]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2019.12.03-10.50.19:520][264]LogFbx: SortedLinks :(31) RightShoulder
+[2019.12.03-10.50.19:520][264]LogFbx: SortedLinks :(32) RightArm
+[2019.12.03-10.50.19:520][264]LogFbx: SortedLinks :(33) RightForeArm
+[2019.12.03-10.50.19:520][264]LogFbx: SortedLinks :(34) RightHand
+[2019.12.03-10.50.19:520][264]LogFbx: SortedLinks :(35) RightHandThumb1
+[2019.12.03-10.50.19:520][264]LogFbx: SortedLinks :(36) RightHandThumb2
+[2019.12.03-10.50.19:520][264]LogFbx: SortedLinks :(37) RightHandThumb3
+[2019.12.03-10.50.19:520][264]LogFbx: SortedLinks :(38) RightHandThumb4
+[2019.12.03-10.50.19:520][264]LogFbx: SortedLinks :(39) RightHandIndex1
+[2019.12.03-10.50.19:520][264]LogFbx: SortedLinks :(40) RightHandIndex2
+[2019.12.03-10.50.19:520][264]LogFbx: SortedLinks :(41) RightHandIndex3
+[2019.12.03-10.50.19:520][264]LogFbx: SortedLinks :(42) RightHandIndex4
+[2019.12.03-10.50.19:520][264]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2019.12.03-10.50.19:520][264]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2019.12.03-10.50.19:520][264]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2019.12.03-10.50.19:520][264]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2019.12.03-10.50.19:520][264]LogFbx: SortedLinks :(47) RightHandRing1
+[2019.12.03-10.50.19:520][264]LogFbx: SortedLinks :(48) RightHandRing2
+[2019.12.03-10.50.19:520][264]LogFbx: SortedLinks :(49) RightHandRing3
+[2019.12.03-10.50.19:520][264]LogFbx: SortedLinks :(50) RightHandRing4
+[2019.12.03-10.50.19:520][264]LogFbx: SortedLinks :(51) RightHandPinky1
+[2019.12.03-10.50.19:520][264]LogFbx: SortedLinks :(52) RightHandPinky2
+[2019.12.03-10.50.19:520][264]LogFbx: SortedLinks :(53) RightHandPinky3
+[2019.12.03-10.50.19:520][264]LogFbx: SortedLinks :(54) RightHandPinky4
+[2019.12.03-10.50.19:521][264]LogFbx: SortedLinks :(55) LeftUpLeg
+[2019.12.03-10.50.19:521][264]LogFbx: SortedLinks :(56) LeftLeg
+[2019.12.03-10.50.19:521][264]LogFbx: SortedLinks :(57) LeftFoot
+[2019.12.03-10.50.19:521][264]LogFbx: SortedLinks :(58) LeftToeBase
+[2019.12.03-10.50.19:521][264]LogFbx: SortedLinks :(59) LeftToe_End
+[2019.12.03-10.50.19:521][264]LogFbx: SortedLinks :(60) RightUpLeg
+[2019.12.03-10.50.19:521][264]LogFbx: SortedLinks :(61) RightLeg
+[2019.12.03-10.50.19:521][264]LogFbx: SortedLinks :(62) RightFoot
+[2019.12.03-10.50.19:521][264]LogFbx: SortedLinks :(63) RightToeBase
+[2019.12.03-10.50.19:521][264]LogFbx: SortedLinks :(64) RightToe_End
+[2019.12.03-10.50.19:521][264]LogFbx: Parsing AnimStack mixamo.com
+[2019.12.03-10.50.19:524][264]LogLinker: Can't find file '/Game/Woolf/Models/Assets/Alex/Animation/Standing_Idle'
+[2019.12.03-10.50.19:524][264]LogLinker: Can't find file '/Game/Woolf/Models/Assets/Alex/Animation/Standing_Idle'
+[2019.12.03-10.50.19:751][264]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Woolf/Models/Assets/Alex/Animation/Standing_Idle.Standing_Idle
+[2019.12.03-10.50.19:751][264]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Standing_Idle) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.12.03-10.50.19:763][264]FBXImport: Warning: Ignoring mesh default because it but no weights. 
+[2019.12.03-10.50.19:788][264]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 G:\ForGame\Standing Melee Attack Downward.fbx)
+[2019.12.03-10.50.19:802][264]LogFbx: Loading FBX Scene from G:\ForGame\Standing Melee Attack Downward.fbx
+[2019.12.03-10.50.19:842][264]LogFbx: FBX Scene Loaded Succesfully
+[2019.12.03-10.50.19:849][264]LogFbx: =================================================
+[2019.12.03-10.50.19:849][264]LogFbx: Dumping Node START [default] 
+[2019.12.03-10.50.19:849][264]LogFbx: 	Total Deformer Count 661224128.
+[2019.12.03-10.50.19:849][264]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.12.03-10.50.19:849][264]LogFbx: =================================================
+[2019.12.03-10.50.19:849][264]LogFbx: 	Attribute (defaultmesh) Type (4).
+[2019.12.03-10.50.19:849][264]LogFbx: 		[Node Attribute Child 1] default (Type Mesh).
+[2019.12.03-10.50.19:849][264]LogFbx: Dumping Node END [default]
+[2019.12.03-10.50.19:849][264]LogFbx: =================================================
+[2019.12.03-10.50.19:849][264]LogFbx: Dumping Node START [Head3:Group3] 
+[2019.12.03-10.50.19:849][264]LogFbx: 	Total Deformer Count 654105696.
+[2019.12.03-10.50.19:849][264]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.12.03-10.50.19:849][264]LogFbx: =================================================
+[2019.12.03-10.50.19:849][264]LogFbx: 	Attribute (Head3:Group3mesh) Type (4).
+[2019.12.03-10.50.19:849][264]LogFbx: 		[Node Attribute Child 1] Head3:Group3 (Type Mesh).
+[2019.12.03-10.50.19:849][264]LogFbx: Dumping Node END [Head3:Group3]
+[2019.12.03-10.50.19:849][264]LogFbx: =================================================
+[2019.12.03-10.50.19:849][264]LogFbx: Dumping Node START [default] 
+[2019.12.03-10.50.19:849][264]LogFbx: 	Total Deformer Count 661220712.
+[2019.12.03-10.50.19:849][264]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.12.03-10.50.19:849][264]LogFbx: =================================================
+[2019.12.03-10.50.19:849][264]LogFbx: 	Attribute (defaultmesh) Type (4).
+[2019.12.03-10.50.19:849][264]LogFbx: 		[Node Attribute Child 1] default (Type Mesh).
+[2019.12.03-10.50.19:849][264]LogFbx: Dumping Node END [default]
+[2019.12.03-10.50.19:849][264]LogFbx: =================================================
+[2019.12.03-10.50.19:850][264]LogFbx: Dumping Node START [Head3:Group3] 
+[2019.12.03-10.50.19:850][264]LogFbx: 	Total Deformer Count 654113536.
+[2019.12.03-10.50.19:850][264]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.12.03-10.50.19:850][264]LogFbx: =================================================
+[2019.12.03-10.50.19:850][264]LogFbx: 	Attribute (Head3:Group3mesh) Type (4).
+[2019.12.03-10.50.19:850][264]LogFbx: 		[Node Attribute Child 1] Head3:Group3 (Type Mesh).
+[2019.12.03-10.50.19:850][264]LogFbx: Dumping Node END [Head3:Group3]
+[2019.12.03-10.50.19:851][264]LogFbx: SortedLinks :(0) Hips
+[2019.12.03-10.50.19:851][264]LogFbx: SortedLinks :(1) Spine
+[2019.12.03-10.50.19:851][264]LogFbx: SortedLinks :(2) Spine1
+[2019.12.03-10.50.19:851][264]LogFbx: SortedLinks :(3) Spine2
+[2019.12.03-10.50.19:851][264]LogFbx: SortedLinks :(4) Neck
+[2019.12.03-10.50.19:851][264]LogFbx: SortedLinks :(5) Head
+[2019.12.03-10.50.19:851][264]LogFbx: SortedLinks :(6) HeadTop_End
+[2019.12.03-10.50.19:851][264]LogFbx: SortedLinks :(7) LeftShoulder
+[2019.12.03-10.50.19:851][264]LogFbx: SortedLinks :(8) LeftArm
+[2019.12.03-10.50.19:851][264]LogFbx: SortedLinks :(9) LeftForeArm
+[2019.12.03-10.50.19:851][264]LogFbx: SortedLinks :(10) LeftHand
+[2019.12.03-10.50.19:851][264]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2019.12.03-10.50.19:851][264]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2019.12.03-10.50.19:851][264]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2019.12.03-10.50.19:851][264]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2019.12.03-10.50.19:851][264]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2019.12.03-10.50.19:851][264]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2019.12.03-10.50.19:851][264]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2019.12.03-10.50.19:851][264]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2019.12.03-10.50.19:851][264]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2019.12.03-10.50.19:851][264]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2019.12.03-10.50.19:851][264]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2019.12.03-10.50.19:851][264]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2019.12.03-10.50.19:852][264]LogFbx: SortedLinks :(23) LeftHandRing1
+[2019.12.03-10.50.19:852][264]LogFbx: SortedLinks :(24) LeftHandRing2
+[2019.12.03-10.50.19:852][264]LogFbx: SortedLinks :(25) LeftHandRing3
+[2019.12.03-10.50.19:852][264]LogFbx: SortedLinks :(26) LeftHandRing4
+[2019.12.03-10.50.19:852][264]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2019.12.03-10.50.19:852][264]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2019.12.03-10.50.19:852][264]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2019.12.03-10.50.19:852][264]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2019.12.03-10.50.19:852][264]LogFbx: SortedLinks :(31) RightShoulder
+[2019.12.03-10.50.19:852][264]LogFbx: SortedLinks :(32) RightArm
+[2019.12.03-10.50.19:852][264]LogFbx: SortedLinks :(33) RightForeArm
+[2019.12.03-10.50.19:852][264]LogFbx: SortedLinks :(34) RightHand
+[2019.12.03-10.50.19:852][264]LogFbx: SortedLinks :(35) RightHandThumb1
+[2019.12.03-10.50.19:852][264]LogFbx: SortedLinks :(36) RightHandThumb2
+[2019.12.03-10.50.19:852][264]LogFbx: SortedLinks :(37) RightHandThumb3
+[2019.12.03-10.50.19:852][264]LogFbx: SortedLinks :(38) RightHandThumb4
+[2019.12.03-10.50.19:852][264]LogFbx: SortedLinks :(39) RightHandIndex1
+[2019.12.03-10.50.19:852][264]LogFbx: SortedLinks :(40) RightHandIndex2
+[2019.12.03-10.50.19:852][264]LogFbx: SortedLinks :(41) RightHandIndex3
+[2019.12.03-10.50.19:852][264]LogFbx: SortedLinks :(42) RightHandIndex4
+[2019.12.03-10.50.19:852][264]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2019.12.03-10.50.19:852][264]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2019.12.03-10.50.19:852][264]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2019.12.03-10.50.19:852][264]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2019.12.03-10.50.19:852][264]LogFbx: SortedLinks :(47) RightHandRing1
+[2019.12.03-10.50.19:852][264]LogFbx: SortedLinks :(48) RightHandRing2
+[2019.12.03-10.50.19:852][264]LogFbx: SortedLinks :(49) RightHandRing3
+[2019.12.03-10.50.19:852][264]LogFbx: SortedLinks :(50) RightHandRing4
+[2019.12.03-10.50.19:852][264]LogFbx: SortedLinks :(51) RightHandPinky1
+[2019.12.03-10.50.19:852][264]LogFbx: SortedLinks :(52) RightHandPinky2
+[2019.12.03-10.50.19:852][264]LogFbx: SortedLinks :(53) RightHandPinky3
+[2019.12.03-10.50.19:852][264]LogFbx: SortedLinks :(54) RightHandPinky4
+[2019.12.03-10.50.19:852][264]LogFbx: SortedLinks :(55) LeftUpLeg
+[2019.12.03-10.50.19:852][264]LogFbx: SortedLinks :(56) LeftLeg
+[2019.12.03-10.50.19:852][264]LogFbx: SortedLinks :(57) LeftFoot
+[2019.12.03-10.50.19:852][264]LogFbx: SortedLinks :(58) LeftToeBase
+[2019.12.03-10.50.19:852][264]LogFbx: SortedLinks :(59) LeftToe_End
+[2019.12.03-10.50.19:852][264]LogFbx: SortedLinks :(60) RightUpLeg
+[2019.12.03-10.50.19:853][264]LogFbx: SortedLinks :(61) RightLeg
+[2019.12.03-10.50.19:853][264]LogFbx: SortedLinks :(62) RightFoot
+[2019.12.03-10.50.19:853][264]LogFbx: SortedLinks :(63) RightToeBase
+[2019.12.03-10.50.19:853][264]LogFbx: SortedLinks :(64) RightToe_End
+[2019.12.03-10.50.19:853][264]LogFbx: Parsing AnimStack mixamo.com
+[2019.12.03-10.50.19:855][264]LogLinker: Can't find file '/Game/Woolf/Models/Assets/Alex/Animation/Standing_Melee_Attack_Downward'
+[2019.12.03-10.50.19:856][264]LogLinker: Can't find file '/Game/Woolf/Models/Assets/Alex/Animation/Standing_Melee_Attack_Downward'
+[2019.12.03-10.50.25:151][264]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Woolf/Models/Assets/Alex/Animation/Standing_Melee_Attack_Downward.Standing_Melee_Attack_Downward
+[2019.12.03-10.50.25:154][264]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Standing_Melee_Attack_Downward) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.12.03-10.50.25:202][264]FBXImport: Warning: Ignoring mesh default because it but no weights. 
+[2019.12.03-10.50.25:229][264]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 G:\ForGame\Standing Melee Combo Attack Ver.3.0.fbx)
+[2019.12.03-10.50.25:242][264]LogFbx: Loading FBX Scene from G:\ForGame\Standing Melee Combo Attack Ver.3.0.fbx
+[2019.12.03-10.50.25:283][264]LogFbx: FBX Scene Loaded Succesfully
+[2019.12.03-10.50.25:286][264]LogFbx: =================================================
+[2019.12.03-10.50.25:286][264]LogFbx: Dumping Node START [default] 
+[2019.12.03-10.50.25:286][264]LogFbx: 	Total Deformer Count 661210856.
+[2019.12.03-10.50.25:286][264]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.12.03-10.50.25:286][264]LogFbx: =================================================
+[2019.12.03-10.50.25:286][264]LogFbx: 	Attribute (defaultmesh) Type (4).
+[2019.12.03-10.50.25:286][264]LogFbx: 		[Node Attribute Child 1] default (Type Mesh).
+[2019.12.03-10.50.25:286][264]LogFbx: Dumping Node END [default]
+[2019.12.03-10.50.25:286][264]LogFbx: =================================================
+[2019.12.03-10.50.25:286][264]LogFbx: Dumping Node START [Head3:Group3] 
+[2019.12.03-10.50.25:286][264]LogFbx: 	Total Deformer Count 278212464.
+[2019.12.03-10.50.25:286][264]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.12.03-10.50.25:286][264]LogFbx: =================================================
+[2019.12.03-10.50.25:286][264]LogFbx: 	Attribute (Head3:Group3mesh) Type (4).
+[2019.12.03-10.50.25:286][264]LogFbx: 		[Node Attribute Child 1] Head3:Group3 (Type Mesh).
+[2019.12.03-10.50.25:287][264]LogFbx: Dumping Node END [Head3:Group3]
+[2019.12.03-10.50.25:287][264]LogFbx: =================================================
+[2019.12.03-10.50.25:287][264]LogFbx: Dumping Node START [default] 
+[2019.12.03-10.50.25:287][264]LogFbx: 	Total Deformer Count 661209232.
+[2019.12.03-10.50.25:287][264]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.12.03-10.50.25:287][264]LogFbx: =================================================
+[2019.12.03-10.50.25:287][264]LogFbx: 	Attribute (defaultmesh) Type (4).
+[2019.12.03-10.50.25:287][264]LogFbx: 		[Node Attribute Child 1] default (Type Mesh).
+[2019.12.03-10.50.25:287][264]LogFbx: Dumping Node END [default]
+[2019.12.03-10.50.25:287][264]LogFbx: =================================================
+[2019.12.03-10.50.25:287][264]LogFbx: Dumping Node START [Head3:Group3] 
+[2019.12.03-10.50.25:287][264]LogFbx: 	Total Deformer Count 278210224.
+[2019.12.03-10.50.25:287][264]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.12.03-10.50.25:287][264]LogFbx: =================================================
+[2019.12.03-10.50.25:287][264]LogFbx: 	Attribute (Head3:Group3mesh) Type (4).
+[2019.12.03-10.50.25:287][264]LogFbx: 		[Node Attribute Child 1] Head3:Group3 (Type Mesh).
+[2019.12.03-10.50.25:287][264]LogFbx: Dumping Node END [Head3:Group3]
+[2019.12.03-10.50.25:289][264]LogFbx: SortedLinks :(0) Hips
+[2019.12.03-10.50.25:289][264]LogFbx: SortedLinks :(1) Spine
+[2019.12.03-10.50.25:289][264]LogFbx: SortedLinks :(2) Spine1
+[2019.12.03-10.50.25:289][264]LogFbx: SortedLinks :(3) Spine2
+[2019.12.03-10.50.25:289][264]LogFbx: SortedLinks :(4) Neck
+[2019.12.03-10.50.25:289][264]LogFbx: SortedLinks :(5) Head
+[2019.12.03-10.50.25:289][264]LogFbx: SortedLinks :(6) HeadTop_End
+[2019.12.03-10.50.25:289][264]LogFbx: SortedLinks :(7) LeftShoulder
+[2019.12.03-10.50.25:289][264]LogFbx: SortedLinks :(8) LeftArm
+[2019.12.03-10.50.25:290][264]LogFbx: SortedLinks :(9) LeftForeArm
+[2019.12.03-10.50.25:290][264]LogFbx: SortedLinks :(10) LeftHand
+[2019.12.03-10.50.25:290][264]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2019.12.03-10.50.25:290][264]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2019.12.03-10.50.25:290][264]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2019.12.03-10.50.25:290][264]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2019.12.03-10.50.25:290][264]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2019.12.03-10.50.25:290][264]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2019.12.03-10.50.25:290][264]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2019.12.03-10.50.25:290][264]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2019.12.03-10.50.25:290][264]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2019.12.03-10.50.25:290][264]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2019.12.03-10.50.25:290][264]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2019.12.03-10.50.25:290][264]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2019.12.03-10.50.25:290][264]LogFbx: SortedLinks :(23) LeftHandRing1
+[2019.12.03-10.50.25:290][264]LogFbx: SortedLinks :(24) LeftHandRing2
+[2019.12.03-10.50.25:290][264]LogFbx: SortedLinks :(25) LeftHandRing3
+[2019.12.03-10.50.25:290][264]LogFbx: SortedLinks :(26) LeftHandRing4
+[2019.12.03-10.50.25:290][264]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2019.12.03-10.50.25:290][264]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2019.12.03-10.50.25:290][264]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2019.12.03-10.50.25:290][264]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2019.12.03-10.50.25:290][264]LogFbx: SortedLinks :(31) RightShoulder
+[2019.12.03-10.50.25:290][264]LogFbx: SortedLinks :(32) RightArm
+[2019.12.03-10.50.25:290][264]LogFbx: SortedLinks :(33) RightForeArm
+[2019.12.03-10.50.25:290][264]LogFbx: SortedLinks :(34) RightHand
+[2019.12.03-10.50.25:290][264]LogFbx: SortedLinks :(35) RightHandThumb1
+[2019.12.03-10.50.25:290][264]LogFbx: SortedLinks :(36) RightHandThumb2
+[2019.12.03-10.50.25:290][264]LogFbx: SortedLinks :(37) RightHandThumb3
+[2019.12.03-10.50.25:290][264]LogFbx: SortedLinks :(38) RightHandThumb4
+[2019.12.03-10.50.25:290][264]LogFbx: SortedLinks :(39) RightHandIndex1
+[2019.12.03-10.50.25:290][264]LogFbx: SortedLinks :(40) RightHandIndex2
+[2019.12.03-10.50.25:290][264]LogFbx: SortedLinks :(41) RightHandIndex3
+[2019.12.03-10.50.25:290][264]LogFbx: SortedLinks :(42) RightHandIndex4
+[2019.12.03-10.50.25:291][264]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2019.12.03-10.50.25:291][264]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2019.12.03-10.50.25:291][264]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2019.12.03-10.50.25:291][264]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2019.12.03-10.50.25:291][264]LogFbx: SortedLinks :(47) RightHandRing1
+[2019.12.03-10.50.25:291][264]LogFbx: SortedLinks :(48) RightHandRing2
+[2019.12.03-10.50.25:291][264]LogFbx: SortedLinks :(49) RightHandRing3
+[2019.12.03-10.50.25:291][264]LogFbx: SortedLinks :(50) RightHandRing4
+[2019.12.03-10.50.25:291][264]LogFbx: SortedLinks :(51) RightHandPinky1
+[2019.12.03-10.50.25:291][264]LogFbx: SortedLinks :(52) RightHandPinky2
+[2019.12.03-10.50.25:291][264]LogFbx: SortedLinks :(53) RightHandPinky3
+[2019.12.03-10.50.25:291][264]LogFbx: SortedLinks :(54) RightHandPinky4
+[2019.12.03-10.50.25:291][264]LogFbx: SortedLinks :(55) LeftUpLeg
+[2019.12.03-10.50.25:291][264]LogFbx: SortedLinks :(56) LeftLeg
+[2019.12.03-10.50.25:291][264]LogFbx: SortedLinks :(57) LeftFoot
+[2019.12.03-10.50.25:291][264]LogFbx: SortedLinks :(58) LeftToeBase
+[2019.12.03-10.50.25:291][264]LogFbx: SortedLinks :(59) LeftToe_End
+[2019.12.03-10.50.25:291][264]LogFbx: SortedLinks :(60) RightUpLeg
+[2019.12.03-10.50.25:291][264]LogFbx: SortedLinks :(61) RightLeg
+[2019.12.03-10.50.25:291][264]LogFbx: SortedLinks :(62) RightFoot
+[2019.12.03-10.50.25:291][264]LogFbx: SortedLinks :(63) RightToeBase
+[2019.12.03-10.50.25:291][264]LogFbx: SortedLinks :(64) RightToe_End
+[2019.12.03-10.50.25:292][264]LogFbx: Parsing AnimStack mixamo.com
+[2019.12.03-10.50.25:294][264]LogLinker: Can't find file '/Game/Woolf/Models/Assets/Alex/Animation/Standing_Melee_Combo_Attack_Ver_3_0'
+[2019.12.03-10.50.25:295][264]LogLinker: Can't find file '/Game/Woolf/Models/Assets/Alex/Animation/Standing_Melee_Combo_Attack_Ver_3_0'
+[2019.12.03-10.50.29:395][264]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Woolf/Models/Assets/Alex/Animation/Standing_Melee_Combo_Attack_Ver_3_0.Standing_Melee_Combo_Attack_Ver_3_0
+[2019.12.03-10.50.29:398][264]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Standing_Melee_Combo_Attack_Ver_3_0) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.12.03-10.50.29:435][264]FBXImport: Warning: Ignoring mesh default because it but no weights. 
+[2019.12.03-10.50.29:463][264]LogFactory: FactoryCreateFile: AnimSequence with FbxFactory (0 0 G:\ForGame\Standing Taunt Battlecry.fbx)
+[2019.12.03-10.50.29:476][264]LogFbx: Loading FBX Scene from G:\ForGame\Standing Taunt Battlecry.fbx
+[2019.12.03-10.50.29:521][264]LogFbx: FBX Scene Loaded Succesfully
+[2019.12.03-10.50.29:525][264]LogFbx: =================================================
+[2019.12.03-10.50.29:525][264]LogFbx: Dumping Node START [default] 
+[2019.12.03-10.50.29:525][264]LogFbx: 	Total Deformer Count 661210912.
+[2019.12.03-10.50.29:525][264]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.12.03-10.50.29:525][264]LogFbx: =================================================
+[2019.12.03-10.50.29:525][264]LogFbx: 	Attribute (defaultmesh) Type (4).
+[2019.12.03-10.50.29:525][264]LogFbx: 		[Node Attribute Child 1] default (Type Mesh).
+[2019.12.03-10.50.29:525][264]LogFbx: Dumping Node END [default]
+[2019.12.03-10.50.29:525][264]LogFbx: =================================================
+[2019.12.03-10.50.29:525][264]LogFbx: Dumping Node START [Head3:Group3] 
+[2019.12.03-10.50.29:525][264]LogFbx: 	Total Deformer Count 657240960.
+[2019.12.03-10.50.29:525][264]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.12.03-10.50.29:525][264]LogFbx: =================================================
+[2019.12.03-10.50.29:525][264]LogFbx: 	Attribute (Head3:Group3mesh) Type (4).
+[2019.12.03-10.50.29:525][264]LogFbx: 		[Node Attribute Child 1] Head3:Group3 (Type Mesh).
+[2019.12.03-10.50.29:525][264]LogFbx: Dumping Node END [Head3:Group3]
+[2019.12.03-10.50.29:525][264]LogFbx: =================================================
+[2019.12.03-10.50.29:525][264]LogFbx: Dumping Node START [default] 
+[2019.12.03-10.50.29:525][264]LogFbx: 	Total Deformer Count 661220152.
+[2019.12.03-10.50.29:525][264]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.12.03-10.50.29:525][264]LogFbx: =================================================
+[2019.12.03-10.50.29:525][264]LogFbx: 	Attribute (defaultmesh) Type (4).
+[2019.12.03-10.50.29:525][264]LogFbx: 		[Node Attribute Child 1] default (Type Mesh).
+[2019.12.03-10.50.29:525][264]LogFbx: Dumping Node END [default]
+[2019.12.03-10.50.29:525][264]LogFbx: =================================================
+[2019.12.03-10.50.29:525][264]LogFbx: Dumping Node START [Head3:Group3] 
+[2019.12.03-10.50.29:525][264]LogFbx: 	Total Deformer Count 657243680.
+[2019.12.03-10.50.29:526][264]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.12.03-10.50.29:526][264]LogFbx: =================================================
+[2019.12.03-10.50.29:526][264]LogFbx: 	Attribute (Head3:Group3mesh) Type (4).
+[2019.12.03-10.50.29:526][264]LogFbx: 		[Node Attribute Child 1] Head3:Group3 (Type Mesh).
+[2019.12.03-10.50.29:526][264]LogFbx: Dumping Node END [Head3:Group3]
+[2019.12.03-10.50.29:527][264]LogFbx: SortedLinks :(0) Hips
+[2019.12.03-10.50.29:527][264]LogFbx: SortedLinks :(1) Spine
+[2019.12.03-10.50.29:527][264]LogFbx: SortedLinks :(2) Spine1
+[2019.12.03-10.50.29:527][264]LogFbx: SortedLinks :(3) Spine2
+[2019.12.03-10.50.29:527][264]LogFbx: SortedLinks :(4) Neck
+[2019.12.03-10.50.29:527][264]LogFbx: SortedLinks :(5) Head
+[2019.12.03-10.50.29:527][264]LogFbx: SortedLinks :(6) HeadTop_End
+[2019.12.03-10.50.29:527][264]LogFbx: SortedLinks :(7) LeftShoulder
+[2019.12.03-10.50.29:527][264]LogFbx: SortedLinks :(8) LeftArm
+[2019.12.03-10.50.29:527][264]LogFbx: SortedLinks :(9) LeftForeArm
+[2019.12.03-10.50.29:527][264]LogFbx: SortedLinks :(10) LeftHand
+[2019.12.03-10.50.29:527][264]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2019.12.03-10.50.29:527][264]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2019.12.03-10.50.29:527][264]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2019.12.03-10.50.29:527][264]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2019.12.03-10.50.29:527][264]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2019.12.03-10.50.29:527][264]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2019.12.03-10.50.29:527][264]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2019.12.03-10.50.29:527][264]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2019.12.03-10.50.29:527][264]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2019.12.03-10.50.29:527][264]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2019.12.03-10.50.29:527][264]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2019.12.03-10.50.29:527][264]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2019.12.03-10.50.29:527][264]LogFbx: SortedLinks :(23) LeftHandRing1
+[2019.12.03-10.50.29:527][264]LogFbx: SortedLinks :(24) LeftHandRing2
+[2019.12.03-10.50.29:528][264]LogFbx: SortedLinks :(25) LeftHandRing3
+[2019.12.03-10.50.29:528][264]LogFbx: SortedLinks :(26) LeftHandRing4
+[2019.12.03-10.50.29:528][264]LogFbx: SortedLinks :(27) LeftHandPinky1
+[2019.12.03-10.50.29:528][264]LogFbx: SortedLinks :(28) LeftHandPinky2
+[2019.12.03-10.50.29:528][264]LogFbx: SortedLinks :(29) LeftHandPinky3
+[2019.12.03-10.50.29:528][264]LogFbx: SortedLinks :(30) LeftHandPinky4
+[2019.12.03-10.50.29:528][264]LogFbx: SortedLinks :(31) RightShoulder
+[2019.12.03-10.50.29:528][264]LogFbx: SortedLinks :(32) RightArm
+[2019.12.03-10.50.29:528][264]LogFbx: SortedLinks :(33) RightForeArm
+[2019.12.03-10.50.29:528][264]LogFbx: SortedLinks :(34) RightHand
+[2019.12.03-10.50.29:528][264]LogFbx: SortedLinks :(35) RightHandThumb1
+[2019.12.03-10.50.29:528][264]LogFbx: SortedLinks :(36) RightHandThumb2
+[2019.12.03-10.50.29:528][264]LogFbx: SortedLinks :(37) RightHandThumb3
+[2019.12.03-10.50.29:528][264]LogFbx: SortedLinks :(38) RightHandThumb4
+[2019.12.03-10.50.29:528][264]LogFbx: SortedLinks :(39) RightHandIndex1
+[2019.12.03-10.50.29:528][264]LogFbx: SortedLinks :(40) RightHandIndex2
+[2019.12.03-10.50.29:528][264]LogFbx: SortedLinks :(41) RightHandIndex3
+[2019.12.03-10.50.29:528][264]LogFbx: SortedLinks :(42) RightHandIndex4
+[2019.12.03-10.50.29:528][264]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2019.12.03-10.50.29:528][264]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2019.12.03-10.50.29:528][264]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2019.12.03-10.50.29:528][264]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2019.12.03-10.50.29:528][264]LogFbx: SortedLinks :(47) RightHandRing1
+[2019.12.03-10.50.29:528][264]LogFbx: SortedLinks :(48) RightHandRing2
+[2019.12.03-10.50.29:528][264]LogFbx: SortedLinks :(49) RightHandRing3
+[2019.12.03-10.50.29:528][264]LogFbx: SortedLinks :(50) RightHandRing4
+[2019.12.03-10.50.29:528][264]LogFbx: SortedLinks :(51) RightHandPinky1
+[2019.12.03-10.50.29:528][264]LogFbx: SortedLinks :(52) RightHandPinky2
+[2019.12.03-10.50.29:528][264]LogFbx: SortedLinks :(53) RightHandPinky3
+[2019.12.03-10.50.29:528][264]LogFbx: SortedLinks :(54) RightHandPinky4
+[2019.12.03-10.50.29:528][264]LogFbx: SortedLinks :(55) LeftUpLeg
+[2019.12.03-10.50.29:528][264]LogFbx: SortedLinks :(56) LeftLeg
+[2019.12.03-10.50.29:528][264]LogFbx: SortedLinks :(57) LeftFoot
+[2019.12.03-10.50.29:528][264]LogFbx: SortedLinks :(58) LeftToeBase
+[2019.12.03-10.50.29:529][264]LogFbx: SortedLinks :(59) LeftToe_End
+[2019.12.03-10.50.29:529][264]LogFbx: SortedLinks :(60) RightUpLeg
+[2019.12.03-10.50.29:529][264]LogFbx: SortedLinks :(61) RightLeg
+[2019.12.03-10.50.29:529][264]LogFbx: SortedLinks :(62) RightFoot
+[2019.12.03-10.50.29:529][264]LogFbx: SortedLinks :(63) RightToeBase
+[2019.12.03-10.50.29:529][264]LogFbx: SortedLinks :(64) RightToe_End
+[2019.12.03-10.50.29:529][264]LogFbx: Parsing AnimStack mixamo.com
+[2019.12.03-10.50.29:532][264]LogLinker: Can't find file '/Game/Woolf/Models/Assets/Alex/Animation/Standing_Taunt_Battlecry'
+[2019.12.03-10.50.29:532][264]LogLinker: Can't find file '/Game/Woolf/Models/Assets/Alex/Animation/Standing_Taunt_Battlecry'
+[2019.12.03-10.50.46:617][264]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Woolf/Models/Assets/Alex/Animation/Standing_Taunt_Battlecry.Standing_Taunt_Battlecry
+[2019.12.03-10.50.46:625][264]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Standing_Taunt_Battlecry) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.12.03-10.50.46:769][264]FBXImport: Warning: Ignoring mesh default because it but no weights. 
+[2019.12.03-10.50.49:218][541]LogSlate: Window 'Message Log' being destroyed
+[2019.12.03-10.50.49:222][541]LogSlate: Window 'Message Log' being destroyed
+[2019.12.03-10.50.49:852][610]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Woolf/Maps/Scott_maps/mainmenuLevel/map/mainmenuLevel' took 0.018
+[2019.12.03-10.50.49:855][610]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Woolf/Models/Assets/Alex/WolfMesh] ([1] browsable assets)...
+[2019.12.03-10.50.49:868][610]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Woolf/Models/Assets/Alex/WolfMesh.WolfMesh]
+[2019.12.03-10.50.49:868][610]OBJ SavePackage: Finished generating thumbnails for package [/Game/Woolf/Models/Assets/Alex/WolfMesh]
+[2019.12.03-10.50.49:902][610]LogSavePackage: Save=30.88ms
+[2019.12.03-10.50.49:903][610]LogSavePackage: Moving '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Saved/WolfMesh_Auto15ACDF0E241BCC40337CFEC95A2F116E1.tmp' to '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Saved/Autosaves/Game/Woolf/Models/Assets/Alex/WolfMesh_Auto1.uasset'
+[2019.12.03-10.50.49:905][610]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Saved/Autosaves/Game/Woolf/Models/Assets/Alex/WolfMesh_Auto1.uasset
+[2019.12.03-10.50.49:907][610]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Woolf/Models/Assets/Alex/WolfMesh_Skeleton] ([1] browsable assets)...
+[2019.12.03-10.50.49:907][610]OBJ SavePackage: Finished generating thumbnails for package [/Game/Woolf/Models/Assets/Alex/WolfMesh_Skeleton]
+[2019.12.03-10.50.49:917][610]LogSavePackage: Save=6.75ms
+[2019.12.03-10.50.49:917][610]LogSavePackage: Moving '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Saved/WolfMesh_Skeleton_Auto1A4988B694E3D396AFA375495EBC13125.tmp' to '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Saved/Autosaves/Game/Woolf/Models/Assets/Alex/WolfMesh_Skeleton_Auto1.uasset'
+[2019.12.03-10.50.49:920][610]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Saved/Autosaves/Game/Woolf/Models/Assets/Alex/WolfMesh_Skeleton_Auto1.uasset
+[2019.12.03-10.50.49:921][610]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Woolf/Models/Assets/Alex/WolfMesh_PhysicsAsset] ([1] browsable assets)...
+[2019.12.03-10.50.49:933][610]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/Woolf/Models/Assets/Alex/WolfMesh_PhysicsAsset.WolfMesh_PhysicsAsset]
+[2019.12.03-10.50.49:933][610]OBJ SavePackage: Finished generating thumbnails for package [/Game/Woolf/Models/Assets/Alex/WolfMesh_PhysicsAsset]
+[2019.12.03-10.50.49:962][610]LogSavePackage: Save=25.02ms
+[2019.12.03-10.50.49:962][610]LogSavePackage: Moving '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Saved/WolfMesh_PhysicsAsset_Auto19AEF985448F07B98F1C073A45663B726.tmp' to '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Saved/Autosaves/Game/Woolf/Models/Assets/Alex/WolfMesh_PhysicsAsset_Auto1.uasset'
+[2019.12.03-10.50.49:964][610]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Saved/Autosaves/Game/Woolf/Models/Assets/Alex/WolfMesh_PhysicsAsset_Auto1.uasset
+[2019.12.03-10.50.49:966][610]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Woolf/Models/Assets/Alex/Animation/Jump] ([1] browsable assets)...
+[2019.12.03-10.50.49:978][610]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Woolf/Models/Assets/Alex/Animation/Jump.Jump]
+[2019.12.03-10.50.49:978][610]OBJ SavePackage: Finished generating thumbnails for package [/Game/Woolf/Models/Assets/Alex/Animation/Jump]
+[2019.12.03-10.50.49:999][610]LogSavePackage: Save=17.45ms
+[2019.12.03-10.50.49:999][610]LogSavePackage: Moving '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Saved/Jump_Auto18EE0294948A06FBF2C09EAB09C211827.tmp' to '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Saved/Autosaves/Game/Woolf/Models/Assets/Alex/Animation/Jump_Auto1.uasset'
+[2019.12.03-10.50.50:001][610]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Saved/Autosaves/Game/Woolf/Models/Assets/Alex/Animation/Jump_Auto1.uasset
+[2019.12.03-10.50.50:003][610]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Woolf/Models/Assets/Alex/Animation/Running] ([1] browsable assets)...
+[2019.12.03-10.50.50:014][610]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Woolf/Models/Assets/Alex/Animation/Running.Running]
+[2019.12.03-10.50.50:014][610]OBJ SavePackage: Finished generating thumbnails for package [/Game/Woolf/Models/Assets/Alex/Animation/Running]
+[2019.12.03-10.50.50:033][610]LogSavePackage: Save=15.62ms
+[2019.12.03-10.50.50:033][610]LogSavePackage: Moving '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Saved/Running_Auto1CA7C42AA44017EE399967BB45A4DD615.tmp' to '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Saved/Autosaves/Game/Woolf/Models/Assets/Alex/Animation/Running_Auto1.uasset'
+[2019.12.03-10.50.50:036][610]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Saved/Autosaves/Game/Woolf/Models/Assets/Alex/Animation/Running_Auto1.uasset
+[2019.12.03-10.50.50:038][610]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Woolf/Models/Assets/Alex/Animation/Standing_Idle] ([1] browsable assets)...
+[2019.12.03-10.50.50:049][610]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Woolf/Models/Assets/Alex/Animation/Standing_Idle.Standing_Idle]
+[2019.12.03-10.50.50:049][610]OBJ SavePackage: Finished generating thumbnails for package [/Game/Woolf/Models/Assets/Alex/Animation/Standing_Idle]
+[2019.12.03-10.50.50:072][610]LogSavePackage: Save=19.00ms
+[2019.12.03-10.50.50:072][610]LogSavePackage: Moving '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Saved/Standing_Idle_Auto17A00FA3344347D5D4AE75D82498471C4.tmp' to '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Saved/Autosaves/Game/Woolf/Models/Assets/Alex/Animation/Standing_Idle_Auto1.uasset'
+[2019.12.03-10.50.50:075][610]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Saved/Autosaves/Game/Woolf/Models/Assets/Alex/Animation/Standing_Idle_Auto1.uasset
+[2019.12.03-10.50.50:077][610]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Woolf/Models/Assets/Alex/Animation/Standing_Melee_Attack_Downward] ([1] browsable assets)...
+[2019.12.03-10.50.50:087][610]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Woolf/Models/Assets/Alex/Animation/Standing_Melee_Attack_Downward.Standing_Melee_Attack_Downward]
+[2019.12.03-10.50.50:088][610]OBJ SavePackage: Finished generating thumbnails for package [/Game/Woolf/Models/Assets/Alex/Animation/Standing_Melee_Attack_Downward]
+[2019.12.03-10.50.50:111][610]LogSavePackage: Save=20.90ms
+[2019.12.03-10.50.50:112][610]LogSavePackage: Moving '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Saved/Standing_Melee_Attack_Downward_A432ABCB24CED1AB70B1FFBBF479CC9B5.tmp' to '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Saved/Autosaves/Game/Woolf/Models/Assets/Alex/Animation/Standing_Melee_Attack_Downward_Auto1.uasset'
+[2019.12.03-10.50.50:114][610]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Saved/Autosaves/Game/Woolf/Models/Assets/Alex/Animation/Standing_Melee_Attack_Downward_Auto1.uasset
+[2019.12.03-10.50.50:116][610]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Woolf/Models/Assets/Alex/Animation/Standing_Melee_Combo_Attack_Ver_3_0] ([1] browsable assets)...
+[2019.12.03-10.50.50:127][610]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Woolf/Models/Assets/Alex/Animation/Standing_Melee_Combo_Attack_Ver_3_0.Standing_Melee_Combo_Attack_Ver_3_0]
+[2019.12.03-10.50.50:127][610]OBJ SavePackage: Finished generating thumbnails for package [/Game/Woolf/Models/Assets/Alex/Animation/Standing_Melee_Combo_Attack_Ver_3_0]
+[2019.12.03-10.50.50:150][610]LogSavePackage: Save=20.19ms
+[2019.12.03-10.50.50:150][610]LogSavePackage: Moving '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Saved/Standing_Melee_Combo_Attack_Ver_50AEEB56469AD20AC5F7A88522A91DEA.tmp' to '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Saved/Autosaves/Game/Woolf/Models/Assets/Alex/Animation/Standing_Melee_Combo_Attack_Ver_3_0_Auto1.uasset'
+[2019.12.03-10.50.50:153][610]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Saved/Autosaves/Game/Woolf/Models/Assets/Alex/Animation/Standing_Melee_Combo_Attack_Ver_3_0_Auto1.uasset
+[2019.12.03-10.50.50:155][610]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Woolf/Models/Assets/Alex/Animation/Standing_Taunt_Battlecry] ([1] browsable assets)...
+[2019.12.03-10.50.50:166][610]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Woolf/Models/Assets/Alex/Animation/Standing_Taunt_Battlecry.Standing_Taunt_Battlecry]
+[2019.12.03-10.50.50:166][610]OBJ SavePackage: Finished generating thumbnails for package [/Game/Woolf/Models/Assets/Alex/Animation/Standing_Taunt_Battlecry]
+[2019.12.03-10.50.50:207][610]LogSavePackage: Save=38.28ms
+[2019.12.03-10.50.50:207][610]LogSavePackage: Moving '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Saved/Standing_Taunt_Battlecry_Auto14E4D7E03400F12CA8892B39A9678AD3C.tmp' to '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Saved/Autosaves/Game/Woolf/Models/Assets/Alex/Animation/Standing_Taunt_Battlecry_Auto1.uasset'
+[2019.12.03-10.50.50:210][610]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Saved/Autosaves/Game/Woolf/Models/Assets/Alex/Animation/Standing_Taunt_Battlecry_Auto1.uasset
+[2019.12.03-10.50.50:210][610]LogFileHelpers: Auto-saving content packages took 0.356
+[2019.12.03-10.50.52:724][895]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.03-10.50.55:784][186]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Running)
+[2019.12.03-10.50.58:498][416]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Running)
+[2019.12.03-10.50.58:757][441]Cmd: DELETE
+[2019.12.03-10.50.58:757][441]Cmd: ACTOR DELETE
+[2019.12.03-10.50.58:767][441]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2019.12.03-10.50.58:786][441]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2019.12.03-10.50.59:829][564]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.03-10.51.06:983][403]LogTemp: Repeating last play command: Standalone Game
+[2019.12.03-10.51.08:541][403]LogSlate: Window 'Save Content' being destroyed
+[2019.12.03-10.51.08:822][403]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e5ecb1d800, Size=528
+[2019.12.03-10.51.08:822][403]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e632eeb600, Size=528, Default__mainmenuLevel_C Function /Engine/Transient.REINST_mainmenuLevel_C_109:ExecuteUbergraph_mainmenuLevel
+[2019.12.03-10.51.08:825][403]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e632eeae80, Size=528, Default__mainmenuLevel_C Function /Game/Woolf/Maps/Scott_maps/mainmenuLevel/map/mainmenuLevel.mainmenuLevel_C:ExecuteUbergraph_mainmenuLevel
+[2019.12.03-10.51.09:171][403]LogSavePackage: Save=364.06ms
+[2019.12.03-10.51.09:172][403]LogSavePackage: Moving '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Saved/mainmenuLevelB626838C46A84F14CABA8A9D138A988D.tmp' to '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/Maps/Scott_maps/mainmenuLevel/map/mainmenuLevel.umap'
+[2019.12.03-10.51.09:186][403]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/Maps/Scott_maps/mainmenuLevel/map/mainmenuLevel.umap
+[2019.12.03-10.51.09:267][403]LogFileHelpers: Saving map 'mainmenuLevel' took 0.694
+[2019.12.03-10.51.09:347][403]LogSavePackage: Save=34.45ms
+[2019.12.03-10.51.09:347][403]LogSavePackage: Moving '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Saved/Jump4E8CD2F24D72EEF43FDDACB5C4EC609D.tmp' to '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/Models/Assets/Alex/Animation/Jump.uasset'
+[2019.12.03-10.51.09:369][403]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/Models/Assets/Alex/Animation/Jump.uasset
+[2019.12.03-10.51.09:453][403]LogSavePackage: Save=33.53ms
+[2019.12.03-10.51.09:453][403]LogSavePackage: Moving '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Saved/Running059155FA49BEAE400C8AF8BD3A3F222A.tmp' to '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/Models/Assets/Alex/Animation/Running.uasset'
+[2019.12.03-10.51.09:480][403]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/Models/Assets/Alex/Animation/Running.uasset
+[2019.12.03-10.51.09:560][403]LogSavePackage: Save=31.21ms
+[2019.12.03-10.51.09:560][403]LogSavePackage: Moving '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Saved/Standing_IdleFEFBC0C44AFEF3D38A8FD595D6F75CCC.tmp' to '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/Models/Assets/Alex/Animation/Standing_Idle.uasset'
+[2019.12.03-10.51.09:580][403]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/Models/Assets/Alex/Animation/Standing_Idle.uasset
+[2019.12.03-10.51.09:686][403]LogSavePackage: Save=44.31ms
+[2019.12.03-10.51.09:686][403]LogSavePackage: Moving '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Saved/Standing_Melee_Attack_Downward369E3A0946939CA2271348BE0B425F1E.tmp' to '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/Models/Assets/Alex/Animation/Standing_Melee_Attack_Downward.uasset'
+[2019.12.03-10.51.09:707][403]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/Models/Assets/Alex/Animation/Standing_Melee_Attack_Downward.uasset
+[2019.12.03-10.51.09:774][403]LogSavePackage: Save=22.23ms
+[2019.12.03-10.51.09:775][403]LogSavePackage: Moving '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Saved/Standing_Melee_Combo_Attack_Ver_738BDAEB4B5E3D3E9B53ED9CA1C62AAE.tmp' to '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/Models/Assets/Alex/Animation/Standing_Melee_Combo_Attack_Ver_3_0.uasset'
+[2019.12.03-10.51.09:790][403]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/Models/Assets/Alex/Animation/Standing_Melee_Combo_Attack_Ver_3_0.uasset
+[2019.12.03-10.51.09:882][403]LogSavePackage: Save=54.76ms
+[2019.12.03-10.51.09:882][403]LogSavePackage: Moving '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Saved/Standing_Taunt_Battlecry183FBFDF491A2645EE9C13B33560E091.tmp' to '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/Models/Assets/Alex/Animation/Standing_Taunt_Battlecry.uasset'
+[2019.12.03-10.51.09:903][403]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/Models/Assets/Alex/Animation/Standing_Taunt_Battlecry.uasset
+[2019.12.03-10.51.09:930][403]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Woolf/Models/Assets/Alex/WolfMesh" FILE="../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/Models/Assets/Alex/WolfMesh.uasset" SILENT=true
+[2019.12.03-10.51.09:978][403]LogSavePackage: Save=40.10ms
+[2019.12.03-10.51.09:978][403]LogSavePackage: Moving '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Saved/WolfMesh582FB02B4B781E72D41006B5FFAE68EF.tmp' to '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/Models/Assets/Alex/WolfMesh.uasset'
+[2019.12.03-10.51.10:008][403]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/Models/Assets/Alex/WolfMesh.uasset
+[2019.12.03-10.51.10:107][403]LogSavePackage: Save=51.79ms
+[2019.12.03-10.51.10:107][403]LogSavePackage: Moving '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Saved/WolfMesh_PhysicsAsset4BA0C8E248DA78ED6377C08EFCF9096E.tmp' to '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/Models/Assets/Alex/WolfMesh_PhysicsAsset.uasset'
+[2019.12.03-10.51.10:127][403]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/Models/Assets/Alex/WolfMesh_PhysicsAsset.uasset
+[2019.12.03-10.51.10:155][403]LogSavePackage: Save=16.15ms
+[2019.12.03-10.51.10:155][403]LogSavePackage: Moving '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Saved/WolfMesh_SkeletonADBA35914EDE6C23F1C9AE8EC5B2D3D4.tmp' to '../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/Models/Assets/Alex/WolfMesh_Skeleton.uasset'
+[2019.12.03-10.51.10:167][403]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/t7038904/source/BetaArcade/MasterBuild/Content/Woolf/Models/Assets/Alex/WolfMesh_Skeleton.uasset

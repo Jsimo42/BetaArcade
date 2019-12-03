@@ -24,9 +24,6 @@ APickUpBase::APickUpBase()
 	Mesh->SetWorldScale3D(FVector(0.5, 0.5, 0.5));
 	Mesh->SetMaterial(0, PermanentPickUpMaterial);
 
-
-	
-
 }
 
 
@@ -40,6 +37,8 @@ FString APickUpBase::GetBuffType()
 void APickUpBase::BeginPlay()
 {
 	Super::BeginPlay();
+	SetReplicates(true);
+	SetReplicateMovement(true);
 	Mesh->OnComponentBeginOverlap.AddDynamic(this, &APickUpBase::OnOverlapStart);
 
 	MinHeight = this->GetActorLocation().Z;
@@ -67,9 +66,11 @@ void APickUpBase::OnOverlapStart(UPrimitiveComponent * OverlappedComp, AActor * 
 void APickUpBase::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	Float(DeltaTime);
-	Respawn(DeltaTime);
-
+	if (HasAuthority())
+	{
+		Float(DeltaTime);
+		Respawn(DeltaTime);
+	}
 }
 
 void APickUpBase::Float(float DeltaTime) //while item is alive moves up and down and (TODO: rotates)
