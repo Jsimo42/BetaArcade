@@ -96,7 +96,6 @@ void AChar_Wolf::Tick(float DeltaTime)
 		SpeedBoosted = false;
 		Slowed = false;
 	}
-
 }
 
 // Called to bind functionality to input
@@ -106,12 +105,11 @@ void AChar_Wolf::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent
 
 	check(PlayerInputComponent);
 
-	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
-	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
+	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &AChar_Wolf::Jump);
+	PlayerInputComponent->BindAction("Jump", IE_Released, this, &AChar_Wolf::StopJumping);
 	PlayerInputComponent->BindAction("Sneak", IE_Pressed, this, &AChar_Wolf::Sneak);
 	PlayerInputComponent->BindAction("Sneak", IE_Released, this, &AChar_Wolf::StopSneaking);
 	PlayerInputComponent->BindAction("Attack", IE_Pressed, this, &AChar_Wolf::Attack);
-	PlayerInputComponent->BindAction("Attack", IE_Released, this, &AChar_Wolf::StopAttack);
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &AChar_Wolf::MoveForward);
 	PlayerInputComponent->BindAxis("TurnRate", this, &AChar_Wolf::TurnRate);
@@ -146,6 +144,13 @@ void AChar_Wolf::MoveForward(float Value)
 		// get forward vector
 		const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
 		AddMovementInput(Direction, Value);
+
+		isMoving = true;
+	}
+
+	if (Value == 0.0f)
+	{
+		isMoving = false;
 	}
 }
 
@@ -197,8 +202,14 @@ void AChar_Wolf::Attack()
 	}
 }
 
-void AChar_Wolf::StopAttack()
+void AChar_Wolf::Jump()
 {
+	ACharacter::Jump();
+	isJumping = true;
 }
 
-
+void AChar_Wolf::StopJumping()
+{
+	ACharacter::StopJumping();
+	isJumping = false;
+}

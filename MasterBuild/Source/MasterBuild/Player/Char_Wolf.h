@@ -54,6 +54,11 @@ public:
 		bool isSneaking = false;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Properties")
 		bool isAttacking = false;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Properties")
+		bool isJumping = false;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player Properties")
+		bool isMoving = false;
+
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Pickups")
 		APickUpBase* CurrentItem = nullptr;
@@ -84,6 +89,6 @@ private:
 	void Sneak();
 	void StopSneaking();
 	void Attack();
-
-	void StopAttack();
+	void Jump();
+	void StopJumping();
 };
