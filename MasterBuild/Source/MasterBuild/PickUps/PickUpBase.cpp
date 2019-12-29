@@ -15,15 +15,9 @@ APickUpBase::APickUpBase()
 
 	//Root = CreateDefaultSubobject<USceneComponent>(TEXT("Root"));
 	//RootComponent = Root;
-	static ConstructorHelpers::FObjectFinder<UMaterial> PickUpMaterial(TEXT("Material'/Game/Woolf/Models/Materials/Mat_Pickup.Mat_Pickup'"));
-	PickUpMaterial.Succeeded();
-	UMaterial* PermanentPickUpMaterial = PickUpMaterial.Object;
 	Mesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("ItemMesh"));
 	//Mesh->AttachToComponent(RootComponent, FAttachmentTransformRules::SnapToTargetNotIncludingScale);
 	Mesh->SetCollisionResponseToChannel(ECollisionChannel::ECC_Pawn, ECollisionResponse::ECR_Overlap);
-	Mesh->SetWorldScale3D(FVector(0.5, 0.5, 0.5));
-	Mesh->SetMaterial(0, PermanentPickUpMaterial);
-
 }
 
 
@@ -41,7 +35,7 @@ void APickUpBase::BeginPlay()
 	SetReplicateMovement(true);
 	Mesh->OnComponentBeginOverlap.AddDynamic(this, &APickUpBase::OnOverlapStart);
 
-	MinHeight = this->GetActorLocation().Z;
+	MinHeight = this->GetActorLocation().Z + this->GetActorRelativeScale3D().Z;
 	MaxHeight = MinHeight + FloatDistance;
 
 	Mesh->SetVisibility(false);
@@ -66,6 +60,7 @@ void APickUpBase::OnOverlapStart(UPrimitiveComponent * OverlappedComp, AActor * 
 void APickUpBase::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
 	if (HasAuthority())
 	{
 		Float(DeltaTime);
@@ -75,21 +70,23 @@ void APickUpBase::Tick(float DeltaTime)
 
 void APickUpBase::Float(float DeltaTime) //while item is alive moves up and down and (TODO: rotates)
 {
-	UPROPERTY(VisableAnywhere, Category = Movement)
 	if (isAlive == true)
 	{
-		FVector CurrentLocation;
+		UPROPERTY(VisableAnywhere, Category = Movement)
+			FVector CurrentLocation;
+
 		CurrentLocation = this->GetActorLocation();
 
 		if (CurrentLocation.Z > MaxHeight)
 		{
-			speed = -speed;
+			speed = -100;
 		}
-		if (CurrentLocation.Z < MinHeight)
+		else if (CurrentLocation.Z < MinHeight)
 		{
-			speed = -speed;
+			speed = 100;
 		}
-		SetActorLocation(FVector(CurrentLocation.X, CurrentLocation.Y, (CurrentLocation.Z + (speed*DeltaTime))));
+
+		SetActorLocation(FVector(CurrentLocation.X, CurrentLocation.Y, (CurrentLocation.Z + (speed * DeltaTime))));
 	}
 	
 }
@@ -103,7 +100,7 @@ void APickUpBase::Respawn(float DeltaTime)
 
 		FNavLocation Randomlocation;
 
-		navsys->GetRandomReachablePointInRadius(FVector(-30, -60, MinHeight), 1000.f, Randomlocation, navsys->MainNavData);
+		navsys->GetRandomReachablePointInRadius(FVector(-30, -60, MaxHeight), 1000.f, Randomlocation, navsys->MainNavData);
 
 		this->SetActorLocation(Randomlocation.Location);
 		//this->SetActorLocation(FVector((RandomPosition.FRandRange(-340, 360)), (RandomPosition.FRandRange(-700, 570)), MinHeight));

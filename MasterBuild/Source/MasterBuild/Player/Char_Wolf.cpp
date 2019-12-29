@@ -71,9 +71,8 @@ void AChar_Wolf::OnOverlapEnd(UPrimitiveComponent * OverlappedComp, AActor * Oth
 {
 	if (OtherActor && (OtherActor != this) && OtherComp)
 	{
-		CurrentItem = NULL;
+		CurrentItem = nullptr;
 		TSincePickUP = 0;
-		//removes the last overlapped item from the variable. TODO: Setup Timer for powerup cool down.
 	}
 }
 
@@ -119,8 +118,6 @@ void AChar_Wolf::SetupOverlapEvents()
 {
 	GetCapsuleComponent()->OnComponentBeginOverlap.AddDynamic(this, &AChar_Wolf::OnOverlapStart);
 	GetCapsuleComponent()->OnComponentEndOverlap.AddDynamic(this, &AChar_Wolf::OnOverlapEnd);
-	AttackCollider->OnComponentBeginOverlap.AddDynamic(this, &AChar_Wolf::OnEnemyOverlapStart);
-	AttackCollider->OnComponentEndOverlap.AddDynamic(this, &AChar_Wolf::OnEnemyOverlapEnd);
 }
 
 void AChar_Wolf::MoveForward(float Value)
