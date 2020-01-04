@@ -35,7 +35,7 @@ void APickUpBase::BeginPlay()
 	SetReplicateMovement(true);
 	Mesh->OnComponentBeginOverlap.AddDynamic(this, &APickUpBase::OnOverlapStart);
 
-	MinHeight = this->GetActorLocation().Z + this->GetActorRelativeScale3D().Z;
+	MinHeight = this->GetActorLocation().Z + 20;
 	MaxHeight = MinHeight + FloatDistance;
 
 	Mesh->SetVisibility(false);

@@ -5,7 +5,7 @@
 AABigModePickUp::AABigModePickUp()
 {
 	BuffType = "BigMode";
-	//TSincePickUP = -300;
+	TSincePickUP = -100;
 }
 
 

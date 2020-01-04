@@ -42,7 +42,7 @@ protected:
 		float MaxHeight;//TODO: set as an offset from minheight 
 		
 	UPROPERTY(EditAnywhere, Category = Movement)
-		float FloatDistance = 100;
+		float FloatDistance = 60;
 
 	UPROPERTY(EditAnywhere, Category = Collision)
 		float TSincePickUP = 0;
