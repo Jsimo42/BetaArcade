@@ -153,7 +153,7 @@ void AChar_Wolf::MoveForward(float Value)
 
 void AChar_Wolf::TurnRate(float Rate)
 {
-	AddControllerYawInput(Rate * 45 * GetWorld()->GetDeltaSeconds());
+	AddControllerYawInput(Rate * 90 * GetWorld()->GetDeltaSeconds());
 }
 
 void AChar_Wolf::Sneak()
@@ -194,8 +194,6 @@ void AChar_Wolf::Attack()
 		UE_LOG(LogTemp, Warning, TEXT("Attack"));
 
 		moveSpeedMultiplier = 0;
-
-		UAudioComponent* attackAudioComp = UGameplayStatics::SpawnSound2D(this, attackSound, 1.f);
 	}
 }
 

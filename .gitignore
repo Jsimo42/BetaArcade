@@ -76,3 +76,4 @@ Plugins/*/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 MasterBuild/Intermediate/
+MasterBuild/Saved/Crashes/UE4CC-Windows-FFDC3889420F045B92C541AAC5E264DA_0001/CrashContext.runtime-xml
